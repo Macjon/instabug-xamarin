@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/mSobhy/workspaces/android/instabug-android/instabug/src/main/res/values-zh-rCN/strings.xml -->
+    <eat-comment/>
+    <string name="instabug_audio_recorder_permission_denied">录音权限被拒绝</string>
+    <string name="instabug_err_invalid_comment">请输入有效的评论</string>
+    <string name="instabug_err_invalid_email">请输入有效的电子邮件地址</string>
+    <string name="instabug_external_storage_permission_denied">存储权限被拒绝</string>
+    <string name="instabug_str_add_photo">从图库中选择图像</string>
+    <string name="instabug_str_bug_comment_hint">出了什么错？</string>
+    <string name="instabug_str_bug_header">报告问题</string>
+    <string name="instabug_str_cancel">取消</string>
+    <string name="instabug_str_conversations">对话</string>
+    <string name="instabug_str_email_hint">电子邮件地址</string>
+    <string name="instabug_str_empty"/>
+    <string name="instabug_str_feedback_comment_hint">我们如何改进？</string>
+    <string name="instabug_str_feedback_header">改进建议</string>
+    <string name="instabug_str_hold_to_record">按住即可录音</string>
+    <string name="instabug_str_invocation_header">帮助和反馈</string>
+    <string name="instabug_str_next">下一步</string>
+    <string name="instabug_str_notification_title">" 团队"</string>
+    <string name="instabug_str_notifications_body">%1$d 条新消息，来自 %2$s 和其他人</string>
+    <string name="instabug_str_ok">确定</string>
+    <string name="instabug_str_pbi">由 Instabug.com 提供支持</string>
+    <string name="instabug_str_please_wait">请稍候</string>
+    <string name="instabug_str_record_audio">录制语音注释</string>
+    <string name="instabug_str_release_stop_record">松开即可添加附件</string>
+    <string name="instabug_str_shake_hint"><![CDATA[我们希望得到您的反馈意见<br/><b>摇晃</b>您的设备，与我们沟通。]]></string>
+    <string name="instabug_str_submit">发送</string>
+    <string name="instabug_str_swipe_hint"><![CDATA[我们希望得到您的反馈意见<br /><b>用 2 个手指滑动</b>，与我们沟通。]]></string>
+    <string name="instabug_str_thank_you">我们收到了您的反馈意见。\n感谢您帮助我们把 %s 做得更好！</string>
+</resources>

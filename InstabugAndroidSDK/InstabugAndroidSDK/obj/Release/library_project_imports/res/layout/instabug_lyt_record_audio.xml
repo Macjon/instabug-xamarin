@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/instabug_options_invocation"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:clickable="true"
+    android:gravity="left"
+    android:background="?attr/instabug_color_background"
+    android:orientation="vertical"
+    android:paddingBottom="32dp"
+    android:paddingTop="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <TextView
+        android:id="@+id/instabug_txt_recording_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/instabug_str_hold_to_record"
+        android:textColor="?attr/instabug_color_foreground"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/instabug_txt_timer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        tools:text="00:21"
+        android:textColor="?attr/instabug_color_foreground"
+        android:textSize="14sp" />
+
+    <FrameLayout
+        android:id="@+id/instabug_btn_record_audio"
+        android:layout_marginTop="32dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/instabug_bk_record_audio"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@drawable/instabug_record_default_bk"
+            android:layout_gravity="center"/>
+        <ImageView
+            android:id="@+id/instabug_img_record_audio"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="?attr/instabug_audio_icon"
+            android:layout_gravity="center"/>
+    </FrameLayout>
+
+</LinearLayout><!-- From: file:/Users/mSobhy/workspaces/android/instabug-android/instabug/src/main/res/layout/instabug_lyt_record_audio.xml -->

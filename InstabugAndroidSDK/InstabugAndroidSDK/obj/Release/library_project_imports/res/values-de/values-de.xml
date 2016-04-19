@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/mSobhy/workspaces/android/instabug-android/instabug/src/main/res/values-de/strings.xml -->
+    <eat-comment/>
+    <string name="instabug_audio_recorder_permission_denied">Genehmigung für Tonaufnahme verweigert</string>
+    <string name="instabug_err_invalid_comment">Bitte geben Sie einen gültigen Kommentar ein</string>
+    <string name="instabug_err_invalid_email">Bitte geben Sie eine gültige E-Mail-Adresse ein</string>
+    <string name="instabug_external_storage_permission_denied">Lagerung Berechtigung verweigert</string>
+    <string name="instabug_str_add_photo">Bild aus Galerie auswählen</string>
+    <string name="instabug_str_bug_comment_hint">Was ist schiefgelaufen?</string>
+    <string name="instabug_str_bug_header">Problem melden</string>
+    <string name="instabug_str_cancel">Abbrechen</string>
+    <string name="instabug_str_conversations">Unterhaltungen</string>
+    <string name="instabug_str_email_hint">E-Mail</string>
+    <string name="instabug_str_empty"/>
+    <string name="instabug_str_feedback_comment_hint">Wie können wir die App verbessern?</string>
+    <string name="instabug_str_feedback_header">Verbesserungsvorschlag</string>
+    <string name="instabug_str_hold_to_record">Zum Aufnehmen drücken &amp; gedrückt halten</string>
+    <string name="instabug_str_invocation_header">Hilfe &amp; Feedback</string>
+    <string name="instabug_str_next">Weiter</string>
+    <string name="instabug_str_notification_title">" Team"</string>
+    <string name="instabug_str_notifications_body">%1$d neue Nachrichten von %2$s und weiteren</string>
+    <string name="instabug_str_ok">OK</string>
+    <string name="instabug_str_pbi">Von Instabug.com bereitgestellt</string>
+    <string name="instabug_str_please_wait">Bitte warten Sie einen Augenblick</string>
+    <string name="instabug_str_record_audio">Sprachnotiz aufnehmen</string>
+    <string name="instabug_str_release_stop_record">Zum Anhängen loslassen</string>
+    <string name="instabug_str_shake_hint"><![CDATA[Wir würden uns über Ihr Feedback freuen.<br/><b>Schütteln Sie Ihr Gerät</b>, um mit uns zu reden.]]></string>
+    <string name="instabug_str_submit">Senden</string>
+    <string name="instabug_str_swipe_hint"><![CDATA[Wir würden uns über Ihr Feedback freuen.<br/><b>Streichen Sie mit 2 Fingern</b>, um mit uns zu reden]]></string>
+    <string name="instabug_str_thank_you">Wir haben Ihr Feedback erhalten.\nVielen Danke für Ihre Hilfe, %s weiter zu verbessern.</string>
+</resources>

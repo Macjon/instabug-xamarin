@@ -1,0 +1,34 @@
+<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+  <remove-node path="/api/package[@name='com.instabug.library.broadcast']" />
+  <remove-node path="/api/package[@name='com.instabug.library.dialog']" />
+  <remove-node path="/api/package[@name='com.instabug.library.gcm']" />
+  <remove-node path="/api/package[@name='com.instabug.library.interaction']" />
+  <remove-node path="/api/package[@name='com.instabug.library.internal']" />
+  <remove-node path="/api/package[@name='com.instabug.library.internal.device']" />
+  <remove-node path="/api/package[@name='com.instabug.library.internal.layer']" />
+  <remove-node path="/api/package[@name='com.instabug.library.internal.media']" />
+  <remove-node path="/api/package[@name='com.instabug.library.internal.module']" />
+  <remove-node path="/api/package[@name='com.instabug.library.internal.sensor']" />
+  <remove-node path="/api/package[@name='com.instabug.library.internal.storage']" />
+  <remove-node path="/api/package[@name='com.instabug.library.internal.storage.cache']" />
+  <remove-node path="/api/package[@name='com.instabug.library.internal.view']" />
+  <remove-node path="/api/package[@name='com.instabug.library.invoker']" />
+  <remove-node path="/api/package[@name='com.instabug.library.messaging']" />
+  <remove-node path="/api/package[@name='com.instabug.library.messaging.synchronization']" />
+  <remove-node path="/api/package[@name='com.instabug.library.migration']" />
+  <remove-node path="/api/package[@name='com.instabug.library.model']" />
+  <remove-node path="/api/package[@name='com.instabug.library.network']" />
+  <remove-node path="/api/package[@name='com.instabug.library.network.service']" />
+  <remove-node path="/api/package[@name='com.instabug.library.util']" />
+  <remove-node path="/api/package[@name='com.instabug.library.util.crash']" />
+  <remove-node path="/api/package[@name='com.instabug.library.view']" />
+  <remove-node path="/api/package[@name='com.instabug.library']/class[@name='InstabugFeedbackActivity']" />
+
+</metadata>

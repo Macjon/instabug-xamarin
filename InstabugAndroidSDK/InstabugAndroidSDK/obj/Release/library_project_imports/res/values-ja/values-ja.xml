@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/mSobhy/workspaces/android/instabug-android/instabug/src/main/res/values-ja/strings.xml -->
+    <eat-comment/>
+    <string name="instabug_audio_recorder_permission_denied">音声録音の許可が拒否されました</string>
+    <string name="instabug_err_invalid_comment">有用なコメントを入力してください</string>
+    <string name="instabug_err_invalid_email">有効なメールアドレスを入力してください</string>
+    <string name="instabug_external_storage_permission_denied">記憶許可が拒否されました</string>
+    <string name="instabug_str_add_photo">ギャラリーから画像を選択</string>
+    <string name="instabug_str_bug_comment_hint">どのような問題ですか？</string>
+    <string name="instabug_str_bug_header">問題を報告</string>
+    <string name="instabug_str_cancel">キャンセル</string>
+    <string name="instabug_str_conversations">会話</string>
+    <string name="instabug_str_email_hint">メール</string>
+    <string name="instabug_str_empty"/>
+    <string name="instabug_str_feedback_comment_hint">どのように改善して欲しいですか？</string>
+    <string name="instabug_str_feedback_header">改善を提案</string>
+    <string name="instabug_str_hold_to_record">長押しして録音</string>
+    <string name="instabug_str_invocation_header">ヘルプ &amp; フィードバック</string>
+    <string name="instabug_str_next">次へ</string>
+    <string name="instabug_str_notification_title">" チーム"</string>
+    <string name="instabug_str_notifications_body">%2$s とその他の相手から %1$d 通の新規メッセージ</string>
+    <string name="instabug_str_ok">ＯＫ</string>
+    <string name="instabug_str_pbi">Instabug.com で運営</string>
+    <string name="instabug_str_please_wait">少々お待ちください</string>
+    <string name="instabug_str_record_audio">ボイスメモを録音</string>
+    <string name="instabug_str_release_stop_record">リリースして添付</string>
+    <string name="instabug_str_shake_hint"><![CDATA[フォードバックをお待ちしています<br/>デバイスを <b>シェイク</b> すれば弊社担当者とチャットできます。]]></string>
+    <string name="instabug_str_submit">送信</string>
+    <string name="instabug_str_swipe_hint"><![CDATA[フォードバックをお待ちしています<br/><b>2 本指でスワイプ</b> すれば弊社担当者とチャットできます。]]></string>
+    <string name="instabug_str_thank_you">フィードバックを承りました。\n%s 改善へのご協力ありがとうございました。</string>
+</resources>

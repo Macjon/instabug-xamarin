@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/mSobhy/workspaces/android/instabug-android/instabug/src/main/res/values-ar/strings.xml -->
+    <eat-comment/>
+    <string name="instabug_audio_recorder_permission_denied">إذن التسجيل الصوتي تم رفضة</string>
+    <string name="instabug_err_invalid_comment">الرجاء إدخال تعليق صحيح</string>
+    <string name="instabug_err_invalid_email">الرجاء إدخال بريد إلكتروني صحيح لاتاحة الفرصة لنا لنعود اليكم</string>
+    <string name="instabug_external_storage_permission_denied">إذن الذاكرة تم رفضة</string>
+    <string name="instabug_str_add_photo">قم بتحديد صورة من المعرض</string>
+    <string name="instabug_str_bug_comment_hint">ما الخطأ الذي حدث؟</string>
+    <string name="instabug_str_bug_header">الإبلاغ عن مشكلة</string>
+    <string name="instabug_str_cancel">إلغاء</string>
+    <string name="instabug_str_conversations">المحادثات</string>
+    <string name="instabug_str_email_hint">البريد الإلكترونى</string>
+    <string name="instabug_str_empty"/>
+    <string name="instabug_str_feedback_comment_hint">كيف يمكننا التحسين؟</string>
+    <string name="instabug_str_feedback_header">اقتراح تحسين</string>
+    <string name="instabug_str_hold_to_record">اضغط باستمرار للتسجيل</string>
+    <string name="instabug_str_invocation_header">التعليمات والتعليقات</string>
+    <string name="instabug_str_next">التالي</string>
+    <string name="instabug_str_notification_title">" فريق"</string>
+    <string name="instabug_str_notifications_body">%1$d رسالة جديدة من %2$s و آخرين</string>
+    <string name="instabug_str_ok">حسنا</string>
+    <string name="instabug_str_pbi">مقدم من Instabug.com</string>
+    <string name="instabug_str_please_wait">برجاء الإنتظار</string>
+    <string name="instabug_str_record_audio">تسجيل ملاحظة صوتية</string>
+    <string name="instabug_str_release_stop_record">قم بالتحرير للإرفاق</string>
+    <string name="instabug_str_shake_hint"><![CDATA[نحب أن نعرف تعليقاتك<br /><b>قم بهز</b> الجهاز للتحدث إلينا]]></string>
+    <string name="instabug_str_submit">إرسال</string>
+    <string name="instabug_str_swipe_hint"><![CDATA[نحب أن نعرف تعليقاتك<br /><b>اسحب بإصبعين</b> للتحدث إلينا]]></string>
+    <string name="instabug_str_thank_you">لقد تسلمنا تعليقك. نشكرك على مساعدتنا على تحسين %s.</string>
+</resources>

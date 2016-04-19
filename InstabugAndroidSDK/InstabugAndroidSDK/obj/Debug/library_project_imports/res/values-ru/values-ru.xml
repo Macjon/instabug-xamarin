@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/mSobhy/workspaces/android/instabug-android/instabug/src/main/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <string name="instabug_audio_recorder_permission_denied">В разрешении на аудиозапись отказано</string>
+    <string name="instabug_err_invalid_comment">Введите допустимый комментарий</string>
+    <string name="instabug_err_invalid_email">Введите действительный эл. адрес</string>
+    <string name="instabug_external_storage_permission_denied">Разрешение хранения отказано</string>
+    <string name="instabug_str_add_photo">Выбрать изображение из Альбома</string>
+    <string name="instabug_str_bug_comment_hint">Что случилось?</string>
+    <string name="instabug_str_bug_header">Сообщить о проблеме</string>
+    <string name="instabug_str_cancel">Отмена</string>
+    <string name="instabug_str_conversations">Разговоры</string>
+    <string name="instabug_str_email_hint">Эл. адрес</string>
+    <string name="instabug_str_empty"/>
+    <string name="instabug_str_feedback_comment_hint">Что мы можем улучшить?</string>
+    <string name="instabug_str_feedback_header">Предложить улучшение</string>
+    <string name="instabug_str_hold_to_record">Нажмите и удерживайте, чтобы записать</string>
+    <string name="instabug_str_invocation_header">Справка и отзывы</string>
+    <string name="instabug_str_next">Далее</string>
+    <string name="instabug_str_notification_title">" Группа"</string>
+    <string name="instabug_str_notifications_body">%1$d новых сообщения (-ий) от %2$s и других</string>
+    <string name="instabug_str_ok">ОК</string>
+    <string name="instabug_str_pbi">На платформе Instabug.com</string>
+    <string name="instabug_str_please_wait">Подождите немного</string>
+    <string name="instabug_str_record_audio">Записать голосовую заметку</string>
+    <string name="instabug_str_release_stop_record">Отпустите, чтобы прикрепить</string>
+    <string name="instabug_str_shake_hint"><![CDATA[Будем очень благодарны вам за отзыв<br/>Чтобы поговорить с нами, <b>встряхните</b> свое устройство.]]></string>
+    <string name="instabug_str_submit">Отправить</string>
+    <string name="instabug_str_swipe_hint"><![CDATA[Будем очень благодарны вам за отзыв<br/>Чтобы поговорить с нами, <b>смахните</b> двумя пальцами.]]></string>
+    <string name="instabug_str_thank_you">Мы получили ваш отзыв.\nСпасибо, что помогаете нам улучшить %s.</string>
+</resources>

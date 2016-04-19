@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="RtlHardcoded">
+    <ImageView
+        android:id="@+id/instabug_img_attachment"
+        android:background="?attr/instabug_item_border"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_margin="4dp"
+        android:padding="2dp"/>
+
+    <ImageView
+        android:id="@+id/instabug_btn_remove_attachment"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_gravity="right|top"
+        android:paddingBottom="12dp"
+        android:paddingLeft="12dp"
+        android:src="@drawable/instabug_ic_remove_bordered" />
+</FrameLayout><!-- From: file:/Users/mSobhy/workspaces/android/instabug-android/instabug/src/main/res/layout/instabug_lyt_attachment_image.xml -->

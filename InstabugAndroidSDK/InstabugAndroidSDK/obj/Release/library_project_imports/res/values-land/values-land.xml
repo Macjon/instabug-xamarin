@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/mSobhy/workspaces/android/instabug-android/instabug/src/main/res/values-land/dimens.xml -->
+    <eat-comment/>
+    <dimen name="instabug_date_text_size">12sp</dimen>
+    <dimen name="instabug_normal_text_size">14sp</dimen>
+    <dimen name="instabug_title_text_size">16sp</dimen>
+    <dimen name="instabug_toolbar_button_padding">16dp</dimen>
+    <!-- From: file:/Users/mSobhy/workspaces/android/instabug-android/instabug/src/main/res/values-land/themes.xml -->
+    <eat-comment/>
+    <style name="InstabugDialogToolbarContainer" parent="InstabugBaseDialogToolbarContainer">
+        <item name="android:layout_height">48dp</item>
+    </style>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/mSobhy/workspaces/android/instabug-android/instabug/src/main/res/values-v11/themes_base.xml -->
+    <eat-comment/>
+    <style name="InstabugSdkTheme.Base.Dark" parent="@android:style/Theme.Holo">
+        <item name="android:editTextStyle">@android:style/Widget.Holo.EditText</item>
+        <item name="android:editTextBackground">@drawable/instabug_edit_text_background</item>
+    </style>
+    <style name="InstabugSdkTheme.Base.Light" parent="@android:style/Theme.Holo.Light">
+        <item name="android:editTextStyle">@android:style/Widget.Holo.Light.EditText</item>
+        <item name="android:editTextBackground">@drawable/instabug_edit_text_background</item>
+    </style>
+</resources>

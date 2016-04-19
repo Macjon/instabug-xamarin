@@ -1,0 +1,6 @@
+com.instabug.library.Feature:Com.Instabug.Library:Feature
+com.instabug.library.Feature$State:Com.Instabug.Library:Feature.State
+com.instabug.library.IBGColorTheme:Com.Instabug.Library:IBGColorTheme
+com.instabug.library.IBGFloatingButtonEdge:Com.Instabug.Library:IBGFloatingButtonEdge
+com.instabug.library.IBGInvocationEvent:Com.Instabug.Library:IBGInvocationEvent
+com.instabug.library.IBGInvocationMode:Com.Instabug.Library:IBGInvocationMode

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/mSobhy/workspaces/android/instabug-android/instabug/src/main/res/values-sv/strings.xml -->
+    <eat-comment/>
+    <string name="instabug_audio_recorder_permission_denied">Tillstånd för ljudinspelning nekades</string>
+    <string name="instabug_err_invalid_comment">Vänligen fyll i en giltig kommentar</string>
+    <string name="instabug_err_invalid_email">Vänligen ange en giltig e-postadress</string>
+    <string name="instabug_external_storage_permission_denied">Lagrings åtkomst nekas</string>
+    <string name="instabug_str_add_photo">Välj bild från galleri</string>
+    <string name="instabug_str_bug_comment_hint">Vad gick fel?</string>
+    <string name="instabug_str_bug_header">Rapportera ett problem</string>
+    <string name="instabug_str_cancel">Avbryt</string>
+    <string name="instabug_str_conversations">Samtal</string>
+    <string name="instabug_str_email_hint">E-post</string>
+    <string name="instabug_str_empty"/>
+    <string name="instabug_str_feedback_comment_hint">Hur kan vi bli bättre?</string>
+    <string name="instabug_str_feedback_header">Föreslå en förbättring</string>
+    <string name="instabug_str_hold_to_record">Tryck och håll för att spela in</string>
+    <string name="instabug_str_invocation_header">Hjälp &amp; synpunkter</string>
+    <string name="instabug_str_next">Nästa</string>
+    <string name="instabug_str_notification_title">" Team"</string>
+    <string name="instabug_str_notifications_body">%1$d nya meddelanden från bland andra %2$s</string>
+    <string name="instabug_str_ok">OK</string>
+    <string name="instabug_str_pbi">Drivs med Instabug.com</string>
+    <string name="instabug_str_please_wait">Vänligen vänta ett ögonblick</string>
+    <string name="instabug_str_record_audio">Spela in en röstnotis</string>
+    <string name="instabug_str_release_stop_record">Släpp för att bifoga</string>
+    <string name="instabug_str_shake_hint"><![CDATA[Vi vill gärna höra dina synpunkter.<br/><b>Skaka</b> din enhet för att prata med oss.]]></string>
+    <string name="instabug_str_submit">Skicka</string>
+    <string name="instabug_str_swipe_hint"><![CDATA[Vi vill gärna höra dina synpunkter.<br/><b>Svep med två fingrar</b> för att prata med oss.]]></string>
+    <string name="instabug_str_thank_you">Vi har tagit emot dina synpunkter.\nTack för att du hjälper oss att göra %s bättre.</string>
+</resources>

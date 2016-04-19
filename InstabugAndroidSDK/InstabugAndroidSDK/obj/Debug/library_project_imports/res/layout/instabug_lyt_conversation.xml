@@ -1,0 +1,72 @@
+<LinearLayout
+    style="@style/InstabugBaseContainer"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        style="@style/InstabugDialogToolbarContainer"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_marginBottom="0dp">
+
+        <TextView
+            android:id="@+id/instabug_fragment_title"
+            style="@style/InstabugDialogTitle"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        style="@style/InstabugDialogContainer"
+        android:orientation="vertical"
+        android:paddingBottom="0dp"
+        android:paddingLeft="@dimen/instabug_bottom_sheet_padding"
+        android:paddingRight="@dimen/instabug_bottom_sheet_padding"
+        android:paddingTop="0dp">
+
+        <ListView
+            android:id="@+id/instabug_lst_messages"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:cacheColorHint="@android:color/transparent"
+            android:clipToPadding="false"
+            android:divider="@null"
+            android:dividerHeight="10dp"
+            android:listSelector="@android:color/transparent"
+            android:paddingBottom="@dimen/instabug_container_padding"
+            android:paddingTop="@dimen/instabug_container_padding"
+            android:scrollbarStyle="outsideInset"
+            android:stackFromBottom="true"
+            android:transcriptMode="alwaysScroll"/>
+
+        <LinearLayout
+            style="@style/InstabugDialogComposeMessageContainer"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/edtxt_new_message"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|center_vertical"
+                android:layout_weight="0.85"
+                android:hint="Start talking with us"
+                android:maxLines="5"
+                android:minLines="1"
+                android:singleLine="false"
+                android:textColor="?attr/instabug_color_foreground"
+                android:textCursorDrawable="@null"/>
+
+            <ImageView
+                android:id="@+id/instabug_btn_send"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_gravity="end|center_vertical"
+                android:layout_weight="0.15"
+                android:maxHeight="40dp"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                android:src="@drawable/instabug_ic_send"
+                android:tint="?attr/instabug_color_foreground"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout><!-- From: file:/Users/mSobhy/workspaces/android/instabug-android/instabug/src/main/res/layout/instabug_lyt_conversation.xml -->
