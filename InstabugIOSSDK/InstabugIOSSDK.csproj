@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectTypeGuids>{8FFB629D-F513-41CE-95D2-7ECE97B6EEEC};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectGuid>{5298837B-B180-4FDF-811E-7942EE05BB16}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>InstabugIOSSDK</RootNamespace>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+    <AssemblyName>InstabugIOSSDK</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="Xamarin.iOS" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Instabug.linkwith.cs">
+      <DependentUpon>Instabug.a</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ObjcBindingApiDefinition Include="ApiDefinition.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ObjcBindingCoreSource Include="StructsAndEnums.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.ObjCBinding.CSharp.targets" />
+  <ItemGroup>
+    <ObjcBindingNativeLibrary Include="Instabug.a" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Instabug.bundle\CaptureButton-IBGColorThemeDark.png" />
+    <BundleResource Include="Resources\Instabug.bundle\CaptureButton-IBGColorThemeDark%402x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\CaptureButton-IBGColorThemeDark%403x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\CaptureButton.png" />
+    <BundleResource Include="Resources\Instabug.bundle\CaptureButton%402x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\CaptureButton%403x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\DialogBackgroundTop-IBGColorThemeDark.png" />
+    <BundleResource Include="Resources\Instabug.bundle\DialogBackgroundTop-IBGColorThemeDark%402x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\DialogBackgroundTop-IBGColorThemeDark%403x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\DialogBackgroundTop.png" />
+    <BundleResource Include="Resources\Instabug.bundle\DialogBackgroundTop%402x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\DialogBackgroundTop%403x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\DialogBackgroundbottom-IBGColorThemeDark.png" />
+    <BundleResource Include="Resources\Instabug.bundle\DialogBackgroundbottom-IBGColorThemeDark%402x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\DialogBackgroundbottom-IBGColorThemeDark%403x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\DialogBackgroundbottom.png" />
+    <BundleResource Include="Resources\Instabug.bundle\DialogBackgroundbottom%402x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\DialogBackgroundbottom%403x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\ExtraScreenshot-IBGColorThemeDark.png" />
+    <BundleResource Include="Resources\Instabug.bundle\ExtraScreenshot-IBGColorThemeDark%402x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\ExtraScreenshot-IBGColorThemeDark%403x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\ExtraScreenshot.png" />
+    <BundleResource Include="Resources\Instabug.bundle\ExtraScreenshot%402x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\ExtraScreenshot%403x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\IBG-FloatingButton-IBGColorThemeDark.png" />
+    <BundleResource Include="Resources\Instabug.bundle\IBG-FloatingButton-IBGColorThemeDark%402x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\IBG-FloatingButton-IBGColorThemeDark%403x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\IBG-FloatingButton.png" />
+    <BundleResource Include="Resources\Instabug.bundle\IBG-FloatingButton%402x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\IBG-FloatingButton%403x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\InAppBug-IBGColorThemeDark.png" />
+    <BundleResource Include="Resources\Instabug.bundle\InAppBug-IBGColorThemeDark%402x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\InAppBug-IBGColorThemeDark%403x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\InAppBug.png" />
+    <BundleResource Include="Resources\Instabug.bundle\InAppBug%402x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\InAppBug%403x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\InAppFeedback-IBGColorThemeDark.png" />
+    <BundleResource Include="Resources\Instabug.bundle\InAppFeedback-IBGColorThemeDark%402x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\InAppFeedback-IBGColorThemeDark%403x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\InAppFeedback.png" />
+    <BundleResource Include="Resources\Instabug.bundle\InAppFeedback%402x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\InAppFeedback%403x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\InAppGrayAvatar.png" />
+    <BundleResource Include="Resources\Instabug.bundle\InAppGrayAvatar%402x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\InAppGrayAvatar%403x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\InAppScreenshotPlaceholder.png" />
+    <BundleResource Include="Resources\Instabug.bundle\InAppScreenshotPlaceholder%402x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\InAppScreenshotPlaceholder%403x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\InAppVideoPlaceholder.png" />
+    <BundleResource Include="Resources\Instabug.bundle\InAppVideoPlaceholder%402x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\InAppVideoPlaceholder%403x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\Info.plist" />
+    <BundleResource Include="Resources\Instabug.bundle\Instabug_dsym_upload.sh" />
+    <BundleResource Include="Resources\Instabug.bundle\NoConnection-IBGColorThemeDark.png" />
+    <BundleResource Include="Resources\Instabug.bundle\NoConnection-IBGColorThemeDark%402x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\NoConnection-IBGColorThemeDark%403x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\NoConnection.png" />
+    <BundleResource Include="Resources\Instabug.bundle\NoConnection%402x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\NoConnection%403x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\NoMessages-IBGColorThemeDark.png" />
+    <BundleResource Include="Resources\Instabug.bundle\NoMessages-IBGColorThemeDark%402x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\NoMessages-IBGColorThemeDark%403x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\NoMessages.png" />
+    <BundleResource Include="Resources\Instabug.bundle\NoMessages%402x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\NoMessages%403x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\SendButton.png" />
+    <BundleResource Include="Resources\Instabug.bundle\SendButton%402x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\SendButton%403x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\Shake-43.png" />
+    <BundleResource Include="Resources\Instabug.bundle\actionsheet_1-IBGColorThemeDark.png" />
+    <BundleResource Include="Resources\Instabug.bundle\actionsheet_1-IBGColorThemeDark%402x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\actionsheet_1.png" />
+    <BundleResource Include="Resources\Instabug.bundle\actionsheet_1%402x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\actionsheet_2-IBGColorThemeDark.png" />
+    <BundleResource Include="Resources\Instabug.bundle\actionsheet_2-IBGColorThemeDark%402x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\actionsheet_2.png" />
+    <BundleResource Include="Resources\Instabug.bundle\actionsheet_2%402x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\actionsheet_3-IBGColorThemeDark.png" />
+    <BundleResource Include="Resources\Instabug.bundle\actionsheet_3-IBGColorThemeDark%402x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\actionsheet_3.png" />
+    <BundleResource Include="Resources\Instabug.bundle\actionsheet_3%402x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\addscreenshot-IBGColorThemeDark.png" />
+    <BundleResource Include="Resources\Instabug.bundle\addscreenshot-IBGColorThemeDark%402x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\addscreenshot-IBGColorThemeDark%403x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\addscreenshot.png" />
+    <BundleResource Include="Resources\Instabug.bundle\addscreenshot%402x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\addscreenshot%403x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\audioplaceholder-IBGColorThemeDark.png" />
+    <BundleResource Include="Resources\Instabug.bundle\audioplaceholder-IBGColorThemeDark%402x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\audioplaceholder-IBGColorThemeDark%403x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\audioplaceholder-Landscape-IBGColorThemeDark.png" />
+    <BundleResource Include="Resources\Instabug.bundle\audioplaceholder-Landscape-IBGColorThemeDark%402x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\audioplaceholder-Landscape-IBGColorThemeDark%403x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\audioplaceholder-Landscape.png" />
+    <BundleResource Include="Resources\Instabug.bundle\audioplaceholder-Landscape%402x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\audioplaceholder-Landscape%403x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\audioplaceholder.png" />
+    <BundleResource Include="Resources\Instabug.bundle\audioplaceholder%402x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\audioplaceholder%403x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\backbtn.png" />
+    <BundleResource Include="Resources\Instabug.bundle\backbtn%402x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\backbtn%403x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\bluebubble.png" />
+    <BundleResource Include="Resources\Instabug.bundle\bluebubble%402x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\bluebubble%403x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\bug-IBGColorThemeDark.png" />
+    <BundleResource Include="Resources\Instabug.bundle\bug-IBGColorThemeDark%402x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\bug-IBGColorThemeDark%403x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\bug.png" />
+    <BundleResource Include="Resources\Instabug.bundle\bug%402x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\bug%403x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\colordarkblue.png" />
+    <BundleResource Include="Resources\Instabug.bundle\colordarkblue%402x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\colordarkblue%403x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\colorgreen.png" />
+    <BundleResource Include="Resources\Instabug.bundle\colorgreen%402x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\colorgreen%403x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\colorlightblue.png" />
+    <BundleResource Include="Resources\Instabug.bundle\colorlightblue%402x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\colorlightblue%403x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\colorred.png" />
+    <BundleResource Include="Resources\Instabug.bundle\colorred%402x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\colorred%403x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\coloryellow.png" />
+    <BundleResource Include="Resources\Instabug.bundle\coloryellow%402x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\coloryellow%403x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\coloselected.png" />
+    <BundleResource Include="Resources\Instabug.bundle\coloselected%402x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\coloselected%403x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\deletescreenshot.png" />
+    <BundleResource Include="Resources\Instabug.bundle\deletescreenshot%402x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\deletescreenshot%403x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\eraser-IBGColorThemeDark.png" />
+    <BundleResource Include="Resources\Instabug.bundle\eraser-IBGColorThemeDark%402x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\eraser-IBGColorThemeDark%403x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\eraser.png" />
+    <BundleResource Include="Resources\Instabug.bundle\eraser%402x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\eraser%403x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\feedback-IBGColorThemeDark.png" />
+    <BundleResource Include="Resources\Instabug.bundle\feedback-IBGColorThemeDark%402x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\feedback-IBGColorThemeDark%403x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\feedback.png" />
+    <BundleResource Include="Resources\Instabug.bundle\feedback%402x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\feedback%403x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\fromgallery-IBGColorThemeDark.png" />
+    <BundleResource Include="Resources\Instabug.bundle\fromgallery-IBGColorThemeDark%402x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\fromgallery-IBGColorThemeDark%403x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\fromgallery.png" />
+    <BundleResource Include="Resources\Instabug.bundle\fromgallery%402x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\fromgallery%403x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\graybubble.png" />
+    <BundleResource Include="Resources\Instabug.bundle\graybubble%402x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\graybubble%403x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\heartforyou.png" />
+    <BundleResource Include="Resources\Instabug.bundle\heartforyou%402x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\heartforyou%403x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\history-IBGColorThemeDark.png" />
+    <BundleResource Include="Resources\Instabug.bundle\history-IBGColorThemeDark%402x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\history-IBGColorThemeDark%403x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\history.png" />
+    <BundleResource Include="Resources\Instabug.bundle\history%402x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\history%403x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\historynotification-IBGColorThemeDark.png" />
+    <BundleResource Include="Resources\Instabug.bundle\historynotification-IBGColorThemeDark%402x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\historynotification-IBGColorThemeDark%403x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\historynotification.png" />
+    <BundleResource Include="Resources\Instabug.bundle\historynotification%402x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\historynotification%403x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\instabuglogo.png" />
+    <BundleResource Include="Resources\Instabug.bundle\instabuglogo%402x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\instabuglogo%403x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\micro-IBGColorThemeDark.png" />
+    <BundleResource Include="Resources\Instabug.bundle\micro-IBGColorThemeDark%402x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\micro-IBGColorThemeDark%403x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\micro.png" />
+    <BundleResource Include="Resources\Instabug.bundle\micro%402x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\micro%403x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\onefinger-1.png" />
+    <BundleResource Include="Resources\Instabug.bundle\onefinger-10.png" />
+    <BundleResource Include="Resources\Instabug.bundle\onefinger-11.png" />
+    <BundleResource Include="Resources\Instabug.bundle\onefinger-12.png" />
+    <BundleResource Include="Resources\Instabug.bundle\onefinger-13.png" />
+    <BundleResource Include="Resources\Instabug.bundle\onefinger-14.png" />
+    <BundleResource Include="Resources\Instabug.bundle\onefinger-15.png" />
+    <BundleResource Include="Resources\Instabug.bundle\onefinger-16.png" />
+    <BundleResource Include="Resources\Instabug.bundle\onefinger-17.png" />
+    <BundleResource Include="Resources\Instabug.bundle\onefinger-18.png" />
+    <BundleResource Include="Resources\Instabug.bundle\onefinger-19.png" />
+    <BundleResource Include="Resources\Instabug.bundle\onefinger-2.png" />
+    <BundleResource Include="Resources\Instabug.bundle\onefinger-20.png" />
+    <BundleResource Include="Resources\Instabug.bundle\onefinger-21.png" />
+    <BundleResource Include="Resources\Instabug.bundle\onefinger-22.png" />
+    <BundleResource Include="Resources\Instabug.bundle\onefinger-23.png" />
+    <BundleResource Include="Resources\Instabug.bundle\onefinger-24.png" />
+    <BundleResource Include="Resources\Instabug.bundle\onefinger-25.png" />
+    <BundleResource Include="Resources\Instabug.bundle\onefinger-26.png" />
+    <BundleResource Include="Resources\Instabug.bundle\onefinger-27.png" />
+    <BundleResource Include="Resources\Instabug.bundle\onefinger-28.png" />
+    <BundleResource Include="Resources\Instabug.bundle\onefinger-29.png" />
+    <BundleResource Include="Resources\Instabug.bundle\onefinger-3.png" />
+    <BundleResource Include="Resources\Instabug.bundle\onefinger-30.png" />
+    <BundleResource Include="Resources\Instabug.bundle\onefinger-31.png" />
+    <BundleResource Include="Resources\Instabug.bundle\onefinger-32.png" />
+    <BundleResource Include="Resources\Instabug.bundle\onefinger-33.png" />
+    <BundleResource Include="Resources\Instabug.bundle\onefinger-34.png" />
+    <BundleResource Include="Resources\Instabug.bundle\onefinger-35.png" />
+    <BundleResource Include="Resources\Instabug.bundle\onefinger-36.png" />
+    <BundleResource Include="Resources\Instabug.bundle\onefinger-4.png" />
+    <BundleResource Include="Resources\Instabug.bundle\onefinger-5.png" />
+    <BundleResource Include="Resources\Instabug.bundle\onefinger-6.png" />
+    <BundleResource Include="Resources\Instabug.bundle\onefinger-7.png" />
+    <BundleResource Include="Resources\Instabug.bundle\onefinger-8.png" />
+    <BundleResource Include="Resources\Instabug.bundle\onefinger-9.png" />
+    <BundleResource Include="Resources\Instabug.bundle\playrecording.png" />
+    <BundleResource Include="Resources\Instabug.bundle\playrecording%402x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\playrecording%403x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\powerplushome-1.png" />
+    <BundleResource Include="Resources\Instabug.bundle\powerplushome-10.png" />
+    <BundleResource Include="Resources\Instabug.bundle\powerplushome-11.png" />
+    <BundleResource Include="Resources\Instabug.bundle\powerplushome-12.png" />
+    <BundleResource Include="Resources\Instabug.bundle\powerplushome-13.png" />
+    <BundleResource Include="Resources\Instabug.bundle\powerplushome-14.png" />
+    <BundleResource Include="Resources\Instabug.bundle\powerplushome-15.png" />
+    <BundleResource Include="Resources\Instabug.bundle\powerplushome-16.png" />
+    <BundleResource Include="Resources\Instabug.bundle\powerplushome-17.png" />
+    <BundleResource Include="Resources\Instabug.bundle\powerplushome-18.png" />
+    <BundleResource Include="Resources\Instabug.bundle\powerplushome-19.png" />
+    <BundleResource Include="Resources\Instabug.bundle\powerplushome-2.png" />
+    <BundleResource Include="Resources\Instabug.bundle\powerplushome-20.png" />
+    <BundleResource Include="Resources\Instabug.bundle\powerplushome-21.png" />
+    <BundleResource Include="Resources\Instabug.bundle\powerplushome-22.png" />
+    <BundleResource Include="Resources\Instabug.bundle\powerplushome-23.png" />
+    <BundleResource Include="Resources\Instabug.bundle\powerplushome-24.png" />
+    <BundleResource Include="Resources\Instabug.bundle\powerplushome-25.png" />
+    <BundleResource Include="Resources\Instabug.bundle\powerplushome-26.png" />
+    <BundleResource Include="Resources\Instabug.bundle\powerplushome-27.png" />
+    <BundleResource Include="Resources\Instabug.bundle\powerplushome-28.png" />
+    <BundleResource Include="Resources\Instabug.bundle\powerplushome-29.png" />
+    <BundleResource Include="Resources\Instabug.bundle\powerplushome-3.png" />
+    <BundleResource Include="Resources\Instabug.bundle\powerplushome-30.png" />
+    <BundleResource Include="Resources\Instabug.bundle\powerplushome-4.png" />
+    <BundleResource Include="Resources\Instabug.bundle\powerplushome-5.png" />
+    <BundleResource Include="Resources\Instabug.bundle\powerplushome-6.png" />
+    <BundleResource Include="Resources\Instabug.bundle\powerplushome-7.png" />
+    <BundleResource Include="Resources\Instabug.bundle\powerplushome-8.png" />
+    <BundleResource Include="Resources\Instabug.bundle\powerplushome-9.png" />
+    <BundleResource Include="Resources\Instabug.bundle\presstorecord.png" />
+    <BundleResource Include="Resources\Instabug.bundle\presstorecord%402x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\presstorecord%403x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\recordingvoice.png" />
+    <BundleResource Include="Resources\Instabug.bundle\recordingvoice%402x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\recordingvoice%403x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\shake-1.png" />
+    <BundleResource Include="Resources\Instabug.bundle\shake-10.png" />
+    <BundleResource Include="Resources\Instabug.bundle\shake-11.png" />
+    <BundleResource Include="Resources\Instabug.bundle\shake-12.png" />
+    <BundleResource Include="Resources\Instabug.bundle\shake-13.png" />
+    <BundleResource Include="Resources\Instabug.bundle\shake-14.png" />
+    <BundleResource Include="Resources\Instabug.bundle\shake-15.png" />
+    <BundleResource Include="Resources\Instabug.bundle\shake-16.png" />
+    <BundleResource Include="Resources\Instabug.bundle\shake-17.png" />
+    <BundleResource Include="Resources\Instabug.bundle\shake-18.png" />
+    <BundleResource Include="Resources\Instabug.bundle\shake-19.png" />
+    <BundleResource Include="Resources\Instabug.bundle\shake-2.png" />
+    <BundleResource Include="Resources\Instabug.bundle\shake-20.png" />
+    <BundleResource Include="Resources\Instabug.bundle\shake-21.png" />
+    <BundleResource Include="Resources\Instabug.bundle\shake-22.png" />
+    <BundleResource Include="Resources\Instabug.bundle\shake-23.png" />
+    <BundleResource Include="Resources\Instabug.bundle\shake-24.png" />
+    <BundleResource Include="Resources\Instabug.bundle\shake-25.png" />
+    <BundleResource Include="Resources\Instabug.bundle\shake-26.png" />
+    <BundleResource Include="Resources\Instabug.bundle\shake-27.png" />
+    <BundleResource Include="Resources\Instabug.bundle\shake-28.png" />
+    <BundleResource Include="Resources\Instabug.bundle\shake-29.png" />
+    <BundleResource Include="Resources\Instabug.bundle\shake-3.png" />
+    <BundleResource Include="Resources\Instabug.bundle\shake-30.png" />
+    <BundleResource Include="Resources\Instabug.bundle\shake-31.png" />
+    <BundleResource Include="Resources\Instabug.bundle\shake-32.png" />
+    <BundleResource Include="Resources\Instabug.bundle\shake-33.png" />
+    <BundleResource Include="Resources\Instabug.bundle\shake-34.png" />
+    <BundleResource Include="Resources\Instabug.bundle\shake-35.png" />
+    <BundleResource Include="Resources\Instabug.bundle\shake-36.png" />
+    <BundleResource Include="Resources\Instabug.bundle\shake-37.png" />
+    <BundleResource Include="Resources\Instabug.bundle\shake-38.png" />
+    <BundleResource Include="Resources\Instabug.bundle\shake-39.png" />
+    <BundleResource Include="Resources\Instabug.bundle\shake-4.png" />
+    <BundleResource Include="Resources\Instabug.bundle\shake-40.png" />
+    <BundleResource Include="Resources\Instabug.bundle\shake-41.png" />
+    <BundleResource Include="Resources\Instabug.bundle\shake-42.png" />
+    <BundleResource Include="Resources\Instabug.bundle\shake-5.png" />
+    <BundleResource Include="Resources\Instabug.bundle\shake-6.png" />
+    <BundleResource Include="Resources\Instabug.bundle\shake-7.png" />
+    <BundleResource Include="Resources\Instabug.bundle\shake-8.png" />
+    <BundleResource Include="Resources\Instabug.bundle\shake-9.png" />
+    <BundleResource Include="Resources\Instabug.bundle\stoprecording.png" />
+    <BundleResource Include="Resources\Instabug.bundle\stoprecording%402x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\stoprecording%403x.png" />
+    <BundleResource Include="Resources\Instabug.bundle\twofingers-1.png" />
+    <BundleResource Include="Resources\Instabug.bundle\twofingers-10.png" />
+    <BundleResource Include="Resources\Instabug.bundle\twofingers-11.png" />
+    <BundleResource Include="Resources\Instabug.bundle\twofingers-12.png" />
+    <BundleResource Include="Resources\Instabug.bundle\twofingers-13.png" />
+    <BundleResource Include="Resources\Instabug.bundle\twofingers-14.png" />
+    <BundleResource Include="Resources\Instabug.bundle\twofingers-15.png" />
+    <BundleResource Include="Resources\Instabug.bundle\twofingers-16.png" />
+    <BundleResource Include="Resources\Instabug.bundle\twofingers-17.png" />
+    <BundleResource Include="Resources\Instabug.bundle\twofingers-18.png" />
+    <BundleResource Include="Resources\Instabug.bundle\twofingers-19.png" />
+    <BundleResource Include="Resources\Instabug.bundle\twofingers-2.png" />
+    <BundleResource Include="Resources\Instabug.bundle\twofingers-20.png" />
+    <BundleResource Include="Resources\Instabug.bundle\twofingers-21.png" />
+    <BundleResource Include="Resources\Instabug.bundle\twofingers-22.png" />
+    <BundleResource Include="Resources\Instabug.bundle\twofingers-23.png" />
+    <BundleResource Include="Resources\Instabug.bundle\twofingers-24.png" />
+    <BundleResource Include="Resources\Instabug.bundle\twofingers-25.png" />
+    <BundleResource Include="Resources\Instabug.bundle\twofingers-26.png" />
+    <BundleResource Include="Resources\Instabug.bundle\twofingers-27.png" />
+    <BundleResource Include="Resources\Instabug.bundle\twofingers-28.png" />
+    <BundleResource Include="Resources\Instabug.bundle\twofingers-29.png" />
+    <BundleResource Include="Resources\Instabug.bundle\twofingers-3.png" />
+    <BundleResource Include="Resources\Instabug.bundle\twofingers-30.png" />
+    <BundleResource Include="Resources\Instabug.bundle\twofingers-31.png" />
+    <BundleResource Include="Resources\Instabug.bundle\twofingers-32.png" />
+    <BundleResource Include="Resources\Instabug.bundle\twofingers-33.png" />
+    <BundleResource Include="Resources\Instabug.bundle\twofingers-34.png" />
+    <BundleResource Include="Resources\Instabug.bundle\twofingers-35.png" />
+    <BundleResource Include="Resources\Instabug.bundle\twofingers-36.png" />
+    <BundleResource Include="Resources\Instabug.bundle\twofingers-37.png" />
+    <BundleResource Include="Resources\Instabug.bundle\twofingers-38.png" />
+    <BundleResource Include="Resources\Instabug.bundle\twofingers-39.png" />
+    <BundleResource Include="Resources\Instabug.bundle\twofingers-4.png" />
+    <BundleResource Include="Resources\Instabug.bundle\twofingers-5.png" />
+    <BundleResource Include="Resources\Instabug.bundle\twofingers-6.png" />
+    <BundleResource Include="Resources\Instabug.bundle\twofingers-7.png" />
+    <BundleResource Include="Resources\Instabug.bundle\twofingers-8.png" />
+    <BundleResource Include="Resources\Instabug.bundle\twofingers-9.png" />
+    <BundleResource Include="Resources\Instabug.bundle\IBGActionSheetVC-Landscape-iPad.nib\objects.nib" />
+    <BundleResource Include="Resources\Instabug.bundle\IBGActionSheetVC-Landscape-iPad.nib\runtime.nib" />
+    <BundleResource Include="Resources\Instabug.bundle\IBGActionSheetVC-Landscape-iPhone.nib\objects.nib" />
+    <BundleResource Include="Resources\Instabug.bundle\IBGActionSheetVC-Landscape-iPhone.nib\runtime.nib" />
+    <BundleResource Include="Resources\Instabug.bundle\IBGActionSheetVC-iPad.nib\objects.nib" />
+    <BundleResource Include="Resources\Instabug.bundle\IBGActionSheetVC-iPad.nib\runtime.nib" />
+    <BundleResource Include="Resources\Instabug.bundle\IBGActionSheetVC-iPhone.nib\objects.nib" />
+    <BundleResource Include="Resources\Instabug.bundle\IBGActionSheetVC-iPhone.nib\runtime.nib" />
+    <BundleResource Include="Resources\Instabug.bundle\IBGAttachmentButton.nib\objects.nib" />
+    <BundleResource Include="Resources\Instabug.bundle\IBGAttachmentButton.nib\runtime.nib" />
+    <BundleResource Include="Resources\Instabug.bundle\IBGAttachmentsActionSheet-iPad.nib\objects.nib" />
+    <BundleResource Include="Resources\Instabug.bundle\IBGAttachmentsActionSheet-iPad.nib\runtime.nib" />
+    <BundleResource Include="Resources\Instabug.bundle\IBGAttachmentsActionSheet-iPhone.nib\objects.nib" />
+    <BundleResource Include="Resources\Instabug.bundle\IBGAttachmentsActionSheet-iPhone.nib\runtime.nib" />
+    <BundleResource Include="Resources\Instabug.bundle\IBGErrorOverlayView.nib\objects.nib" />
+    <BundleResource Include="Resources\Instabug.bundle\IBGErrorOverlayView.nib\runtime.nib" />
+    <BundleResource Include="Resources\Instabug.bundle\IBGFeedbackVC-Landscape-iPad.nib\objects.nib" />
+    <BundleResource Include="Resources\Instabug.bundle\IBGFeedbackVC-Landscape-iPad.nib\runtime.nib" />
+    <BundleResource Include="Resources\Instabug.bundle\IBGFeedbackVC-Landscape-iPhone.nib\objects.nib" />
+    <BundleResource Include="Resources\Instabug.bundle\IBGFeedbackVC-Landscape-iPhone.nib\runtime.nib" />
+    <BundleResource Include="Resources\Instabug.bundle\IBGFeedbackVC-iPad.nib\objects.nib" />
+    <BundleResource Include="Resources\Instabug.bundle\IBGFeedbackVC-iPad.nib\runtime.nib" />
+    <BundleResource Include="Resources\Instabug.bundle\IBGFeedbackVC-iPhone.nib\objects.nib" />
+    <BundleResource Include="Resources\Instabug.bundle\IBGFeedbackVC-iPhone.nib\runtime.nib" />
+    <BundleResource Include="Resources\Instabug.bundle\IBGFullScreenImageView.nib\objects.nib" />
+    <BundleResource Include="Resources\Instabug.bundle\IBGFullScreenImageView.nib\runtime.nib" />
+    <BundleResource Include="Resources\Instabug.bundle\IBGIAMConversationVC-Landscape-iPad.nib\objects.nib" />
+    <BundleResource Include="Resources\Instabug.bundle\IBGIAMConversationVC-Landscape-iPad.nib\runtime.nib" />
+    <BundleResource Include="Resources\Instabug.bundle\IBGIAMConversationVC-Landscape-iPhone.nib\objects.nib" />
+    <BundleResource Include="Resources\Instabug.bundle\IBGIAMConversationVC-Landscape-iPhone.nib\runtime.nib" />
+    <BundleResource Include="Resources\Instabug.bundle\IBGIAMConversationVC-iPad.nib\objects.nib" />
+    <BundleResource Include="Resources\Instabug.bundle\IBGIAMConversationVC-iPad.nib\runtime.nib" />
+    <BundleResource Include="Resources\Instabug.bundle\IBGIAMConversationVC-iPhone.nib\objects.nib" />
+    <BundleResource Include="Resources\Instabug.bundle\IBGIAMConversationVC-iPhone.nib\runtime.nib" />
+    <BundleResource Include="Resources\Instabug.bundle\IBGIAMInboundCell.nib\objects.nib" />
+    <BundleResource Include="Resources\Instabug.bundle\IBGIAMInboundCell.nib\runtime.nib" />
+    <BundleResource Include="Resources\Instabug.bundle\IBGIAMOutboundCell.nib\objects.nib" />
+    <BundleResource Include="Resources\Instabug.bundle\IBGIAMOutboundCell.nib\runtime.nib" />
+    <BundleResource Include="Resources\Instabug.bundle\IBGIAMThreadCell-iPad.nib\objects.nib" />
+    <BundleResource Include="Resources\Instabug.bundle\IBGIAMThreadCell-iPad.nib\runtime.nib" />
+    <BundleResource Include="Resources\Instabug.bundle\IBGIAMThreadCell.nib\objects.nib" />
+    <BundleResource Include="Resources\Instabug.bundle\IBGIAMThreadCell.nib\runtime.nib" />
+    <BundleResource Include="Resources\Instabug.bundle\IBGIAMThreadsVC-Landscape-iPad.nib\objects.nib" />
+    <BundleResource Include="Resources\Instabug.bundle\IBGIAMThreadsVC-Landscape-iPad.nib\runtime.nib" />
+    <BundleResource Include="Resources\Instabug.bundle\IBGIAMThreadsVC-Landscape-iPhone.nib\objects.nib" />
+    <BundleResource Include="Resources\Instabug.bundle\IBGIAMThreadsVC-Landscape-iPhone.nib\runtime.nib" />
+    <BundleResource Include="Resources\Instabug.bundle\IBGIAMThreadsVC-iPad.nib\objects.nib" />
+    <BundleResource Include="Resources\Instabug.bundle\IBGIAMThreadsVC-iPad.nib\runtime.nib" />
+    <BundleResource Include="Resources\Instabug.bundle\IBGIAMThreadsVC-iPhone.nib\objects.nib" />
+    <BundleResource Include="Resources\Instabug.bundle\IBGIAMThreadsVC-iPhone.nib\runtime.nib" />
+    <BundleResource Include="Resources\Instabug.bundle\IBGIAMUnnotifiedMessagesAlertView.nib\objects.nib" />
+    <BundleResource Include="Resources\Instabug.bundle\IBGIAMUnnotifiedMessagesAlertView.nib\runtime.nib" />
+    <BundleResource Include="Resources\Instabug.bundle\IBGScreenshotVC-Landscape-iPad.nib\objects.nib" />
+    <BundleResource Include="Resources\Instabug.bundle\IBGScreenshotVC-Landscape-iPad.nib\runtime.nib" />
+    <BundleResource Include="Resources\Instabug.bundle\IBGScreenshotVC-Landscape-iPhone.nib\objects.nib" />
+    <BundleResource Include="Resources\Instabug.bundle\IBGScreenshotVC-Landscape-iPhone.nib\runtime.nib" />
+    <BundleResource Include="Resources\Instabug.bundle\IBGScreenshotVC-iPad.nib\objects.nib" />
+    <BundleResource Include="Resources\Instabug.bundle\IBGScreenshotVC-iPad.nib\runtime.nib" />
+    <BundleResource Include="Resources\Instabug.bundle\IBGScreenshotVC-iPhone.nib\objects.nib" />
+    <BundleResource Include="Resources\Instabug.bundle\IBGScreenshotVC-iPhone.nib\runtime.nib" />
+    <BundleResource Include="Resources\Instabug.bundle\IBGVoiceNoteRecordingView-iPad.nib\objects.nib" />
+    <BundleResource Include="Resources\Instabug.bundle\IBGVoiceNoteRecordingView-iPad.nib\runtime.nib" />
+    <BundleResource Include="Resources\Instabug.bundle\IBGVoiceNoteRecordingView-iPhone.nib\objects.nib" />
+    <BundleResource Include="Resources\Instabug.bundle\IBGVoiceNoteRecordingView-iPhone.nib\runtime.nib" />
+    <BundleResource Include="Resources\Instabug.bundle\ar.lproj\InfoPlist.strings" />
+    <BundleResource Include="Resources\Instabug.bundle\ar.lproj\Localizable.strings" />
+    <BundleResource Include="Resources\Instabug.bundle\de.lproj\InfoPlist.strings" />
+    <BundleResource Include="Resources\Instabug.bundle\de.lproj\Localizable.strings" />
+    <BundleResource Include="Resources\Instabug.bundle\en.lproj\InfoPlist.strings" />
+    <BundleResource Include="Resources\Instabug.bundle\en.lproj\Localizable.strings" />
+    <BundleResource Include="Resources\Instabug.bundle\es.lproj\InfoPlist.strings" />
+    <BundleResource Include="Resources\Instabug.bundle\es.lproj\Localizable.strings" />
+    <BundleResource Include="Resources\Instabug.bundle\fr.lproj\InfoPlist.strings" />
+    <BundleResource Include="Resources\Instabug.bundle\fr.lproj\Localizable.strings" />
+    <BundleResource Include="Resources\Instabug.bundle\it.lproj\InfoPlist.strings" />
+    <BundleResource Include="Resources\Instabug.bundle\it.lproj\Localizable.strings" />
+    <BundleResource Include="Resources\Instabug.bundle\ja.lproj\InfoPlist.strings" />
+    <BundleResource Include="Resources\Instabug.bundle\ja.lproj\Localizable.strings" />
+    <BundleResource Include="Resources\Instabug.bundle\ko.lproj\InfoPlist.strings" />
+    <BundleResource Include="Resources\Instabug.bundle\ko.lproj\Localizable.strings" />
+    <BundleResource Include="Resources\Instabug.bundle\pl.lproj\InfoPlist.strings" />
+    <BundleResource Include="Resources\Instabug.bundle\pl.lproj\Localizable.strings" />
+    <BundleResource Include="Resources\Instabug.bundle\pt-BR.lproj\InfoPlist.strings" />
+    <BundleResource Include="Resources\Instabug.bundle\pt-BR.lproj\Localizable.strings" />
+    <BundleResource Include="Resources\Instabug.bundle\ru.lproj\InfoPlist.strings" />
+    <BundleResource Include="Resources\Instabug.bundle\ru.lproj\Localizable.strings" />
+    <BundleResource Include="Resources\Instabug.bundle\sv.lproj\InfoPlist.strings" />
+    <BundleResource Include="Resources\Instabug.bundle\sv.lproj\Localizable.strings" />
+    <BundleResource Include="Resources\Instabug.bundle\tr.lproj\InfoPlist.strings" />
+    <BundleResource Include="Resources\Instabug.bundle\tr.lproj\Localizable.strings" />
+    <BundleResource Include="Resources\Instabug.bundle\zh-Hans.lproj\InfoPlist.strings" />
+    <BundleResource Include="Resources\Instabug.bundle\zh-Hans.lproj\Localizable.strings" />
+    <BundleResource Include="Resources\Instabug.bundle\zh-Hant.lproj\InfoPlist.strings" />
+    <BundleResource Include="Resources\Instabug.bundle\zh-Hant.lproj\Localizable.strings" />
+  </ItemGroup>
+</Project>
