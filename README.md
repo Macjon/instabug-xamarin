@@ -1,21 +1,35 @@
-# instabug-xamarin
+##Instabug for Xamarin
+You can use Instabug native SDK as a Binding library in your solution, following is how to:
+- Integrate Instabug in your Android project.
+- Integrate Instabug in your iOS project.
 
-## You can use Instabug native SDK as a Binding library in your solution, Here are the steps of how to do it:
-1. Add existing Instabug-iOS-SDK/Instabug-Android-SDK to your solution.
-2. Add required depencies as a references to InstabugAndroidSDK (Android version Only)
-     android support version 4
-     android support version 7 appcompat
-     google play services maps
-     google play service GCM
-3. Add Instabug-iOS-SDK/Instabug-Android-SDK as a reference to your iOS/Android project.
-4. Add required depencies as a references to your Android Project (Android version Only)
-     android support version 4
-     android support version 7 appcompat
-     google play services maps
-     google play service GCM
+##How to integrate Instabug in your Xamarin Android Application.
+1. Add existing Instabug-Android-SDK to your solution.
+![1](https://cloud.githubusercontent.com/assets/14965412/14788342/b6114468-0b07-11e6-8c59-486545cb703f.png)
+2. Add required depencies as a references to InstabugAndroidSDK.
+  - android support version 4
+  - android support version 7 appcompat
+  - google play services maps
+  - google play service GCM
+![2](https://cloud.githubusercontent.com/assets/14965412/14788341/b610bf70-0b07-11e6-8d92-3f8ac257e03c.png)
+
+3. Add Instabug-Android-SDK as a reference to your Android project.
+![3](https://cloud.githubusercontent.com/assets/14965412/14788343/b61563b8-0b07-11e6-9823-c87e2b1847fe.png)
+
+4. Add required depencies as a references to your Android Project.
+  - android support version 4
+  - android support version 7 appcompat
+  - google play services maps
+  - google play service GCM
+
+![4](https://cloud.githubusercontent.com/assets/14965412/14788344/b61ab7e6-0b07-11e6-933b-c0a4635d0f63.png)
+
 5. Re build your project, Start  Use Instabug.
+![5](https://cloud.githubusercontent.com/assets/14965412/14788345/b61ed632-0b07-11e6-8a05-905fb7320a54.png)
 
-## How to integrate Instabug in your Xamarin iOS Application
+
+
+## How to integrate Instabug in Xamarin iOS Application
 1. **Add Instabug binding project to your project solution (Say MyApplication)**
 After downloading the project (InstabugIOSSDK), right click on solution name and select Add > Add Existing Project, navigate to downloaded project and select it "InstabugIOSSDK.csproj".
 ![Add Project](https://cloud.githubusercontent.com/assets/14965412/14787321/396a02fa-0b03-11e6-955f-d2da8b9ee40f.png)
