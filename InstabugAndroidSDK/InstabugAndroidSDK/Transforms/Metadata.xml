@@ -1,5 +1,5 @@
-<metadata>
-  <!--
+﻿<metadata>
+	<!--
   This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
   <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
   
@@ -30,5 +30,4 @@
   <remove-node path="/api/package[@name='com.instabug.library.util.crash']" />
   <remove-node path="/api/package[@name='com.instabug.library.view']" />
   <remove-node path="/api/package[@name='com.instabug.library']/class[@name='InstabugFeedbackActivity']" />
-
 </metadata>
