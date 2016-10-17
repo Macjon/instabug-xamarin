@@ -1,0 +1,101 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/InstabugBaseContainer"
+    android:layout_gravity="center"
+    android:paddingBottom="6dp"
+    android:paddingTop="6dp">
+
+    <FrameLayout
+        android:id="@+id/instabug_annotation_image_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/instabug_annotation_colors_container"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp">
+
+        <com.instabug.library.view.AnnotationView
+            android:id="@+id/instabug_annotation_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/instabug_annotation_colors_container"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="?attr/instabug_background_color"
+        android:gravity="center|right"
+        android:orientation="vertical"
+        android:weightSum="8">
+
+        <FrameLayout
+            android:id="@+id/instabug_btn_pick_color_red_frame"
+            style="@style/InstabugAnnotationColorIconContainer"
+            android:foreground="@drawable/instabug_ic_check">
+
+            <ImageView
+                android:id="@+id/instabug_btn_pick_color_red"
+                style="@style/InstabugAnnotationColorIconImage"
+                android:src="@drawable/instabug_bg_red_oval_with_bottom_left_shadow" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/instabug_btn_pick_color_yellow_frame"
+            style="@style/InstabugAnnotationColorIconContainer">
+
+            <ImageView
+                android:id="@+id/instabug_btn_pick_color_yellow"
+                style="@style/InstabugAnnotationColorIconImage"
+                android:src="@drawable/instabug_bg_yellow_oval_with_bottom_left_shadow" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/instabug_btn_pick_color_green_frame"
+            style="@style/InstabugAnnotationColorIconContainer">
+
+            <ImageView
+                android:id="@+id/instabug_btn_pick_color_green"
+                style="@style/InstabugAnnotationColorIconImage"
+                android:src="@drawable/instabug_bg_green_oval_with_bottom_left_shadow" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/instabug_btn_pick_color_blue_frame"
+            style="@style/InstabugAnnotationColorIconContainer">
+
+            <ImageView
+                android:id="@+id/instabug_btn_pick_color_blue"
+                style="@style/InstabugAnnotationColorIconImage"
+                android:src="@drawable/instabug_bg_blue_oval_with_bottom_left_shadow" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/instabug_btn_pick_color_gray_frame"
+            style="@style/InstabugAnnotationColorIconContainer">
+
+            <ImageView
+                android:id="@+id/instabug_btn_pick_color_gray"
+                style="@style/InstabugAnnotationColorIconImage"
+                android:src="@drawable/instabug_bg_gray_oval_with_bottom_left_shadow" />
+        </FrameLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="6dp"
+            android:background="?attr/instabug_divider_color" />
+
+        <ImageView
+            android:id="@+id/instabug_btn_clear_annotation"
+            style="@style/InstabugAnnotationColorIconImage"
+            android:src="@drawable/instabug_ic_erase" />
+
+    </LinearLayout>
+</RelativeLayout>

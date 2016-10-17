@@ -1,33 +1,76 @@
 ﻿<metadata>
-	<!--
-  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
-  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
-  
-  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
-  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
-  -->
+
+  <remove-node path="/api/package[@name='rx']" />
+  <remove-node path="/api/package[@name='rx.observables']" />
+  <remove-node path="/api/package[@name='rx.subjects']" />
+  <remove-node path="/api/package[@name='rx.observers']" />
+  <remove-node path="/api/package[@name='rx.annotations']" />
+  <remove-node path="/api/package[@name='rx.exceptions']" />
+  <remove-node path="/api/package[@name='rx.functions']" />
+  <remove-node path="/api/package[@name='rx.plugins']" />	
+  <remove-node path="/api/package[@name='rx.schedulers']" />
+  <remove-node path="/api/package[@name='rx.singles']" />
+  <remove-node path="/api/package[@name='rx.subscriptions']" />
+  <remove-node path="/api/package[@name='rx.internal.producers']" />
+  <remove-node path="/api/package[@name='rx.internal.schedulers']" />
+  <remove-node path="/api/package[@name='rx.internal.operators']" />
+  <remove-node path="/api/package[@name='rx.internal.util']" />
+  <remove-node path="/api/package[@name='rx.internal.util.atomic']" />
+  <remove-node path="/api/package[@name='rx.internal.util.unsafe']" />
+
+  <remove-node path="/api/package[@name='com.squareup.mimecraft']" />
+
+  <remove-node path="/api/package[@name='org.jcodec.codecs.h264']" />
+  <remove-node path="/api/package[@name='org.jcodec.codecs.h264.io.model']" />
+  <remove-node path="/api/package[@name='org.jcodec.containers.mps.index']" />
+  <remove-node path="/api/package[@name='org.jcodec.containers.mp4.boxes']" />
+  <remove-node path="/api/package[@name='org.jcodec.containers.mp4.demuxer']" />
+  <remove-node path="/api/package[@name='org.jcodec.movtool.streaming']" />
+  <remove-node path="/api/package[@name='org.jcodec.common']" />
+  <remove-node path="/api/package[@name='org.jcodec.common.tools']" />
+
   <remove-node path="/api/package[@name='com.instabug.library.broadcast']" />
   <remove-node path="/api/package[@name='com.instabug.library.dialog']" />
-  <remove-node path="/api/package[@name='com.instabug.library.gcm']" />
-  <remove-node path="/api/package[@name='com.instabug.library.interaction']" />
-  <remove-node path="/api/package[@name='com.instabug.library.internal']" />
+  <remove-node path="/api/package[@name='com.instabug.library.eventbus']" />
+	
+  <remove-node path="/api/package[@name='com.instabug.library.instacapture']" />
+  <remove-node path="/api/package[@name='com.instabug.library.instacapture.exception']" />
+  <remove-node path="/api/package[@name='com.instabug.library.instacapture.listener']" />
+  <remove-node path="/api/package[@name='com.instabug.library.instacapture.screenshot']" />
+  <remove-node path="/api/package[@name='com.instabug.library.instacapture.utility']" />
+	
   <remove-node path="/api/package[@name='com.instabug.library.internal.device']" />
-  <remove-node path="/api/package[@name='com.instabug.library.internal.layer']" />
   <remove-node path="/api/package[@name='com.instabug.library.internal.media']" />
   <remove-node path="/api/package[@name='com.instabug.library.internal.module']" />
-  <remove-node path="/api/package[@name='com.instabug.library.internal.sensor']" />
   <remove-node path="/api/package[@name='com.instabug.library.internal.storage']" />
   <remove-node path="/api/package[@name='com.instabug.library.internal.storage.cache']" />
+  <remove-node path="/api/package[@name='com.instabug.library.internal.video']" />
   <remove-node path="/api/package[@name='com.instabug.library.internal.view']" />
-  <remove-node path="/api/package[@name='com.instabug.library.invoker']" />
+  <remove-node path="/api/package[@name='com.instabug.library.internal.layer']" />
+	
+  <remove-node path="/api/package[@name='com.instabug.library.invocation.invoker']" />
+  <remove-node path="/api/package[@name='com.instabug.library.invocation.util']" />
+
+  <remove-node path="/api/package[@name='com.instabug.library.tracking']" /> 
+	
   <remove-node path="/api/package[@name='com.instabug.library.messaging']" />
   <remove-node path="/api/package[@name='com.instabug.library.messaging.synchronization']" />
   <remove-node path="/api/package[@name='com.instabug.library.migration']" />
   <remove-node path="/api/package[@name='com.instabug.library.model']" />
   <remove-node path="/api/package[@name='com.instabug.library.network']" />
   <remove-node path="/api/package[@name='com.instabug.library.network.service']" />
+  <remove-node path="/api/package[@name='com.instabug.library.network.worker']" />
+  <remove-node path="/api/package[@name='com.instabug.library.settings']" />
   <remove-node path="/api/package[@name='com.instabug.library.util']" />
   <remove-node path="/api/package[@name='com.instabug.library.util.crash']" />
   <remove-node path="/api/package[@name='com.instabug.library.view']" />
-  <remove-node path="/api/package[@name='com.instabug.library']/class[@name='InstabugFeedbackActivity']" />
+  <remove-node path="/api/package[@name='com.instabug.library']/class[@name='InstabugFeedbackActivity']" /> 
+  <remove-node path="/api/package[@name='com.instabug.library']/class[@name='VideoFrameSnapper']" />
+  <remove-node path="/api/package[@name='com.instabug.library']/class[@name='InstabugMessageUploaderService']" />  
+  <remove-node path="/api/package[@name='com.instabug.library']/class[@name='InstabugFeaturesFetcherService']" />
+  <remove-node path="/api/package[@name='com.instabug.library']/class[@name='InstabugIssueUploaderService']" />
+  <remove-node path="/api/package[@name='com.instabug.library']/class[@name='InstabugSessionUploaderService']" />
+  <remove-node path="/api/package[@name='com.instabug.library']/class[@name='InstabugActivityDelegate']" />
+  <remove-node path="/api/package[@name='com.instabug.library.invocation']/class[@name='InvocationManager']" />	
+	
 </metadata>

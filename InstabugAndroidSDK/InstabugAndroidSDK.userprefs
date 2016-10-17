@@ -1,8 +1,20 @@
-﻿<Properties StartupItem="InstabugAndroidSDK\InstabugAndroidSDK.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus_4_API_19" />
-  <MonoDevelop.Ide.Workbench />
+﻿<Properties StartupConfiguration="{7ADC4870-F76E-4D0D-9989-354FB4C62CAB}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.InstabugAndroidSDK PreferredExecutionTarget="Android.CB5A24CQZ8" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="InstabugAndroidSDK" expanded="True">
+            <Node name="InstabugAndroidSDK" expanded="True" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <AuthorInfo Name="Instabug" Email="mmesbah@instabug.com" Copyright="Instabug " Company="Instabug" Trademark="Instabug" />
 </Properties>
