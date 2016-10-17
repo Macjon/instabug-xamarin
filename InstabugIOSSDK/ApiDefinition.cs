@@ -5,7 +5,7 @@ using Foundation;
 using UIKit;
 using CoreGraphics;
 
-namespace Instabug
+namespace iOSBinding
 {
 	// @interface Instabug : NSObject
 	[BaseType(typeof(NSObject))]
@@ -63,8 +63,18 @@ namespace Instabug
 
 		// +(void)setPreSendingBlock:(void (^)())preSendingBlock;
 		[Static]
-		[Export("setPreSendingBlock:")]
-		void SetPreSendingBlock(Action preSendingBlock);
+		[Export("setPreSendingHandler:")]
+		void SetPreSendingHandler(Action preSendingHandler);
+
+		// +(void)setPreInvocationHandler:(void (^)())preInvocationHandler;
+		[Static]
+		[Export("setPreInvocationHandler:")]
+		void setPreInvocationHandler(Action setPreInvocationHandler);
+
+		// +(void)setPostInvocationHandler:(void (^)())postInvocationHandler;
+		[Static]
+		[Export("setPostInvocationHandler:")]
+		void setPostInvocationHandler(Action setPostInvocationHandler);
 
 		// +(void)showIntroMessage;
 		[Static]
@@ -85,6 +95,21 @@ namespace Instabug
 		[Static]
 		[Export("setUserName:")]
 		void SetUserName(string userName);
+
+		// +(void)setWillShowScreenshotView:(BOOL)willShowScreenshotView
+		[Static]
+		[Export("setsetWillShowScreenshotView:")]
+		void SetWillShowScreenshotView(bool willShowScreenshotView);
+
+		// +(void)setWillShowScreenshotView:(BOOL)willShowScreenshotView
+		[Static]
+		[Export("setWillSkipScreenshotAnnotation:")]
+		void SetWillSkipScreenshotAnnotation(bool willSkipScreenshotAnnotation);
+
+		// +(NSInteger)getUnreadMessagesCount;
+		[Static]
+		[Export("getUnreadMessagesCount")]
+		Int16 GetUnreadMessagesCount();
 
 		// +(void)setInvocationEvent:(IBGInvocationEvent)invocationEvent;
 		[Static]
@@ -141,10 +166,54 @@ namespace Instabug
 		[Export("setPrimaryColor:")]
 		void SetPrimaryColor(UIColor color);
 
-		// +(void)setScreenshotCapturingBlock:(CGImageRef (^)())screenshotCapturingBlock;
+		// +(void)setScreenshotCapturingHandler:(CGImageRef (^)())screenshotCapturingBlock;
 		[Static]
-		[Export("setScreenshotCapturingBlock:")]
-		unsafe void SetScreenshotCapturingBlock(Func<CGImage> screenshotCapturingBlock);
+		[Export("setScreenshotCapturingHandler:")]
+		unsafe void SetScreenshotCapturingHandler(Func<CGImage> screenshotCapturingHandler);
+
+		// +(void)setOnNewMessageHandler:(void (^)())onNewMessageHandler;
+		[Static]
+		[Export("setOnNewMessageHandler:")]
+		void SetOnNewMessageHandler(Action onNewMessageHandler);
+
+		// +(void)setPromptOptionsEnabledWithBug:(BOOL)bugReportEnabled feedback:(BOOL)feedbackEnabled chat:(BOOL)chatEnabled;
+		[Static]
+		[Export("setPromptOptionsEnabledWithBug:::")]
+		void SetPromptOptionsEnabledWithBug(bool bugReportEnabled, bool feedbackEnabled, bool chatEnabled);
+
+		// +(void)appendTags:(NSArray<NSString *> *)tags
+		[Static]
+		[Export("appendTags:")]
+		void AppendTags(String[] tags);
+
+		// +(void)resetTags;
+		[Static]
+		[Export("resetTags")]
+		void ResetTags();
+
+		// +(NSArray *)getTags;
+		[Static]
+		[Export("getTags")]
+		NSArray GetTags();
+
+		// +(void)setString:(NSString*)value toKey:(IBGString)key
+		[Static]
+		[Export("setString::")]
+		void SetString(String value ,String key);
+
+		// + (void)setAttachmentTypesEnabledScreenShot:(BOOL)screenShot
+		//		extraScreenShot:(BOOL)extraScreenShot
+		//		galleryImage:(BOOL)galleryImage
+		//		voiceNote:(BOOL)voiceNote
+		//		screenRecording:(BOOL)screenRecording;
+		[Static]
+		[Export("setAttachmentTypesEnabled:extraScreenShot:galleryImage:voiceNote:screenRecording:")]
+		void SetAttachmentTypesEnabled(bool screenShot, bool extraScreenShot, bool galleryImage, bool voiceNote, bool screenRecording);
+
+		// +(void)setChatNotificationEnabled:(BOOL)chatNotificationEnabled;
+		[Static]
+		[Export("setChatNotificationEnabled:")]
+		void SetChatNotificationEnabled(bool enabled);
 
 		// +(void)reportException:(NSException *)exception;
 		[Static]
@@ -155,7 +224,22 @@ namespace Instabug
 		[Static]
 		[Export("invokeConversations")]
 		void InvokeConversations();
-	}
-}
 
+		// +(BOOL)isInstabugNotification:(NSDictionary *)notification;
+		[Static]
+		[Export("isInstabugNotification:")]
+		bool IsInstabugNotification(NSDictionary notification);
+
+		// +(void)didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken;
+		[Static]
+		[Export("didRegisterForRemoteNotificationsWithDeviceToken:")]
+		void DidRegisterForRemoteNotificationsWithDeviceToken(Byte deviceToken);
+
+		// +(void)didReceiveRemoteNotification:(NSDictionary *)userInfo;
+		[Static]
+		[Export("didReceiveRemoteNotification:")]
+		void DidReceiveRemoteNotification(NSDictionary userInfo);
+	}
+
+}
 
