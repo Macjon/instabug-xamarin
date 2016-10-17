@@ -1,0 +1,5 @@
+D:\Instabug\instabug-xamarin\InstabugAndroidSDK\InstabugAndroidSDK\bin\Release\InstabugAndroidSDK.dll
+D:\Instabug\instabug-xamarin\InstabugAndroidSDK\InstabugAndroidSDK\bin\Release\InstabugAndroidSDK.pdb
+D:\Instabug\instabug-xamarin\InstabugAndroidSDK\InstabugAndroidSDK\bin\Release\Xamarin.Android.Support.v4.dll
+D:\Instabug\instabug-xamarin\InstabugAndroidSDK\InstabugAndroidSDK\obj\Release\InstabugAndroidSDK.dll
+D:\Instabug\instabug-xamarin\InstabugAndroidSDK\InstabugAndroidSDK\obj\Release\InstabugAndroidSDK.pdb
