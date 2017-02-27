@@ -1,0 +1,21 @@
+%YAML 1.2
+---
+libraries: 
+  ios-unified: ../lib/ios/Awesome.dll
+icons: 
+  - instabug-sdk_128x128.png
+  - instabug-sdk_512x512.png
+version: "1.0"
+details: Details.md
+getting-started: GettingStarted.md
+samples: 
+  iOS Sample: ../samples/AwesomeSample/AwesomeSample.sln
+id: instabug-sdk
+summary: In-App Conversations and Bug Reporting for Mobile Apps
+publisher-url: instabug.com
+license: License.md
+screenshots: 
+  - screenshots/screenshot1.png
+name: Instabug-SDK
+publisher: Instabug
+...
