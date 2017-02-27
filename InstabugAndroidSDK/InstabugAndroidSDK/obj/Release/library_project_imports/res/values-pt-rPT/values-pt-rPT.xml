@@ -4,27 +4,29 @@
     <string name="instabug_err_invalid_comment">Introduza um comentário válido</string>
     <string name="instabug_err_invalid_email">Introduza um e-mail válido</string>
     <string name="instabug_external_storage_permission_denied">Permissão de armazenamento recusada</string>
+    <string name="instabug_str_action_submit">Enviar</string>
     <string name="instabug_str_add_photo">Selecione a Imagem na Galeria</string>
+    <string name="instabug_str_alert_message_max_attachments">Remova um anexo existente para adicionar um novo.</string>
+    <string name="instabug_str_alert_title_max_attachments">Não é possível adicionar anexo</string>
     <string name="instabug_str_annotate">Desenhar na captura de ecrã</string>
     <string name="instabug_str_audio">Áudio</string>
     <string name="instabug_str_bug_comment_hint">Qual foi o problema?</string>
     <string name="instabug_str_bug_header">Reportar um Problema</string>
     <string name="instabug_str_conversations">Conversas</string>
+    <string name="instabug_str_dialog_message_preparing">Preparando…</string>
     <string name="instabug_str_email_hint">Introduza o seu e-mail</string>
-    <string name="instabug_str_empty" translatable="false"/>
+    <string name="instabug_str_error_survey_without_answer">A pesquisa não pode ser enviada sem uma resposta.</string>
     <string name="instabug_str_feedback_comment_hint">Como poderemos melhorar?</string>
     <string name="instabug_str_feedback_header">Sugerir um Melhoramento</string>
+    <string name="instabug_str_hint_enter_your_answer">Introduza a sua resposta</string>
     <string name="instabug_str_hold_to_record">Mantenha Premido para Gravar</string>
     <string name="instabug_str_image">Imagem</string>
     <string name="instabug_str_image_loading_error">Não foi possível carregar a imagem</string>
-    <string name="instabug_str_instabug" translatable="false">Instabug</string>
     <string name="instabug_str_invocation_dialog_title">Como o podemos ajudar?</string>
     <string name="instabug_str_messages">Mensagens</string>
     <string name="instabug_str_notification_title">"Equipa %1$s"</string>
     <string name="instabug_str_notifications_body">%1$d novas mensagens de %2$s e outros</string>
-    <string name="instabug_str_pb" translatable="false">Powered by </string>
     <string name="instabug_str_please_wait">Aguarde um momento</string>
-    <string name="instabug_str_plus" translatable="false">+</string>
     <string name="instabug_str_record_audio">Gravar uma Nota de Voz</string>
     <string name="instabug_str_record_video">Gravar o ecrã</string>
     <string name="instabug_str_release_stop_record">Liberte para Anexar</string>
@@ -39,4 +41,5 @@
     <string name="instabug_str_video_encoder_busy">O Codificador de Vídeo está ocupado a codificar outro vídeo</string>
     <string name="instabug_str_video_encoding_error">Memória insuficiente para codificar vídeo</string>
     <string name="instabug_str_video_player">Leitor de Vídeo</string>
+    <string name="instabug_str_video_recording_hint">Pressione registro quando estiver pronto</string>
 </resources>

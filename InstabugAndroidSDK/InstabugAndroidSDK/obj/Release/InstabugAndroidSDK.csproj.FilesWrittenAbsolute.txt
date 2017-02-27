@@ -1,0 +1,11 @@
+/Users/mesbah/Instabug/instabug-xamarin/InstabugAndroidSDK/InstabugAndroidSDK/obj/Release/MonoAndroid,Version=v7.0.AssemblyAttribute.cs
+/Users/mesbah/Instabug/instabug-xamarin/InstabugAndroidSDK/InstabugAndroidSDK/obj/Release/InstabugAndroidSDK.Jars.mimecraft-1.1.1.jar
+/Users/mesbah/Instabug/instabug-xamarin/InstabugAndroidSDK/InstabugAndroidSDK/obj/Release/InstabugAndroidSDK.Jars.rxandroid-1.1.0.jar
+/Users/mesbah/Instabug/instabug-xamarin/InstabugAndroidSDK/InstabugAndroidSDK/obj/Release/InstabugAndroidSDK.Jars.rxjava-1.1.1.jar
+/Users/mesbah/Instabug/instabug-xamarin/InstabugAndroidSDK/InstabugAndroidSDK/obj/Release/InstabugAndroidSDK.Jars.jcodec-0.1.9.jar
+/Users/mesbah/Instabug/instabug-xamarin/InstabugAndroidSDK/InstabugAndroidSDK/obj/Release/InstabugAndroidSDK.obj.Release.__AndroidLibraryProjects__.zip
+/Users/mesbah/Instabug/instabug-xamarin/InstabugAndroidSDK/InstabugAndroidSDK/bin/Release/InstabugAndroidSDK.dll.mdb
+/Users/mesbah/Instabug/instabug-xamarin/InstabugAndroidSDK/InstabugAndroidSDK/bin/Release/InstabugAndroidSDK.dll
+/Users/mesbah/Instabug/instabug-xamarin/InstabugAndroidSDK/InstabugAndroidSDK/obj/Release/InstabugAndroidSDK.dll
+/Users/mesbah/Instabug/instabug-xamarin/InstabugAndroidSDK/InstabugAndroidSDK/obj/Release/InstabugAndroidSDK.dll.mdb
+/Users/mesbah/Instabug/instabug-xamarin/InstabugAndroidSDK/InstabugAndroidSDK/bin/Release/Xamarin.Android.Support.v4.dll

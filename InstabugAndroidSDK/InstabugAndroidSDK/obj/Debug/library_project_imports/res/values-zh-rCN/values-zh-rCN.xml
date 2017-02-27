@@ -4,27 +4,29 @@
     <string name="instabug_err_invalid_comment">请输入有效的评论</string>
     <string name="instabug_err_invalid_email">请输入有效的电子邮件地址</string>
     <string name="instabug_external_storage_permission_denied">无存储权限</string>
+    <string name="instabug_str_action_submit">提交</string>
     <string name="instabug_str_add_photo">从图库中选择图像</string>
+    <string name="instabug_str_alert_message_max_attachments">删除现有附件以添加新附件。</string>
+    <string name="instabug_str_alert_title_max_attachments">无法添加附件</string>
     <string name="instabug_str_annotate">在截屏上画画</string>
     <string name="instabug_str_audio">音频</string>
     <string name="instabug_str_bug_comment_hint">出了什么错？</string>
     <string name="instabug_str_bug_header">报告问题</string>
     <string name="instabug_str_conversations">对话</string>
+    <string name="instabug_str_dialog_message_preparing">准备…</string>
     <string name="instabug_str_email_hint">输入电子邮件地址</string>
-    <string name="instabug_str_empty" translatable="false"/>
+    <string name="instabug_str_error_survey_without_answer">无法提交调查问卷。</string>
     <string name="instabug_str_feedback_comment_hint">我们如何改进？</string>
     <string name="instabug_str_feedback_header">改进建议</string>
+    <string name="instabug_str_hint_enter_your_answer">输入您的答案</string>
     <string name="instabug_str_hold_to_record">按住即可录音</string>
     <string name="instabug_str_image">图像</string>
     <string name="instabug_str_image_loading_error">无法加载图像</string>
-    <string name="instabug_str_instabug" translatable="false">Instabug</string>
     <string name="instabug_str_invocation_dialog_title">有什么可以帮您的吗？</string>
     <string name="instabug_str_messages">消息</string>
     <string name="instabug_str_notification_title">"%1$s 团队"</string>
     <string name="instabug_str_notifications_body">%1$d 条新消息，来自 %2$s 和其他人</string>
-    <string name="instabug_str_pb" translatable="false">Powered by </string>
     <string name="instabug_str_please_wait">请稍候</string>
-    <string name="instabug_str_plus" translatable="false">+</string>
     <string name="instabug_str_record_audio">录制语音注释</string>
     <string name="instabug_str_record_video">录制屏幕</string>
     <string name="instabug_str_release_stop_record">松开即可添加附件</string>
@@ -39,4 +41,5 @@
     <string name="instabug_str_video_encoder_busy">视频解码器正在解码其他视频</string>
     <string name="instabug_str_video_encoding_error">内存太少，无法对视频进行编码</string>
     <string name="instabug_str_video_player">视频播放器</string>
+    <string name="instabug_str_video_recording_hint">准备好后，按记录</string>
 </resources>

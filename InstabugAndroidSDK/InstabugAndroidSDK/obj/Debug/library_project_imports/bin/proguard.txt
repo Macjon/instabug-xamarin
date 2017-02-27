@@ -17,48 +17,65 @@
 #}
 -dontwarn rx.internal.util.unsafe.**
 
+-dontwarn sun.misc.**
+
+-keepclassmembers class rx.internal.util.unsafe.*ArrayQueue*Field* {
+   long producerIndex;
+   long consumerIndex;
+}
+
+-keepclassmembers class rx.internal.util.unsafe.BaseLinkedQueueProducerNodeRef {
+    rx.internal.util.atomic.LinkedQueueNode producerNode;
+}
+
+-keepclassmembers class rx.internal.util.unsafe.BaseLinkedQueueConsumerNodeRef {
+    rx.internal.util.atomic.LinkedQueueNode consumerNode;
+}
+
 -keepattributes InnerClasses
 -keepattributes Exceptions,Signature,Deprecated,SourceFile,LineNumberTable,*Annotation*
 -keepattributes EnclosingMethod
 
--keep public class **Instabug {*;}
--keep public class **Instabug$Builder {*;}
--keep public class **InstabugLocale {*;}
--keep public class **InstabugLogger {*;}
--keep public class **InstabugSDKLogger {*;}
--keep public class **InstabugTrackingDelegate {*;}
 
--keep public class **OnSdkDismissedCallback {*;}
--keep public class **OnSdkDismissedCallback$DismissType {*;}
--keep public class **.model.Bug$Type {*;}
--keep public class **OnSdkInvokedCallback {*;}
+-keep public class **InstabugTrackingDelegate {*;}
 
 -keep public class **Feature {*;}
 -keep public class **Feature$State {*;}
+-keep public class **Instabug {*;}
+-keep public class **Instabug$Builder {*;}
+-keep public class **InstabugColorTheme {*;}
+-keep public class **InstabugCustomTextPlaceHolder {*;}
+-keep public class **InstabugCustomTextPlaceHolder$Key {*;}
+-keep public class **OnSdkDismissedCallback {*;}
+-keep public class **OnSdkDismissedCallback$DismissType {*;}
+-keep public class **OnSdkInvokedCallback {*;}
 
--keep class **CapturableView {*;}
--keep class **SnapshotPreparationCallback {*;}
-
+-keep public class **.bugreporting.model.ReportCategory {*;}
+-keep public class **.bugreporting.model.Bug$Type {*;}
+-keep public class **.internal.layer.CapturableView {*;}
+-keep public class **.internal.layer.CapturableView$SnapshotPreparationCallback {*;}
+-keep public class **.internal.module.InstabugLocale {*;}
 -keep public class **.invocation.InstabugInvocationEvent {*;}
 -keep public class **.invocation.InstabugInvocationMode {*;}
+-keep public class **.invocation.util.InstabugFloatingButtonEdge {*;}
+-keep public class **.logging.InstabugLog {*;}
+-keep public class **.logging.InstabugNetworkLog {*;}
+-keep public class **.model.NetworkLog {*;}
+-keep public class **.user.UserEventParam {*;}
+
+
 -keep public class **IBGInvocationMode {*;}
 -keep public class **IBGInvocationEvent {*;}
-
--keep public class **.invocation.util.InstabugFloatingButtonEdge {*;}
 -keep public class **IBGFloatingButtonEdge {*;}
-
--keep public class **InstabugColorTheme {*;}
 -keep public class **IBGColorTheme {*;}
-
--keep public class **AbstractMigration {*;}
--keep public class **LastContactedMigration {*;}
+-keep public class **IBGCustomTextPlaceHolder {*;}
+-keep public class **IBGCustomTextPlaceHolder$Key {*;}
+-keep public class **.model.BugCategory {*;}
 
 -keep public class com.instabug.library.R {*;}
 -keep public class com.instabug.library.R.menu {*;}
 
--keep public class **InstabugCustomTextPlaceHolder {*;}
--keep public class **InstabugCustomTextPlaceHolder$Key {*;}
+-keep public class org.jcodec.** {*;}
 
--keep public class **IBGCustomTextPlaceHolder {*;}
--keep public class **IBGCustomTextPlaceHolder$Key {*;}
+
 

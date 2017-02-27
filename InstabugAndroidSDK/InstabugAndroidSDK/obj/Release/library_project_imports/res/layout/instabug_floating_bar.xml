@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/instabug_floating_bar_container"
-    style="@style/InstabugBottomBarContainer">
+    style="@style/InstabugBottomBarContainer"
+    android:orientation="vertical">
 
     <ImageButton
         android:id="@+id/instabug_btn_floating_bar"
@@ -11,4 +12,4 @@
         android:layout_gravity="center"
         android:padding="16dp"
         android:scaleType="center" />
-</FrameLayout>
+</LinearLayout>

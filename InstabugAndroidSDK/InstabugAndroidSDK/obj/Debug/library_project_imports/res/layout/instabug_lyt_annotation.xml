@@ -4,7 +4,7 @@
 
     <LinearLayout style="@style/InstabugAnnotationContainer">
 
-        <include layout="@layout/instabug_lyt_annotation_view" />
+        <include layout="@layout/instabug_annotation_view" />
     </LinearLayout>
 
 </LinearLayout>

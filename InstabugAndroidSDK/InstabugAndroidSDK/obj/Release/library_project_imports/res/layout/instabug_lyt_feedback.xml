@@ -2,13 +2,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     style="@style/InstabugBaseContainer">
 
-    <include
-        android:id="@+id/toolbar_feedback"
-        layout="@layout/instabug_lyt_toolbar" />
-
     <LinearLayout
         style="@style/InstabugBaseContainer"
-        android:layout_below="@id/toolbar_feedback"
+        android:layout_alignParentTop="true"
         android:orientation="vertical">
 
         <ScrollView
@@ -38,10 +34,9 @@
                     android:id="@+id/instabug_edit_text_message"
                     style="@style/InstabugEditTextStyle"
                     android:layout_height="wrap_content"
-                    android:inputType="textAutoCorrect|textMultiLine"
+                    android:inputType="textAutoCorrect|textMultiLine|textCapSentences"
                     android:minLines="3"
                     tools:text="Hello\nOther\nWorld" />
-
 
                 <LinearLayout
                     android:id="@+id/instabug_lyt_attachments_container"
@@ -58,12 +53,11 @@
                     android:weightSum="4" />
 
             </LinearLayout>
+
         </ScrollView>
+
+        <include layout="@layout/instabug_attachments_action_bar" />
 
     </LinearLayout>
 
-    <FrameLayout
-        android:id="@+id/instabug_bottom_sheet_container"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
 </RelativeLayout>

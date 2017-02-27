@@ -1,20 +1,18 @@
 ﻿<Properties StartupConfiguration="{7ADC4870-F76E-4D0D-9989-354FB4C62CAB}|Default">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="InstabugAndroidSDK/Transforms/Metadata.xml">
+    <Files>
+      <File FileName="InstabugAndroidSDK/packages.config" Line="1" Column="1" />
+      <File FileName="InstabugAndroidSDK/Transforms/EnumFields.xml" Line="1" Column="1" />
+      <File FileName="InstabugAndroidSDK/Transforms/EnumMethods.xml" Line="1" Column="1" />
+      <File FileName="InstabugAndroidSDK/Transforms/Metadata.xml" Line="137" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.InstabugAndroidSDK PreferredExecutionTarget="Android.CB5A24CQZ8" />
-  <MonoDevelop.Ide.Workbench>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="InstabugAndroidSDK" expanded="True">
-            <Node name="InstabugAndroidSDK" expanded="True" selected="True" />
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.InstabugAndroidSDK PreferredExecutionTarget="Android.Android_Accelerated_x86" />
   <AuthorInfo Name="Instabug" Email="mmesbah@instabug.com" Copyright="Instabug " Company="Instabug" Trademark="Instabug" />
+  <MultiItemStartupConfigurations />
 </Properties>
