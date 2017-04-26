@@ -1,0 +1,5 @@
+/Users/khaledElMorabea/Projects/iOSBindingDynamicLib/iOSBindingDynamicLib/obj/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/khaledElMorabea/Projects/iOSBindingDynamicLib/iOSBindingDynamicLib/bin/Debug/iOSBindingDynamicLib.pdb
+/Users/khaledElMorabea/Projects/iOSBindingDynamicLib/iOSBindingDynamicLib/bin/Debug/iOSBindingDynamicLib.dll
+/Users/khaledElMorabea/Projects/iOSBindingDynamicLib/iOSBindingDynamicLib/obj/Debug/iOSBindingDynamicLib.dll
+/Users/khaledElMorabea/Projects/iOSBindingDynamicLib/iOSBindingDynamicLib/obj/Debug/iOSBindingDynamicLib.pdb
