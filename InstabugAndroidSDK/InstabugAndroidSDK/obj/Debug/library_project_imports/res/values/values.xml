@@ -118,7 +118,6 @@
     <string name="instabug_str_bug_comment_hint">What went wrong?</string>
     <string name="instabug_str_bug_header">Report a Problem</string>
     <string name="instabug_str_cancel">Cancel</string>
-    <string name="instabug_str_capture">Capture</string>
     <string name="instabug_str_conversations">Conversations</string>
     <string name="instabug_str_dialog_message_preparing">Preparing…</string>
     <string name="instabug_str_email_hint">Enter your Email</string>
@@ -132,7 +131,6 @@
     <string name="instabug_str_image_loading_error">Couldn\'t load image</string>
     <string name="instabug_str_invocation_dialog_title">How can we help you?</string>
     <string name="instabug_str_messages">Messages</string>
-    <string name="instabug_str_next">Next</string>
     <string name="instabug_str_notification_title">"%1$s Team"</string>
     <string name="instabug_str_notifications_body">%1$d new messages from %2$s and others</string>
     <string name="instabug_str_ok">OK</string>

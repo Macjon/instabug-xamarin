@@ -1,5 +1,12 @@
-D:\Instabug\instabug-xamarin\InstabugAndroidSDK\InstabugAndroidSDK\bin\Release\InstabugAndroidSDK.dll
-D:\Instabug\instabug-xamarin\InstabugAndroidSDK\InstabugAndroidSDK\bin\Release\InstabugAndroidSDK.pdb
-D:\Instabug\instabug-xamarin\InstabugAndroidSDK\InstabugAndroidSDK\bin\Release\Xamarin.Android.Support.v4.dll
-D:\Instabug\instabug-xamarin\InstabugAndroidSDK\InstabugAndroidSDK\obj\Release\InstabugAndroidSDK.dll
-D:\Instabug\instabug-xamarin\InstabugAndroidSDK\InstabugAndroidSDK\obj\Release\InstabugAndroidSDK.pdb
+D:/Instabug/instabug-xamarin/InstabugAndroidSDK/InstabugAndroidSDK/bin/Release/InstabugAndroidSDK.dll
+D:/Instabug/instabug-xamarin/InstabugAndroidSDK/InstabugAndroidSDK/bin/Release/InstabugAndroidSDK.pdb
+D:/Instabug/instabug-xamarin/InstabugAndroidSDK/InstabugAndroidSDK/bin/Release/Xamarin.Android.Support.v4.dll
+D:/Instabug/instabug-xamarin/InstabugAndroidSDK/InstabugAndroidSDK/obj/Release/InstabugAndroidSDK.dll
+D:/Instabug/instabug-xamarin/InstabugAndroidSDK/InstabugAndroidSDK/obj/Release/InstabugAndroidSDK.pdb
+/Users/moustafa/Instabug/instabug-xamarin/InstabugAndroidSDK/InstabugAndroidSDK/bin/Release/InstabugAndroidSDK.dll
+/Users/moustafa/Instabug/instabug-xamarin/InstabugAndroidSDK/InstabugAndroidSDK/bin/Release/InstabugAndroidSDK.pdb
+/Users/moustafa/Instabug/instabug-xamarin/InstabugAndroidSDK/InstabugAndroidSDK/bin/Release/Xamarin.Android.Support.v4.dll
+/Users/moustafa/Instabug/instabug-xamarin/InstabugAndroidSDK/InstabugAndroidSDK/obj/Release/InstabugAndroidSDK.csprojResolveAssemblyReference.cache
+/Users/moustafa/Instabug/instabug-xamarin/InstabugAndroidSDK/InstabugAndroidSDK/obj/Release/InstabugAndroidSDK.csproj.CoreCompileInputs.cache
+/Users/moustafa/Instabug/instabug-xamarin/InstabugAndroidSDK/InstabugAndroidSDK/obj/Release/InstabugAndroidSDK.dll
+/Users/moustafa/Instabug/instabug-xamarin/InstabugAndroidSDK/InstabugAndroidSDK/obj/Release/InstabugAndroidSDK.pdb

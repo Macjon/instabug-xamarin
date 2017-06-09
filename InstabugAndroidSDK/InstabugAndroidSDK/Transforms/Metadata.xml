@@ -61,6 +61,7 @@
 	
   <remove-node path="/api/package[@name='com.instabug.library.invocation.invoker']" />
   <remove-node path="/api/package[@name='com.instabug.library.invocation']/class[@name='InvocationManager']" />
+  <remove-node path="/api/package[@name='com.instabug.library.invocation']/interface[@name='InvocationListener']" />
 
   <remove-node path="/api/package[@name='com.instabug.library.listener']" />
 
