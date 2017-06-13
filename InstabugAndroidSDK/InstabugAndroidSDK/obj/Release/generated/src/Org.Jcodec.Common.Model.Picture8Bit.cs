@@ -25,36 +25,6 @@ namespace Org.Jcodec.Common.Model {
 
 		protected Picture8Bit (IntPtr javaReference, JniHandleOwnership transfer) : base (javaReference, transfer) {}
 
-		static IntPtr id_ctor_Lorg_jcodec_common_model_Picture8Bit_;
-		// Metadata.xml XPath constructor reference: path="/api/package[@name='org.jcodec.common.model']/class[@name='Picture8Bit']/constructor[@name='Picture8Bit' and count(parameter)=1 and parameter[1][@type='org.jcodec.common.model.Picture8Bit']]"
-		[Register (".ctor", "(Lorg/jcodec/common/model/Picture8Bit;)V", "")]
-		public unsafe Picture8Bit (global::Org.Jcodec.Common.Model.Picture8Bit p0)
-			: base (IntPtr.Zero, JniHandleOwnership.DoNotTransfer)
-		{
-			if (((global::Java.Lang.Object) this).Handle != IntPtr.Zero)
-				return;
-
-			try {
-				JValue* __args = stackalloc JValue [1];
-				__args [0] = new JValue (p0);
-				if (((object) this).GetType () != typeof (Picture8Bit)) {
-					SetHandle (
-							global::Android.Runtime.JNIEnv.StartCreateInstance (((object) this).GetType (), "(Lorg/jcodec/common/model/Picture8Bit;)V", __args),
-							JniHandleOwnership.TransferLocalRef);
-					global::Android.Runtime.JNIEnv.FinishCreateInstance (((global::Java.Lang.Object) this).Handle, "(Lorg/jcodec/common/model/Picture8Bit;)V", __args);
-					return;
-				}
-
-				if (id_ctor_Lorg_jcodec_common_model_Picture8Bit_ == IntPtr.Zero)
-					id_ctor_Lorg_jcodec_common_model_Picture8Bit_ = JNIEnv.GetMethodID (class_ref, "<init>", "(Lorg/jcodec/common/model/Picture8Bit;)V");
-				SetHandle (
-						global::Android.Runtime.JNIEnv.StartCreateInstance (class_ref, id_ctor_Lorg_jcodec_common_model_Picture8Bit_, __args),
-						JniHandleOwnership.TransferLocalRef);
-				JNIEnv.FinishCreateInstance (((global::Java.Lang.Object) this).Handle, class_ref, id_ctor_Lorg_jcodec_common_model_Picture8Bit_, __args);
-			} finally {
-			}
-		}
-
 		static IntPtr id_ctor_IIarrayBarrayBarrayB;
 		// Metadata.xml XPath constructor reference: path="/api/package[@name='org.jcodec.common.model']/class[@name='Picture8Bit']/constructor[@name='Picture8Bit' and count(parameter)=5 and parameter[1][@type='int'] and parameter[2][@type='int'] and parameter[3][@type='byte[]'] and parameter[4][@type='byte[]'] and parameter[5][@type='byte[]']]"
 		[Register (".ctor", "(II[B[B[B)V", "")]
@@ -101,6 +71,36 @@ namespace Org.Jcodec.Common.Model {
 					JNIEnv.CopyArray (native_p4, p4);
 					JNIEnv.DeleteLocalRef (native_p4);
 				}
+			}
+		}
+
+		static IntPtr id_ctor_Lorg_jcodec_common_model_Picture8Bit_;
+		// Metadata.xml XPath constructor reference: path="/api/package[@name='org.jcodec.common.model']/class[@name='Picture8Bit']/constructor[@name='Picture8Bit' and count(parameter)=1 and parameter[1][@type='org.jcodec.common.model.Picture8Bit']]"
+		[Register (".ctor", "(Lorg/jcodec/common/model/Picture8Bit;)V", "")]
+		public unsafe Picture8Bit (global::Org.Jcodec.Common.Model.Picture8Bit p0)
+			: base (IntPtr.Zero, JniHandleOwnership.DoNotTransfer)
+		{
+			if (((global::Java.Lang.Object) this).Handle != IntPtr.Zero)
+				return;
+
+			try {
+				JValue* __args = stackalloc JValue [1];
+				__args [0] = new JValue (p0);
+				if (((object) this).GetType () != typeof (Picture8Bit)) {
+					SetHandle (
+							global::Android.Runtime.JNIEnv.StartCreateInstance (((object) this).GetType (), "(Lorg/jcodec/common/model/Picture8Bit;)V", __args),
+							JniHandleOwnership.TransferLocalRef);
+					global::Android.Runtime.JNIEnv.FinishCreateInstance (((global::Java.Lang.Object) this).Handle, "(Lorg/jcodec/common/model/Picture8Bit;)V", __args);
+					return;
+				}
+
+				if (id_ctor_Lorg_jcodec_common_model_Picture8Bit_ == IntPtr.Zero)
+					id_ctor_Lorg_jcodec_common_model_Picture8Bit_ = JNIEnv.GetMethodID (class_ref, "<init>", "(Lorg/jcodec/common/model/Picture8Bit;)V");
+				SetHandle (
+						global::Android.Runtime.JNIEnv.StartCreateInstance (class_ref, id_ctor_Lorg_jcodec_common_model_Picture8Bit_, __args),
+						JniHandleOwnership.TransferLocalRef);
+				JNIEnv.FinishCreateInstance (((global::Java.Lang.Object) this).Handle, class_ref, id_ctor_Lorg_jcodec_common_model_Picture8Bit_, __args);
+			} finally {
 			}
 		}
 
