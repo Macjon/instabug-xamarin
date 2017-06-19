@@ -628,6 +628,23 @@ namespace InstabugLib {
 			global::ApiDefinition.Messaging.void_objc_msgSend_bool (class_ptr, Selector.GetHandle ("setShowEmailField:"), isShowingEmailField);
 		}
 		
+		[Export ("setString:toKey:")]
+		[CompilerGenerated]
+		public static void SetString (string value, IBGString key)
+		{
+			if (value == null)
+				throw new ArgumentNullException ("value");
+			var nsvalue = NSString.CreateNative (value);
+			
+			if (IntPtr.Size == 8) {
+				global::ApiDefinition.Messaging.void_objc_msgSend_IntPtr_Int64 (class_ptr, Selector.GetHandle ("setString:toKey:"), nsvalue, (Int64)key);
+			} else {
+				global::ApiDefinition.Messaging.void_objc_msgSend_IntPtr_int (class_ptr, Selector.GetHandle ("setString:toKey:"), nsvalue, (int)key);
+			}
+			NSString.ReleaseNative (nsvalue);
+			
+		}
+		
 		[Export ("setSurveysEnabled:")]
 		[CompilerGenerated]
 		public static void SetSurveysEnabled (bool surveysEnabled)
@@ -670,23 +687,6 @@ namespace InstabugLib {
 		public static void SetUserStepsEnabled (bool isUserStepsEnabled)
 		{
 			global::ApiDefinition.Messaging.void_objc_msgSend_bool (class_ptr, Selector.GetHandle ("setUserStepsEnabled:"), isUserStepsEnabled);
-		}
-		
-		[Export ("setValue:forStringWithKey:")]
-		[CompilerGenerated]
-		public static void SetValue (string value, string key)
-		{
-			if (value == null)
-				throw new ArgumentNullException ("value");
-			if (key == null)
-				throw new ArgumentNullException ("key");
-			var nsvalue = NSString.CreateNative (value);
-			var nskey = NSString.CreateNative (key);
-			
-			global::ApiDefinition.Messaging.void_objc_msgSend_IntPtr_IntPtr (class_ptr, Selector.GetHandle ("setValue:forStringWithKey:"), nsvalue, nskey);
-			NSString.ReleaseNative (nsvalue);
-			NSString.ReleaseNative (nskey);
-			
 		}
 		
 		[Export ("setViewHierarchyEnabled:")]

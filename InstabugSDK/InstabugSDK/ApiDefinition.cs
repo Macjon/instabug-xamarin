@@ -184,10 +184,10 @@ namespace InstabugLib
 		[Export("getTags")]
 		NSArray GetTags();
 
-		// + (void)setValue:(NSString *)value forStringWithKey:(NSString *)key;
+		// + (void)setString:(NSString*)value toKey:(IBGString)key;
 		[Static]
-		[Export("setValue:forStringWithKey:")]
-		void SetValue(string value, string key);
+		[Export("setString:toKey:")]
+		void SetString(string value, IBGString key);
 
 		// + (void)setAttachmentTypesEnabledScreenShot:(BOOL)screenShot
 		//                    extraScreenShot:(BOOL)extraScreenShot
