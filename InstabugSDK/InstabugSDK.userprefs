@@ -8,17 +8,18 @@
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="InstabugSDK" expanded="True">
-            <Node name="InstabugSDK" expanded="True" selected="True">
+            <Node name="InstabugSDK" expanded="True">
               <Node name="References" expanded="True" />
               <Node name="NativeReferenceFolder" expanded="True" />
               <Node name="Properties" expanded="True" />
+              <Node name="ApiDefinition.cs" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

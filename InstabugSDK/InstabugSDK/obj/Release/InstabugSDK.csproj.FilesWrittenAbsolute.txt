@@ -1,0 +1,3 @@
+/Users/khaledElMorabea/Documents/instabug-xamarin/InstabugSDK/InstabugSDK/obj/Release/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/khaledElMorabea/Documents/instabug-xamarin/InstabugSDK/InstabugSDK/bin/Release/InstabugSDK.dll
+/Users/khaledElMorabea/Documents/instabug-xamarin/InstabugSDK/InstabugSDK/obj/Release/InstabugSDK.dll
