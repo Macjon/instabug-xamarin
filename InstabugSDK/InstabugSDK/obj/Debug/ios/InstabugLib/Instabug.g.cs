@@ -191,11 +191,11 @@ namespace InstabugLib {
 		
 		[Export ("isInstabugNotification:")]
 		[CompilerGenerated]
-		public static void IsInstabugNotification (NSDictionary notification)
+		public static bool IsInstabugNotification (NSDictionary notification)
 		{
 			if (notification == null)
 				throw new ArgumentNullException ("notification");
-			global::ApiDefinition.Messaging.void_objc_msgSend_IntPtr (class_ptr, Selector.GetHandle ("isInstabugNotification:"), notification.Handle);
+			return global::ApiDefinition.Messaging.bool_objc_msgSend_IntPtr (class_ptr, Selector.GetHandle ("isInstabugNotification:"), notification.Handle);
 		}
 		
 		[Export ("logDebug:")]
