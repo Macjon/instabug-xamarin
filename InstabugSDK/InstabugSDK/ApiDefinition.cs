@@ -257,7 +257,7 @@ namespace InstabugLib
 		// + (BOOL)isInstabugNotification:(NSDictionary *)notification;
 		[Static]
 		[Export("isInstabugNotification:")]
-		void IsInstabugNotification(NSDictionary notification);
+		bool IsInstabugNotification(NSDictionary notification);
 
 		// + (void)didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken;
 		[Static]
