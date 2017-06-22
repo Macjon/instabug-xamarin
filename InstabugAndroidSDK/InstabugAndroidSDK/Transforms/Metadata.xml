@@ -87,9 +87,7 @@
   <remove-node path="/api/package[@name='com.instabug.library.model']/class[@name='UserStep']" />
   <remove-node path="/api/package[@name='com.instabug.library.model']/class[@name='UserTrackingStep']" />
 
-  <remove-node path="/api/package[@name='com.instabug.library.network']" />
   <remove-node path="/api/package[@name='com.instabug.library.network.service']" />
-  <remove-node path="/api/package[@name='com.instabug.library.network.worker']" />	
 
   <remove-node path="/api/package[@name='com.instabug.library.screenshot']" />	
   <remove-node path="/api/package[@name='com.instabug.library.screenshot.viewinspection']" />
@@ -101,8 +99,6 @@
   <remove-node path="/api/package[@name='com.instabug.library.surveys.cache']" />
   <remove-node path="/api/package[@name='com.instabug.library.surveys.models']" />
   <remove-node path="/api/package[@name='com.instabug.library.network']" />
-  <remove-node path="/api/package[@name='com.instabug.library.ui']" />
-  <remove-node path="/api/package[@name='com.instabug.library.utils']" />
  
   <remove-node path="/api/package[@name='com.instabug.library.tracking']" /> 
 	
@@ -119,9 +115,7 @@
   <remove-node path="/api/package[@name='com.instabug.library.view.annotation.shape']" />
   <remove-node path="/api/package[@name='com.instabug.library.view.annotation.utility']" />
 	
-  <remove-node path="/api/package[@name='com.instabug.library']/class[@name='_InstabugActivity']" /> 
   <remove-node path="/api/package[@name='com.instabug.library']/class[@name='Constants']" />
-  <remove-node path="/api/package[@name='com.instabug.library']/class[@name='FragmentVisibilityChangedListener']" />
   <remove-node path="/api/package[@name='com.instabug.library']/class[@name='InstabugAddAttachmentsFragment']" /> 
   <remove-node path="/api/package[@name='com.instabug.library']/class[@name='InstabugAnnotationFragment']" />
   <remove-node path="/api/package[@name='com.instabug.library']/class[@name='InstabugAudioRecordingFragment']" />
