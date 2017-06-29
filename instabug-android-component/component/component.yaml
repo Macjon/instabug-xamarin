@@ -1,0 +1,20 @@
+%YAML 1.2
+---
+libraries: 
+  android: ../lib/android/InstabugAndroidSDK.dll
+icons: 
+  - instabug-for-android_128x128.png
+  - instabug-for-android_512x512.png
+version: 4.0.8
+details: Details.md
+getting-started: GettingStarted.md
+samples: 
+  android Sample: ../samples/android/SampleApp/SampleApp.sln
+id: instabug-for-android
+summary: In-App Feedback and Bug Reporting for Mobile Apps
+publisher-url: https://instabug.com/
+license: License.md
+screenshots:
+name: Instabug for Android
+publisher: Instabug
+...

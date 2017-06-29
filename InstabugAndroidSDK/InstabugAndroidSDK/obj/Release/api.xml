@@ -22985,6 +22985,12 @@
 </interface>
 <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="AudioFormat" static="false" visibility="public">
 <constructor deprecated="not deprecated" final="false" name="AudioFormat" static="false" type="org.jcodec.common.AudioFormat" visibility="public">
+<parameter name="p0" type="org.jcodec.common.AudioFormat">
+</parameter>
+<parameter name="p1" type="int">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="AudioFormat" static="false" type="org.jcodec.common.AudioFormat" visibility="public">
 <parameter name="p0" type="int">
 </parameter>
 <parameter name="p1" type="int">
@@ -22998,12 +23004,6 @@
 </constructor>
 <constructor deprecated="not deprecated" final="false" name="AudioFormat" static="false" type="org.jcodec.common.AudioFormat" visibility="public">
 <parameter name="p0" type="org.jcodec.common.AudioFormat">
-</parameter>
-</constructor>
-<constructor deprecated="not deprecated" final="false" name="AudioFormat" static="false" type="org.jcodec.common.AudioFormat" visibility="public">
-<parameter name="p0" type="org.jcodec.common.AudioFormat">
-</parameter>
-<parameter name="p1" type="int">
 </parameter>
 </constructor>
 <method abstract="false" deprecated="not deprecated" final="false" name="MONO_S16_BE" native="false" return="org.jcodec.common.AudioFormat" static="true" synchronized="false" visibility="public">

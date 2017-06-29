@@ -1,0 +1,1 @@
+We support bug reporting, in-app feedback, in-app chat and in-app surveys. In addition there is a bunch of supporting features as tagging reports, rule, filtering, view hierarchy, logging and user steps. For more details about how to use Instabug you can visit our [**Documentation Page**](http://docs.instabug.com/docs).
