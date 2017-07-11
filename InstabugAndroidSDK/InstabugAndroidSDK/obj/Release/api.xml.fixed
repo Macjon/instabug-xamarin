@@ -3312,11 +3312,11 @@
       <implements name="org.jcodec.api.specific.ContainerAdaptor" name-generic-aware="org.jcodec.api.specific.ContainerAdaptor">
       </implements>
       <constructor deprecated="not deprecated" final="false" name="AVCMP4Adaptor" static="false" type="org.jcodec.api.specific.AVCMP4Adaptor" visibility="public">
-        <parameter name="p0" type="org.jcodec.containers.mp4.boxes.SampleEntry[]">
+        <parameter name="p0" type="org.jcodec.containers.mp4.demuxer.AbstractMP4DemuxerTrack">
         </parameter>
       </constructor>
       <constructor deprecated="not deprecated" final="false" name="AVCMP4Adaptor" static="false" type="org.jcodec.api.specific.AVCMP4Adaptor" visibility="public">
-        <parameter name="p0" type="org.jcodec.containers.mp4.demuxer.AbstractMP4DemuxerTrack">
+        <parameter name="p0" type="org.jcodec.containers.mp4.boxes.SampleEntry[]">
         </parameter>
       </constructor>
       <method abstract="false" deprecated="not deprecated" final="false" name="allocatePicture" native="false" return="int[][]" static="false" synchronized="false" visibility="public">

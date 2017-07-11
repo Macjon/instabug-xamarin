@@ -13436,11 +13436,11 @@
 <implements name="org.jcodec.api.specific.ContainerAdaptor" name-generic-aware="org.jcodec.api.specific.ContainerAdaptor">
 </implements>
 <constructor deprecated="not deprecated" final="false" name="AVCMP4Adaptor" static="false" type="org.jcodec.api.specific.AVCMP4Adaptor" visibility="public">
-<parameter name="p0" type="org.jcodec.containers.mp4.boxes.SampleEntry[]">
+<parameter name="p0" type="org.jcodec.containers.mp4.demuxer.AbstractMP4DemuxerTrack">
 </parameter>
 </constructor>
 <constructor deprecated="not deprecated" final="false" name="AVCMP4Adaptor" static="false" type="org.jcodec.api.specific.AVCMP4Adaptor" visibility="public">
-<parameter name="p0" type="org.jcodec.containers.mp4.demuxer.AbstractMP4DemuxerTrack">
+<parameter name="p0" type="org.jcodec.containers.mp4.boxes.SampleEntry[]">
 </parameter>
 </constructor>
 <method abstract="false" deprecated="not deprecated" final="false" name="allocatePicture" native="false" return="int[][]" static="false" synchronized="false" visibility="public">
@@ -22985,12 +22985,6 @@
 </interface>
 <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="AudioFormat" static="false" visibility="public">
 <constructor deprecated="not deprecated" final="false" name="AudioFormat" static="false" type="org.jcodec.common.AudioFormat" visibility="public">
-<parameter name="p0" type="org.jcodec.common.AudioFormat">
-</parameter>
-<parameter name="p1" type="int">
-</parameter>
-</constructor>
-<constructor deprecated="not deprecated" final="false" name="AudioFormat" static="false" type="org.jcodec.common.AudioFormat" visibility="public">
 <parameter name="p0" type="int">
 </parameter>
 <parameter name="p1" type="int">
@@ -23004,6 +22998,12 @@
 </constructor>
 <constructor deprecated="not deprecated" final="false" name="AudioFormat" static="false" type="org.jcodec.common.AudioFormat" visibility="public">
 <parameter name="p0" type="org.jcodec.common.AudioFormat">
+</parameter>
+</constructor>
+<constructor deprecated="not deprecated" final="false" name="AudioFormat" static="false" type="org.jcodec.common.AudioFormat" visibility="public">
+<parameter name="p0" type="org.jcodec.common.AudioFormat">
+</parameter>
+<parameter name="p1" type="int">
 </parameter>
 </constructor>
 <method abstract="false" deprecated="not deprecated" final="false" name="MONO_S16_BE" native="false" return="org.jcodec.common.AudioFormat" static="true" synchronized="false" visibility="public">

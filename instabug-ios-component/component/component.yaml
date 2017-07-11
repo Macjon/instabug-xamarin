@@ -1,11 +1,11 @@
 %YAML 1.2
 ---
 libraries: 
-  ios: ../lib/ios/InstabugSDK.dll
+  ios-unified: ../lib/ios/InstabugSDK.dll
 icons: 
   - instabug-for-ios_128x128.png
   - instabug-for-ios_512x512.png
-version: 7.2.8
+version: 7.2.9
 details: Details.md
 getting-started: GettingStarted.md
 samples: 

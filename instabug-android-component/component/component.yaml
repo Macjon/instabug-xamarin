@@ -5,7 +5,7 @@ libraries:
 icons: 
   - instabug-for-android_128x128.png
   - instabug-for-android_512x512.png
-version: 4.0.8
+version: 4.0.9
 details: Details.md
 getting-started: GettingStarted.md
 samples: 
