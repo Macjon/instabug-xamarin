@@ -1,0 +1,364 @@
+<api>
+  <package name="com.instabug.survey">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="true" name="BuildConfig" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="BuildConfig" static="false" type="com.instabug.survey.BuildConfig" visibility="public">
+      </constructor>
+      <field deprecated="not deprecated" final="true" name="APPLICATION_ID" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;com.instabug.survey&quot;" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="BUILD_TYPE" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;release&quot;" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="DEBUG" static="true" transient="false" type="boolean" type-generic-aware="boolean" value="false" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="FLAVOR" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;&quot;" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="VERSION_CODE" static="true" transient="false" type="int" type-generic-aware="int" value="1" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="VERSION_NAME" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;1.0&quot;" visibility="public" volatile="false">
+      </field>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="InstabugSurvey" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="InstabugSurvey" static="false" type="com.instabug.survey.InstabugSurvey" visibility="public">
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="hasValidSurveys" native="false" return="boolean" static="true" synchronized="false" visibility="public">
+        <exception name="IllegalStateException" type="java.lang.IllegalStateException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setAfterShowingSurveyRunnable" native="false" return="void" static="true" synchronized="false" visibility="public">
+        <parameter name="afterShowingSurveyRunnable" type="java.lang.Runnable">
+        </parameter>
+        <exception name="IllegalStateException" type="java.lang.IllegalStateException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setPreShowingSurveyRunnable" native="false" return="void" static="true" synchronized="false" visibility="public">
+        <parameter name="preShowingSurveyRunnable" type="java.lang.Runnable">
+        </parameter>
+        <exception name="IllegalStateException" type="java.lang.IllegalStateException">
+        </exception>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setSurveysAutoShowing" native="false" return="void" static="true" synchronized="false" visibility="public">
+        <parameter name="isSurveysAutoShowing" type="boolean">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="showValidSurvey" native="false" return="boolean" static="true" synchronized="false" visibility="public">
+        <exception name="IllegalStateException" type="java.lang.IllegalStateException">
+        </exception>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="SurveyPlugin.2" static="true" visibility="">
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="SurveysManager" static="false" visibility="public">
+      <implements name="com.instabug.survey.network.SurveysFetcher.Callback" name-generic-aware="com.instabug.survey.network.SurveysFetcher.Callback">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getInstance" native="false" return="com.instabug.survey.SurveysManager" static="true" synchronized="false" visibility="public">
+        <parameter name="context" type="android.content.Context">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="hasValidSurveys" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onFetchingFailed" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="error" type="java.lang.Throwable">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setSurveyDialogShowing" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="surveyDialogShowing" type="boolean">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="showValidSurvey" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="startFetching" native="false" return="void" static="false" synchronized="false" visibility="public">
+      </method>
+    </class>
+  </package>
+  <package name="com.instabug.survey.analytics">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="SurveyEventLogger" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="SurveyEventLogger" static="false" type="com.instabug.survey.analytics.SurveyEventLogger" visibility="public">
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="logSurveyDismissing" native="false" return="void" static="true" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="logSurveyShowing" native="false" return="void" static="true" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="logUIClickingEvent" native="false" return="void" static="true" synchronized="false" visibility="public">
+        <parameter name="context" type="android.content.Context">
+        </parameter>
+        <parameter name="view" type="android.view.View">
+        </parameter>
+        <parameter name="parentTag" type="java.lang.String">
+        </parameter>
+      </method>
+    </class>
+  </package>
+  <package name="com.instabug.survey.cache">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="SurveysCacheManager" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="SurveysCacheManager" static="false" type="com.instabug.survey.cache.SurveysCacheManager" visibility="public">
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="saveCacheToDisk" native="false" return="void" static="true" synchronized="false" visibility="public">
+      </method>
+      <field deprecated="not deprecated" final="true" name="SURVEYS_DISK_CACHE_FILE_NAME" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;/surveys.cache&quot;" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="SURVEYS_DISK_CACHE_KEY" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;surveys_disk_cache&quot;" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="SURVEYS_MEMORY_CACHE_KEY" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;surveys_memory_cache&quot;" visibility="public" volatile="false">
+      </field>
+    </class>
+  </package>
+  <package name="com.instabug.survey.models">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Enum" extends-generic-aware="java.lang.Enum&lt;com.instabug.survey.models.Question.Type&gt;" final="true" name="Question.Type" static="true" visibility="public">
+      <method abstract="false" deprecated="not deprecated" final="false" name="toInt" native="false" return="int" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="valueOf" native="false" return="com.instabug.survey.models.Question.Type" static="true" synchronized="false" visibility="public">
+        <parameter name="name" type="java.lang.String">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="values" native="false" return="com.instabug.survey.models.Question.Type[]" static="true" synchronized="false" visibility="public">
+      </method>
+      <field deprecated="not deprecated" final="true" name="MCQ" static="true" transient="false" type="com.instabug.survey.models.Question.Type" type-generic-aware="com.instabug.survey.models.Question.Type" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="NOT_AVAILABLE" static="true" transient="false" type="com.instabug.survey.models.Question.Type" type-generic-aware="com.instabug.survey.models.Question.Type" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="TEXT" static="true" transient="false" type="com.instabug.survey.models.Question.Type" type-generic-aware="com.instabug.survey.models.Question.Type" visibility="public" volatile="false">
+      </field>
+    </class>
+  </package>
+  <package name="com.instabug.survey.network">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="SurveysFetcher" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="SurveysFetcher" static="false" type="com.instabug.survey.network.SurveysFetcher" visibility="public">
+        <parameter name="callback" type="com.instabug.survey.network.SurveysFetcher.Callback">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="fetch" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="context" type="android.content.Context">
+        </parameter>
+        <exception name="IOException" type="java.io.IOException">
+        </exception>
+        <exception name="JSONException" type="org.json.JSONException">
+        </exception>
+      </method>
+    </class>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="SurveysFetcher.Callback" static="true" visibility="public">
+      <method abstract="true" deprecated="not deprecated" final="false" name="onFetchingFailed" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="p0" type="java.lang.Throwable">
+        </parameter>
+      </method>
+    </interface>
+  </package>
+  <package name="com.instabug.survey.network.service">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="SurveysService" static="false" visibility="public">
+      <method abstract="false" deprecated="not deprecated" final="false" name="getInstance" native="false" return="com.instabug.survey.network.service.SurveysService" static="true" synchronized="false" visibility="public">
+      </method>
+    </class>
+  </package>
+  <package name="com.instabug.survey.network.util">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="SubmittingSurveysUtil" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="SubmittingSurveysUtil" static="false" type="com.instabug.survey.network.util.SubmittingSurveysUtil" visibility="public">
+      </constructor>
+    </class>
+  </package>
+  <package name="com.instabug.survey.settings">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="PerSessionSettings" static="false" visibility="public">
+      <method abstract="false" deprecated="not deprecated" final="false" name="getAfterShowingSurveyRunnable" native="false" return="java.lang.Runnable" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getInstance" native="false" return="com.instabug.survey.settings.PerSessionSettings" static="true" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getMethodsLog" native="false" return="java.lang.StringBuilder" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getPreShowingSurveyRunnable" native="false" return="java.lang.Runnable" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="init" native="false" return="void" static="true" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="isSurveysAutoShowing" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setAfterShowingSurveyRunnable" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="afterShowingSurveyRunnable" type="java.lang.Runnable">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setPreShowingSurveyRunnable" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="preShowingSurveyRunnable" type="java.lang.Runnable">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setSurveysAutoShowing" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="isSurveysAutoShowing" type="boolean">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="PersistableSettings" static="false" visibility="public">
+      <method abstract="false" deprecated="not deprecated" final="false" name="getInstance" native="false" return="com.instabug.survey.settings.PersistableSettings" static="true" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getLastFetchedAt" native="false" return="long" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getLastSurveyTime" native="false" return="long" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="init" native="false" return="void" static="true" synchronized="false" visibility="public">
+        <parameter name="context" type="android.content.Context">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setLastFetchedAt" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="time" type="long">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setLastSurveyTime" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="time" type="long">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="SurveysSettings" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="SurveysSettings" static="false" type="com.instabug.survey.settings.SurveysSettings" visibility="public">
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getAfterShowingSurveyRunnable" native="false" return="java.lang.Runnable" static="true" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getLastFetchedAt" native="false" return="long" static="true" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getLastSurveyTime" native="false" return="long" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="getPreShowingSurveyRunnable" native="false" return="java.lang.Runnable" static="true" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="isSurveysAutoShowing" native="false" return="boolean" static="true" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setAfterShowingSurveyRunnable" native="false" return="void" static="true" synchronized="false" visibility="public">
+        <parameter name="afterShowingSurveyRunnable" type="java.lang.Runnable">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setLastFetchedAt" native="false" return="void" static="true" synchronized="false" visibility="public">
+        <parameter name="time" type="long">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setLastSurveyTime" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="time" type="long">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setPreShowingSurveyRunnable" native="false" return="void" static="true" synchronized="false" visibility="public">
+        <parameter name="preShowingSurveyRunnable" type="java.lang.Runnable">
+        </parameter>
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setSurveysAutoShowing" native="false" return="void" static="true" synchronized="false" visibility="public">
+        <parameter name="isSurveysAutoShowing" type="boolean">
+        </parameter>
+      </method>
+      <field deprecated="not deprecated" final="true" name="CURRENT_VERSION" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;2&quot;" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="false" name="DELAY_BEFORE_SHOWING" static="true" transient="false" type="long" type-generic-aware="long" visibility="public" volatile="false">
+      </field>
+    </class>
+  </package>
+  <package name="com.instabug.survey.ui">
+    <class abstract="false" deprecated="not deprecated" extends="android.widget.ScrollView" extends-generic-aware="android.widget.ScrollView" final="false" name="InstabugScrollView" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="InstabugScrollView" static="false" type="com.instabug.survey.ui.InstabugScrollView" visibility="public">
+        <parameter name="context" type="android.content.Context">
+        </parameter>
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="InstabugScrollView" static="false" type="com.instabug.survey.ui.InstabugScrollView" visibility="public">
+        <parameter name="context" type="android.content.Context">
+        </parameter>
+        <parameter name="attrs" type="android.util.AttributeSet">
+        </parameter>
+      </constructor>
+      <constructor deprecated="not deprecated" final="false" name="InstabugScrollView" static="false" type="com.instabug.survey.ui.InstabugScrollView" visibility="public">
+        <parameter name="context" type="android.content.Context">
+        </parameter>
+        <parameter name="attrs" type="android.util.AttributeSet">
+        </parameter>
+        <parameter name="defStyle" type="int">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="setOnScrollListener" native="false" return="void" static="false" synchronized="false" visibility="public">
+        <parameter name="onScrollListener" type="com.instabug.survey.ui.InstabugScrollView.OnScrollListener">
+        </parameter>
+      </method>
+    </class>
+    <interface abstract="true" deprecated="not deprecated" final="false" name="InstabugScrollView.OnScrollListener" static="true" visibility="public">
+      <method abstract="true" deprecated="not deprecated" final="false" name="onBottomReached" native="false" return="void" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="onScrolling" native="false" return="void" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="true" deprecated="not deprecated" final="false" name="onTopReached" native="false" return="void" static="false" synchronized="false" visibility="public">
+      </method>
+    </interface>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="SurveyActivity.1" static="false" visibility="">
+      <implements name="java.lang.Runnable" name-generic-aware="java.lang.Runnable">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="run" native="false" return="void" static="false" synchronized="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="SurveyFragment.1" static="false" visibility="">
+      <implements name="android.view.View.OnKeyListener" name-generic-aware="android.view.View.OnKeyListener">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onKey" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+        <parameter name="v" type="android.view.View">
+        </parameter>
+        <parameter name="keyCode" type="int">
+        </parameter>
+        <parameter name="event" type="android.view.KeyEvent">
+        </parameter>
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="SurveyFragment.2" static="false" visibility="">
+      <implements name="android.view.ViewTreeObserver.OnGlobalLayoutListener" name-generic-aware="android.view.ViewTreeObserver.OnGlobalLayoutListener">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onGlobalLayout" native="false" return="void" static="false" synchronized="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="SurveyFragment.3" static="false" visibility="">
+      <implements name="android.view.ViewTreeObserver.OnGlobalLayoutListener" name-generic-aware="android.view.ViewTreeObserver.OnGlobalLayoutListener">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onGlobalLayout" native="false" return="void" static="false" synchronized="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="SurveyFragment.3.1" static="false" visibility="">
+      <implements name="com.instabug.survey.ui.InstabugScrollView.OnScrollListener" name-generic-aware="com.instabug.survey.ui.InstabugScrollView.OnScrollListener">
+      </implements>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onBottomReached" native="false" return="void" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onScrolling" native="false" return="void" static="false" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="onTopReached" native="false" return="void" static="false" synchronized="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="SurveyFragmentContract" static="false" visibility="">
+    </class>
+  </package>
+  <package name="com.instabug.survey.utils">
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="SurveysUtils" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="SurveysUtils" static="false" type="com.instabug.survey.utils.SurveysUtils" visibility="public">
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="isSurveysFeatureAvailable" native="false" return="boolean" static="true" synchronized="false" visibility="public">
+      </method>
+      <method abstract="false" deprecated="not deprecated" final="false" name="isSurveysFeatureEnabled" native="false" return="boolean" static="true" synchronized="false" visibility="public">
+      </method>
+    </class>
+    <class abstract="false" deprecated="not deprecated" extends="java.lang.Object" extends-generic-aware="java.lang.Object" final="false" name="SurveysValidator" static="false" visibility="public">
+      <constructor deprecated="not deprecated" final="false" name="SurveysValidator" static="false" type="com.instabug.survey.utils.SurveysValidator" visibility="public">
+        <parameter name="appVersion" type="java.lang.String">
+        </parameter>
+        <parameter name="appVersionName" type="java.lang.String">
+        </parameter>
+      </constructor>
+      <method abstract="false" deprecated="not deprecated" final="false" name="hasValidSurveys" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+        <exception name="ParseException" type="java.text.ParseException">
+        </exception>
+      </method>
+      <field deprecated="not deprecated" final="true" name="KEY_CONDITION_APP_VERSION" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;app_version&quot;" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="KEY_CONDITION_DATE" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;date&quot;" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="KEY_CONDITION_FIRST_SEEN" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;first_seen&quot;" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="KEY_CONDITION_USER_EMAIL" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;email&quot;" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="KEY_OPERATOR_AND" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;and&quot;" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="KEY_OPERATOR_CONTAINS" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;contain&quot;" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="KEY_OPERATOR_EQUAL" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;equal&quot;" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="KEY_OPERATOR_GREATER_THAN" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;greater_than&quot;" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="KEY_OPERATOR_LESS_THAN" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;less_than&quot;" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="KEY_OPERATOR_NOT_CONTAINS" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;not_contain&quot;" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="KEY_OPERATOR_NOT_EQUAL" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;not_equal&quot;" visibility="public" volatile="false">
+      </field>
+      <field deprecated="not deprecated" final="true" name="KEY_OPERATOR_OR" static="true" transient="false" type="java.lang.String" type-generic-aware="java.lang.String" value="&quot;or&quot;" visibility="public" volatile="false">
+      </field>
+    </class>
+  </package>
+</api>

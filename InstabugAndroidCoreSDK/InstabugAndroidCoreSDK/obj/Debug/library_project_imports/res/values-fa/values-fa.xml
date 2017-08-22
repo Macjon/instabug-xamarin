@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="instabug_audio_recorder_permission_denied">دسترسی ظبط صدا رد شد</string>
+    <string name="instabug_err_invalid_comment">لطفا یک نظر معتبر وارد کنید</string>
+    <string name="instabug_err_invalid_email">لطفا یک پست الکترونیکی معتبر وارد کنید</string>
+    <string name="instabug_external_storage_permission_denied">دسترسی حافظه رد شد</string>
+    <string name="instabug_str_action_submit">ارسال</string>
+    <string name="instabug_str_add_photo">انتخاب تصویر از گالری</string>
+    <string name="instabug_str_alert_message_max_attachments">حذف یک پیوست موجود برای اضافه کردن یک پیوست تازه</string>
+    <string name="instabug_str_alert_title_max_attachments">اضافه کردن پیوست انجام نشد</string>
+    <string name="instabug_str_annotate">رسم کردن روی اسکرین شات</string>
+    <string name="instabug_str_audio">صوت</string>
+    <string name="instabug_str_bug_comment_hint">مشکل چیست؟</string>
+    <string name="instabug_str_bug_header">گزارش یک مشکل</string>
+    <string name="instabug_str_cancel">لغو</string>
+    <string name="instabug_str_conversations">گفتگو</string>
+    <string name="instabug_str_dialog_message_preparing">آماده سازی…</string>
+    <string name="instabug_str_email_hint">پست الکترونیکی خود را وارد کنید</string>
+    <string name="instabug_str_error_survey_without_answer">نظر سنجی بدون جواب نمیتواند ارسال شود</string>
+    <string name="instabug_str_feedback_comment_hint">چگونه میتوانیم بهبود پیدا کنیم؟</string>
+    <string name="instabug_str_feedback_header">پیشنهاد برای بهبود</string>
+    <string name="instabug_str_hint_enter_your_answer">پاسخ خود را وارد کنید</string>
+    <string name="instabug_str_hold_to_record">برای ظبط فشار و نگه دارید</string>
+    <string name="instabug_str_image">تصویر</string>
+    <string name="instabug_str_image_loading_error">بارگذاری تصویر انجام نشد</string>
+    <string name="instabug_str_invocation_dialog_title">چه کمکی از دست ما ساخته است؟</string>
+    <string name="instabug_str_messages">پیام ها</string>
+    <string name="instabug_str_notification_title">"تیم %1$s"</string>
+    <string name="instabug_str_notifications_body">\u200F %1$d پیام جدید از طرف %2$s و بقیه.</string>
+    <string name="instabug_str_ok">خُب</string>
+    <string name="instabug_str_please_wait">لطفا چند لحظه صبر کنید</string>
+    <string name="instabug_str_record_audio">ظبط یک یادداشت صوتی</string>
+    <string name="instabug_str_record_video">فیلم گرفتن از صفحه</string>
+    <string name="instabug_str_release_stop_record">برای پیوست رها کنید</string>
+    <string name="instabug_str_sending_message_hint">پیام خود را بنویسید</string>
+    <string name="instabug_str_shake_hint">ما علاقه مند به شنیدن بازخورد شما هستیم دستگاه خود را &lt;b>بلرزانید&lt;b/> تا با ما در ارتباط باشید.</string>
+    <string name="instabug_str_success_note">ما بازخورد شمارا دریافت کردیم. \n بابت کمک جهت بهبود %s متشکریم.</string>
+    <string name="instabug_str_swipe_hint">ما علاقه مند به شنیدن بازخورد شما هستیم &lt;b>با دو انگشت بکشید&lt;b/> تا با ما در ارتباط باشید.</string>
+    <string name="instabug_str_take_screenshot">گرفتن اسکرین شات</string>
+    <string name="instabug_str_talk_to_us">ارتباط با ما</string>
+    <string name="instabug_str_thank_you">با تشکر</string>
+    <string name="instabug_str_video">ویدیو</string>
+    <string name="instabug_str_video_encoder_busy">رمزگذار ویدیو مشغول است در حال رمزگذاری دیگر ویدیو</string>
+    <string name="instabug_str_video_encoding_error">رمز گذاری به علت حافظه ی پایین انجام نشد</string>
+    <string name="instabug_str_video_player">پخش کننده ویدیو</string>
+    <string name="instabug_str_video_recording_hint">هروقت آماده بودید ظبط را لمس کنید</string>
+</resources>

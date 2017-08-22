@@ -8,7 +8,7 @@
     <OutputType>Library</OutputType>
     <RootNamespace>SampleApp</RootNamespace>
     <AssemblyName>SampleApp</AssemblyName>
-    <TargetFrameworkVersion>v7.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v6.0</TargetFrameworkVersion>
     <AndroidApplication>True</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
     <AndroidResgenClass>Resource</AndroidResgenClass>
@@ -48,8 +48,14 @@
     <Reference Include="Xamarin.Android.Support.v7.AppCompat">
       <HintPath>..\packages\Xamarin.Android.Support.v7.AppCompat.23.1.1.0\lib\MonoAndroid403\Xamarin.Android.Support.v7.AppCompat.dll</HintPath>
     </Reference>
-    <Reference Include="InstabugAndroidSDK">
-      <HintPath>..\..\..\..\lib\android\InstabugAndroidSDK.dll</HintPath>
+    <Reference Include="InstabugAndroidCoreSDK">
+      <HintPath>..\..\..\..\lib\android\InstabugAndroidCoreSDK.dll</HintPath>
+    </Reference>
+    <Reference Include="InstabugAndroidCrashSDK">
+      <HintPath>..\..\..\..\lib\android\InstabugAndroidCrashSDK.dll</HintPath>
+    </Reference>
+    <Reference Include="InstabugAndroidSurveySDK">
+      <HintPath>..\..\..\..\lib\android\InstabugAndroidSurveySDK.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

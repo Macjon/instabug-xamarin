@@ -5,11 +5,9 @@
         <State name="__root__">
           <Node name="InstabugAndroidSDK" expanded="True">
             <Node name="InstabugAndroidSDK" expanded="True">
-              <Node name="References" expanded="True" />
-              <Node name="ComponentReferenceFolder" selected="True" />
-              <Node name="Packages" expanded="True" />
-              <Node name="Jars" expanded="True" />
-              <Node name="Transforms" expanded="True" />
+              <Node name="Packages" expanded="True">
+                <Node name="Xamarin.Android.Support.v4" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
@@ -21,7 +19,7 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.InstabugAndroidSDK PreferredExecutionTarget="Android.Nexus_5_API_25" />
+  <MonoDevelop.Ide.ItemProperties.InstabugAndroidSDK PreferredExecutionTarget="Android.Android_Accelerated_x86" />
   <AuthorInfo Name="Instabug" Email="mmesbah@instabug.com" Copyright="Instabug " Company="Instabug" Trademark="Instabug" />
   <MultiItemStartupConfigurations />
 </Properties>

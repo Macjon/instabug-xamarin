@@ -1,0 +1,2185 @@
+<api
+  api-source="class-parse">
+  <package
+    name="com.instabug.crash"
+    jni-name="com/instabug/crash">
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="true"
+      name="BuildConfig"
+      jni-signature="Lcom/instabug/crash/BuildConfig;"
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="BuildConfig"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="APPLICATION_ID"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        value="&quot;com.instabug.crash&quot;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="BUILD_TYPE"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        value="&quot;release&quot;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="DEBUG"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="boolean"
+        type-generic-aware="boolean"
+        jni-signature="Z"
+        value="false"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="FLAVOR"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        value="&quot;&quot;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="VERSION_CODE"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="int"
+        type-generic-aware="int"
+        jni-signature="I"
+        value="1"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="VERSION_NAME"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        value="&quot;1.0&quot;"
+        visibility="public"
+        volatile="false" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Lcom/instabug/library/core/plugin/Plugin;"
+      extends="com.instabug.library.core.plugin.Plugin"
+      extends-generic-aware="com.instabug.library.core.plugin.Plugin"
+      final="false"
+      name="CrashPlugin"
+      jni-signature="Lcom/instabug/crash/CrashPlugin;"
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="CrashPlugin"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getLastActivityTime"
+        native="false"
+        return="long"
+        jni-return="J"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()J" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="init"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;)V">
+        <parameter
+          name="context"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="release"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="CrashPlugin.1"
+      jni-signature="Lcom/instabug/crash/CrashPlugin$1;"
+      static="false"
+      visibility="">
+      <implements
+        name="rx.functions.Action1"
+        name-generic-aware="rx.functions.Action1&lt;com.instabug.library.core.eventbus.coreeventbus.SDKCoreEvent&gt;"
+        jni-type="Lrx/functions/Action1&lt;Lcom/instabug/library/core/eventbus/coreeventbus/SDKCoreEvent;&gt;;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="call"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/instabug/library/core/eventbus/coreeventbus/SDKCoreEvent;)V">
+        <parameter
+          name="event"
+          type="com.instabug.library.core.eventbus.coreeventbus.SDKCoreEvent"
+          jni-type="Lcom/instabug/library/core/eventbus/coreeventbus/SDKCoreEvent;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="call"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="true"
+        synthetic="true"
+        jni-signature="(Ljava/lang/Object;)V">
+        <parameter
+          name="p0"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="CrashPlugin.2"
+      jni-signature="Lcom/instabug/crash/CrashPlugin$2;"
+      static="true"
+      visibility="" />
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="InstabugCrash"
+      jni-signature="Lcom/instabug/crash/InstabugCrash;"
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="InstabugCrash"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="reportCaughtException"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;Ljava/lang/Throwable;Ljava/lang/String;)V">
+        <parameter
+          name="context"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+        <parameter
+          name="caughtException"
+          type="java.lang.Throwable"
+          jni-type="Ljava/lang/Throwable;" />
+        <parameter
+          name="exceptionIdentifier"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="InstabugUncaughtExceptionHandler"
+      jni-signature="Lcom/instabug/crash/InstabugUncaughtExceptionHandler;"
+      static="false"
+      visibility="public">
+      <implements
+        name="java.lang.Thread.UncaughtExceptionHandler"
+        name-generic-aware="java.lang.Thread.UncaughtExceptionHandler"
+        jni-type="Ljava/lang/Thread$UncaughtExceptionHandler;" />
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="InstabugUncaughtExceptionHandler"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="uncaughtException"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Thread;Ljava/lang/Throwable;)V">
+        <parameter
+          name="thread"
+          type="java.lang.Thread"
+          jni-type="Ljava/lang/Thread;" />
+        <parameter
+          name="throwable"
+          type="java.lang.Throwable"
+          jni-type="Ljava/lang/Throwable;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="InternalCrashReporter"
+      jni-signature="Lcom/instabug/crash/InternalCrashReporter;"
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="InternalCrashReporter"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="report"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Throwable;Ljava/lang/String;)V">
+        <parameter
+          name="caughtException"
+          type="java.lang.Throwable"
+          jni-type="Ljava/lang/Throwable;" />
+        <parameter
+          name="exceptionIdentifier"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="internalAppToken"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        value="&quot;b1a9630002b2cbdfbfecd942744b9018&quot;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="internalCrashKey"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        value="&quot;InstabugSDK-v: &quot;"
+        visibility="public"
+        volatile="false" />
+    </class>
+  </package>
+  <package
+    name="com.instabug.crash.cache"
+    jni-name="com/instabug/crash/cache">
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="CrashesCacheManager"
+      jni-signature="Lcom/instabug/crash/cache/CrashesCacheManager;"
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="CrashesCacheManager"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="addCrash"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/instabug/crash/models/Crash;)V">
+        <parameter
+          name="crash"
+          type="com.instabug.crash.models.Crash"
+          jni-type="Lcom/instabug/crash/models/Crash;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="deleteCrash"
+        native="false"
+        return="com.instabug.crash.models.Crash"
+        jni-return="Lcom/instabug/crash/models/Crash;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)Lcom/instabug/crash/models/Crash;">
+        <parameter
+          name="crashId"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getCache"
+        native="false"
+        return="com.instabug.library.internal.storage.cache.InMemoryCache&lt;java.lang.String, com.instabug.crash.models.Crash&gt;"
+        jni-return="Lcom/instabug/library/internal/storage/cache/InMemoryCache&lt;Ljava/lang/String;Lcom/instabug/crash/models/Crash;&gt;;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Lcom/instabug/library/internal/storage/cache/InMemoryCache;">
+        <exception
+          name="java/lang/IllegalArgumentException"
+          type="java.lang.IllegalArgumentException"
+          type-generic-aware="java.lang.IllegalArgumentException" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getCrash"
+        native="false"
+        return="com.instabug.crash.models.Crash"
+        jni-return="Lcom/instabug/crash/models/Crash;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)Lcom/instabug/crash/models/Crash;">
+        <parameter
+          name="crashId"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getCrashes"
+        native="false"
+        return="java.util.List&lt;com.instabug.crash.models.Crash&gt;"
+        jni-return="Ljava/util/List&lt;Lcom/instabug/crash/models/Crash;&gt;;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/util/List;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="saveCacheToDisk"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="CRASHES_DISK_CACHE_FILE_NAME"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        value="&quot;/crashes.cache&quot;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="CRASHES_DISK_CACHE_KEY"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        value="&quot;crashes_disk_cache&quot;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="CRASHES_MEMORY_CACHE_KEY"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        value="&quot;crashes_memory_cache&quot;"
+        visibility="public"
+        volatile="false" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Lcom/instabug/library/internal/storage/cache/CacheManager$KeyExtractor;"
+      extends="com.instabug.library.internal.storage.cache.CacheManager.KeyExtractor"
+      extends-generic-aware="com.instabug.library.internal.storage.cache.CacheManager.KeyExtractor&lt;java.lang.String, com.instabug.crash.models.Crash&gt;"
+      final="true"
+      name="CrashesCacheManager.1"
+      jni-signature="Lcom/instabug/crash/cache/CrashesCacheManager$1;"
+      static="true"
+      visibility="">
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="extractKey"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/instabug/crash/models/Crash;)Ljava/lang/String;">
+        <parameter
+          name="value"
+          type="com.instabug.crash.models.Crash"
+          jni-type="Lcom/instabug/crash/models/Crash;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="extractKey"
+        native="false"
+        return="java.lang.Object"
+        jni-return="Ljava/lang/Object;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="true"
+        synthetic="true"
+        jni-signature="(Ljava/lang/Object;)Ljava/lang/Object;">
+        <parameter
+          name="p0"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Lcom/instabug/library/internal/storage/cache/CacheManager$KeyExtractor;"
+      extends="com.instabug.library.internal.storage.cache.CacheManager.KeyExtractor"
+      extends-generic-aware="com.instabug.library.internal.storage.cache.CacheManager.KeyExtractor&lt;java.lang.String, com.instabug.crash.models.Crash&gt;"
+      final="true"
+      name="CrashesCacheManager.2"
+      jni-signature="Lcom/instabug/crash/cache/CrashesCacheManager$2;"
+      static="true"
+      visibility="">
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="extractKey"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/instabug/crash/models/Crash;)Ljava/lang/String;">
+        <parameter
+          name="value"
+          type="com.instabug.crash.models.Crash"
+          jni-type="Lcom/instabug/crash/models/Crash;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="extractKey"
+        native="false"
+        return="java.lang.Object"
+        jni-return="Ljava/lang/Object;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="true"
+        synthetic="true"
+        jni-signature="(Ljava/lang/Object;)Ljava/lang/Object;">
+        <parameter
+          name="p0"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+    </class>
+  </package>
+  <package
+    name="com.instabug.crash.models"
+    jni-name="com/instabug/crash/models">
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="Crash"
+      jni-signature="Lcom/instabug/crash/models/Crash;"
+      static="false"
+      visibility="public">
+      <implements
+        name="com.instabug.library.internal.storage.cache.Cacheable"
+        name-generic-aware="com.instabug.library.internal.storage.cache.Cacheable"
+        jni-type="Lcom/instabug/library/internal/storage/cache/Cacheable;" />
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="Crash"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="Crash"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;Lcom/instabug/library/model/State;)V">
+        <parameter
+          name="id"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="state"
+          type="com.instabug.library.model.State"
+          jni-type="Lcom/instabug/library/model/State;" />
+      </constructor>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="addAttachment"
+        native="false"
+        return="com.instabug.crash.models.Crash"
+        jni-return="Lcom/instabug/crash/models/Crash;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/net/Uri;)Lcom/instabug/crash/models/Crash;">
+        <parameter
+          name="attachmentUri"
+          type="android.net.Uri"
+          jni-type="Landroid/net/Uri;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="equals"
+        native="false"
+        return="boolean"
+        jni-return="Z"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Object;)Z">
+        <parameter
+          name="crash"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="fromJson"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)V">
+        <parameter
+          name="crashASJson"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <exception
+          name="org/json/JSONException"
+          type="org.json.JSONException"
+          type-generic-aware="org.json.JSONException" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getAttachments"
+        native="false"
+        return="java.util.ArrayList&lt;com.instabug.library.model.Attachment&gt;"
+        jni-return="Ljava/util/ArrayList&lt;Lcom/instabug/library/model/Attachment;&gt;;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/util/ArrayList;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getCrashMessage"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/String;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getCrashState"
+        native="false"
+        return="com.instabug.crash.models.Crash.CrashState"
+        jni-return="Lcom/instabug/crash/models/Crash$CrashState;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Lcom/instabug/crash/models/Crash$CrashState;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getId"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/String;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getState"
+        native="false"
+        return="com.instabug.library.model.State"
+        jni-return="Lcom/instabug/library/model/State;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Lcom/instabug/library/model/State;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getTemporaryServerToken"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/String;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="hashCode"
+        native="false"
+        return="int"
+        jni-return="I"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()I" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="isHandled"
+        native="false"
+        return="boolean"
+        jni-return="Z"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Z" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setAttachments"
+        native="false"
+        return="com.instabug.crash.models.Crash"
+        jni-return="Lcom/instabug/crash/models/Crash;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/util/ArrayList;)Lcom/instabug/crash/models/Crash;">
+        <parameter
+          name="attachments"
+          type="java.util.ArrayList&lt;com.instabug.library.model.Attachment&gt;"
+          jni-type="Ljava/util/ArrayList&lt;Lcom/instabug/library/model/Attachment;&gt;;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setCrashMessage"
+        native="false"
+        return="com.instabug.crash.models.Crash"
+        jni-return="Lcom/instabug/crash/models/Crash;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)Lcom/instabug/crash/models/Crash;">
+        <parameter
+          name="crashMessage"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setCrashState"
+        native="false"
+        return="com.instabug.crash.models.Crash"
+        jni-return="Lcom/instabug/crash/models/Crash;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/instabug/crash/models/Crash$CrashState;)Lcom/instabug/crash/models/Crash;">
+        <parameter
+          name="crashState"
+          type="com.instabug.crash.models.Crash.CrashState"
+          jni-type="Lcom/instabug/crash/models/Crash$CrashState;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setHandled"
+        native="false"
+        return="com.instabug.crash.models.Crash"
+        jni-return="Lcom/instabug/crash/models/Crash;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Z)Lcom/instabug/crash/models/Crash;">
+        <parameter
+          name="handled"
+          type="boolean"
+          jni-type="Z" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setId"
+        native="false"
+        return="com.instabug.crash.models.Crash"
+        jni-return="Lcom/instabug/crash/models/Crash;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)Lcom/instabug/crash/models/Crash;">
+        <parameter
+          name="id"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setState"
+        native="false"
+        return="com.instabug.crash.models.Crash"
+        jni-return="Lcom/instabug/crash/models/Crash;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/instabug/library/model/State;)Lcom/instabug/crash/models/Crash;">
+        <parameter
+          name="state"
+          type="com.instabug.library.model.State"
+          jni-type="Lcom/instabug/library/model/State;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setTemporaryServerToken"
+        native="false"
+        return="com.instabug.crash.models.Crash"
+        jni-return="Lcom/instabug/crash/models/Crash;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)Lcom/instabug/crash/models/Crash;">
+        <parameter
+          name="temporaryServerToken"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="toJson"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/String;">
+        <exception
+          name="org/json/JSONException"
+          type="org.json.JSONException"
+          type-generic-aware="org.json.JSONException" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="toString"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/String;" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="KEY_ATTACHMENTS"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        value="&quot;attachments&quot;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="KEY_CRASH_MESSAGE"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        value="&quot;crash_message&quot;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="KEY_CRASH_STATE"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        value="&quot;crash_state&quot;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="KEY_HANDLED"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        value="&quot;handled&quot;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="KEY_ID"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        value="&quot;id&quot;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="KEY_STATE"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        value="&quot;state&quot;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="KEY_TEMPORARY_SERVER_TOKEN"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        value="&quot;temporary_server_token&quot;"
+        visibility="public"
+        volatile="false" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Enum;"
+      extends="java.lang.Enum"
+      extends-generic-aware="java.lang.Enum&lt;com.instabug.crash.models.Crash.CrashState&gt;"
+      final="true"
+      name="Crash.CrashState"
+      jni-signature="Lcom/instabug/crash/models/Crash$CrashState;"
+      static="true"
+      visibility="public">
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="valueOf"
+        native="false"
+        return="com.instabug.crash.models.Crash.CrashState"
+        jni-return="Lcom/instabug/crash/models/Crash$CrashState;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)Lcom/instabug/crash/models/Crash$CrashState;">
+        <parameter
+          name="name"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="values"
+        native="false"
+        return="com.instabug.crash.models.Crash.CrashState[]"
+        jni-return="[Lcom/instabug/crash/models/Crash$CrashState;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()[Lcom/instabug/crash/models/Crash$CrashState;" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="ATTACHMENTS_READY_TO_BE_UPLOADED"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="com.instabug.crash.models.Crash.CrashState"
+        type-generic-aware="com.instabug.crash.models.Crash.CrashState"
+        jni-signature="Lcom/instabug/crash/models/Crash$CrashState;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="LOGS_READY_TO_BE_UPLOADED"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="com.instabug.crash.models.Crash.CrashState"
+        type-generic-aware="com.instabug.crash.models.Crash.CrashState"
+        jni-signature="Lcom/instabug/crash/models/Crash$CrashState;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="NOT_AVAILABLE"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="com.instabug.crash.models.Crash.CrashState"
+        type-generic-aware="com.instabug.crash.models.Crash.CrashState"
+        jni-signature="Lcom/instabug/crash/models/Crash$CrashState;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="READY_TO_BE_SENT"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="com.instabug.crash.models.Crash.CrashState"
+        type-generic-aware="com.instabug.crash.models.Crash.CrashState"
+        jni-signature="Lcom/instabug/crash/models/Crash$CrashState;"
+        visibility="public"
+        volatile="false" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="Crash.Factory"
+      jni-signature="Lcom/instabug/crash/models/Crash$Factory;"
+      static="true"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="Crash.Factory"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="create"
+        native="false"
+        return="com.instabug.crash.models.Crash"
+        jni-return="Lcom/instabug/crash/models/Crash;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;)Lcom/instabug/crash/models/Crash;">
+        <parameter
+          name="context"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="createInternalCrash"
+        native="false"
+        return="com.instabug.crash.models.Crash"
+        jni-return="Lcom/instabug/crash/models/Crash;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;)Lcom/instabug/crash/models/Crash;">
+        <parameter
+          name="context"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+      </method>
+    </class>
+  </package>
+  <package
+    name="com.instabug.crash.network"
+    jni-name="com/instabug/crash/network">
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="CrashesService"
+      jni-signature="Lcom/instabug/crash/network/CrashesService;"
+      static="false"
+      visibility="public">
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getInstance"
+        native="false"
+        return="com.instabug.crash.network.CrashesService"
+        jni-return="Lcom/instabug/crash/network/CrashesService;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Lcom/instabug/crash/network/CrashesService;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="reportCrash"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;Lcom/instabug/crash/models/Crash;Lcom/instabug/library/network/Request$Callbacks;)V">
+        <parameter
+          name="context"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+        <parameter
+          name="crash"
+          type="com.instabug.crash.models.Crash"
+          jni-type="Lcom/instabug/crash/models/Crash;" />
+        <parameter
+          name="reportingCtashCallbacks"
+          type="com.instabug.library.network.Request.Callbacks&lt;java.lang.String, java.lang.Throwable&gt;"
+          jni-type="Lcom/instabug/library/network/Request$Callbacks&lt;Ljava/lang/String;Ljava/lang/Throwable;&gt;;" />
+        <exception
+          name="org/json/JSONException"
+          type="org.json.JSONException"
+          type-generic-aware="org.json.JSONException" />
+        <exception
+          name="java/io/IOException"
+          type="java.io.IOException"
+          type-generic-aware="java.io.IOException" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="uploadCrashAttachments"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;Lcom/instabug/crash/models/Crash;Lcom/instabug/library/network/Request$Callbacks;)V">
+        <parameter
+          name="context"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+        <parameter
+          name="crash"
+          type="com.instabug.crash.models.Crash"
+          jni-type="Lcom/instabug/crash/models/Crash;" />
+        <parameter
+          name="uploadCrashAttachmentsCallbacks"
+          type="com.instabug.library.network.Request.Callbacks&lt;java.lang.Boolean, com.instabug.crash.models.Crash&gt;"
+          jni-type="Lcom/instabug/library/network/Request$Callbacks&lt;Ljava/lang/Boolean;Lcom/instabug/crash/models/Crash;&gt;;" />
+        <exception
+          name="org/json/JSONException"
+          type="org.json.JSONException"
+          type-generic-aware="org.json.JSONException" />
+        <exception
+          name="java/io/FileNotFoundException"
+          type="java.io.FileNotFoundException"
+          type-generic-aware="java.io.FileNotFoundException" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="uploadCrashLogs"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;Lcom/instabug/crash/models/Crash;Lcom/instabug/library/network/Request$Callbacks;)V">
+        <parameter
+          name="context"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+        <parameter
+          name="crash"
+          type="com.instabug.crash.models.Crash"
+          jni-type="Lcom/instabug/crash/models/Crash;" />
+        <parameter
+          name="callbacks"
+          type="com.instabug.library.network.Request.Callbacks&lt;java.lang.Boolean, com.instabug.crash.models.Crash&gt;"
+          jni-type="Lcom/instabug/library/network/Request$Callbacks&lt;Ljava/lang/Boolean;Lcom/instabug/crash/models/Crash;&gt;;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Lrx/Subscriber;"
+      extends="rx.Subscriber"
+      extends-generic-aware="rx.Subscriber&lt;com.instabug.library.network.RequestResponse&gt;"
+      final="false"
+      name="CrashesService.1"
+      jni-signature="Lcom/instabug/crash/network/CrashesService$1;"
+      static="false"
+      visibility="">
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onCompleted"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onError"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Throwable;)V">
+        <parameter
+          name="e"
+          type="java.lang.Throwable"
+          jni-type="Ljava/lang/Throwable;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onNext"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/instabug/library/network/RequestResponse;)V">
+        <parameter
+          name="requestResponse"
+          type="com.instabug.library.network.RequestResponse"
+          jni-type="Lcom/instabug/library/network/RequestResponse;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onNext"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="true"
+        synthetic="true"
+        jni-signature="(Ljava/lang/Object;)V">
+        <parameter
+          name="p0"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onStart"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Lrx/Subscriber;"
+      extends="rx.Subscriber"
+      extends-generic-aware="rx.Subscriber&lt;com.instabug.library.network.RequestResponse&gt;"
+      final="false"
+      name="CrashesService.2"
+      jni-signature="Lcom/instabug/crash/network/CrashesService$2;"
+      static="false"
+      visibility="">
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onCompleted"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onError"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Throwable;)V">
+        <parameter
+          name="e"
+          type="java.lang.Throwable"
+          jni-type="Ljava/lang/Throwable;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onNext"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/instabug/library/network/RequestResponse;)V">
+        <parameter
+          name="requestResponse"
+          type="com.instabug.library.network.RequestResponse"
+          jni-type="Lcom/instabug/library/network/RequestResponse;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onNext"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="true"
+        synthetic="true"
+        jni-signature="(Ljava/lang/Object;)V">
+        <parameter
+          name="p0"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onStart"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Lrx/Subscriber;"
+      extends="rx.Subscriber"
+      extends-generic-aware="rx.Subscriber&lt;com.instabug.library.network.RequestResponse&gt;"
+      final="false"
+      name="CrashesService.3"
+      jni-signature="Lcom/instabug/crash/network/CrashesService$3;"
+      static="false"
+      visibility="">
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onCompleted"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onError"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Throwable;)V">
+        <parameter
+          name="e"
+          type="java.lang.Throwable"
+          jni-type="Ljava/lang/Throwable;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onNext"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/instabug/library/network/RequestResponse;)V">
+        <parameter
+          name="requestResponse"
+          type="com.instabug.library.network.RequestResponse"
+          jni-type="Lcom/instabug/library/network/RequestResponse;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onNext"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="true"
+        synthetic="true"
+        jni-signature="(Ljava/lang/Object;)V">
+        <parameter
+          name="p0"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onStart"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Lcom/instabug/library/network/InstabugNetworkBasedBackgroundService;"
+      extends="com.instabug.library.network.InstabugNetworkBasedBackgroundService"
+      extends-generic-aware="com.instabug.library.network.InstabugNetworkBasedBackgroundService"
+      final="false"
+      name="InstabugCrashesUploaderService"
+      jni-signature="Lcom/instabug/crash/network/InstabugCrashesUploaderService;"
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="InstabugCrashesUploaderService"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="runBackgroundTask"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="protected"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V">
+        <exception
+          name="java/lang/Exception"
+          type="java.lang.Exception"
+          type-generic-aware="java.lang.Exception" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="InstabugCrashesUploaderService.1"
+      jni-signature="Lcom/instabug/crash/network/InstabugCrashesUploaderService$1;"
+      static="false"
+      visibility="">
+      <implements
+        name="com.instabug.library.network.Request.Callbacks"
+        name-generic-aware="com.instabug.library.network.Request.Callbacks&lt;java.lang.String, java.lang.Throwable&gt;"
+        jni-type="Lcom/instabug/library/network/Request$Callbacks&lt;Ljava/lang/String;Ljava/lang/Throwable;&gt;;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onFailed"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="true"
+        synthetic="true"
+        jni-signature="(Ljava/lang/Object;)V">
+        <parameter
+          name="p0"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onFailed"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Throwable;)V">
+        <parameter
+          name="throwable"
+          type="java.lang.Throwable"
+          jni-type="Ljava/lang/Throwable;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onSucceeded"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="true"
+        synthetic="true"
+        jni-signature="(Ljava/lang/Object;)V">
+        <parameter
+          name="p0"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onSucceeded"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)V">
+        <parameter
+          name="temporaryServerToken"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="InstabugCrashesUploaderService.2"
+      jni-signature="Lcom/instabug/crash/network/InstabugCrashesUploaderService$2;"
+      static="false"
+      visibility="">
+      <implements
+        name="com.instabug.library.network.Request.Callbacks"
+        name-generic-aware="com.instabug.library.network.Request.Callbacks&lt;java.lang.Boolean, com.instabug.crash.models.Crash&gt;"
+        jni-type="Lcom/instabug/library/network/Request$Callbacks&lt;Ljava/lang/Boolean;Lcom/instabug/crash/models/Crash;&gt;;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onFailed"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/instabug/crash/models/Crash;)V">
+        <parameter
+          name="failedCrash"
+          type="com.instabug.crash.models.Crash"
+          jni-type="Lcom/instabug/crash/models/Crash;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onFailed"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="true"
+        synthetic="true"
+        jni-signature="(Ljava/lang/Object;)V">
+        <parameter
+          name="p0"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onSucceeded"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Boolean;)V">
+        <parameter
+          name="isSucceeded"
+          type="java.lang.Boolean"
+          jni-type="Ljava/lang/Boolean;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onSucceeded"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="true"
+        synthetic="true"
+        jni-signature="(Ljava/lang/Object;)V">
+        <parameter
+          name="p0"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="InstabugCrashesUploaderService.3"
+      jni-signature="Lcom/instabug/crash/network/InstabugCrashesUploaderService$3;"
+      static="false"
+      visibility="">
+      <implements
+        name="com.instabug.library.network.Request.Callbacks"
+        name-generic-aware="com.instabug.library.network.Request.Callbacks&lt;java.lang.Boolean, com.instabug.crash.models.Crash&gt;"
+        jni-type="Lcom/instabug/library/network/Request$Callbacks&lt;Ljava/lang/Boolean;Lcom/instabug/crash/models/Crash;&gt;;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onFailed"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/instabug/crash/models/Crash;)V">
+        <parameter
+          name="failedCrash"
+          type="com.instabug.crash.models.Crash"
+          jni-type="Lcom/instabug/crash/models/Crash;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onFailed"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="true"
+        synthetic="true"
+        jni-signature="(Ljava/lang/Object;)V">
+        <parameter
+          name="p0"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onSucceeded"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Boolean;)V">
+        <parameter
+          name="isSucceeded"
+          type="java.lang.Boolean"
+          jni-type="Ljava/lang/Boolean;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onSucceeded"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="true"
+        synthetic="true"
+        jni-signature="(Ljava/lang/Object;)V">
+        <parameter
+          name="p0"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+    </class>
+  </package>
+  <package
+    name="com.instabug.crash.settings"
+    jni-name="com/instabug/crash/settings">
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="PersistableSettings"
+      jni-signature="Lcom/instabug/crash/settings/PersistableSettings;"
+      static="false"
+      visibility="public">
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getInstance"
+        native="false"
+        return="com.instabug.crash.settings.PersistableSettings"
+        jni-return="Lcom/instabug/crash/settings/PersistableSettings;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Lcom/instabug/crash/settings/PersistableSettings;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getLastCrashTime"
+        native="false"
+        return="long"
+        jni-return="J"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()J" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="init"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;)V">
+        <parameter
+          name="context"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setLastCrashTime"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(J)V">
+        <parameter
+          name="time"
+          type="long"
+          jni-type="J" />
+      </method>
+    </class>
+  </package>
+  <package
+    name="com.instabug.crash.utils"
+    jni-name="com/instabug/crash/utils">
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="ExceptionFormatter"
+      jni-signature="Lcom/instabug/crash/utils/ExceptionFormatter;"
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="ExceptionFormatter"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="createExceptionJson"
+        native="false"
+        return="org.json.JSONObject"
+        jni-return="Lorg/json/JSONObject;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Throwable;Ljava/lang/String;)Lorg/json/JSONObject;">
+        <parameter
+          name="throwable"
+          type="java.lang.Throwable"
+          jni-type="Ljava/lang/Throwable;" />
+        <parameter
+          name="identifier"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="throwableStackTrace"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Throwable;)Ljava/lang/String;">
+        <parameter
+          name="throwable"
+          type="java.lang.Throwable"
+          jni-type="Ljava/lang/Throwable;" />
+      </method>
+    </class>
+  </package>
+</api>

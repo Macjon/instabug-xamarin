@@ -1,0 +1,5 @@
+/Users/test/Documents/Instabug/Xamarin/InstabugAndroidCrashSDK/InstabugAndroidCrashSDK/bin/Debug/InstabugAndroidCrashSDK.dll
+/Users/test/Documents/Instabug/Xamarin/InstabugAndroidCrashSDK/InstabugAndroidCrashSDK/bin/Debug/InstabugAndroidCrashSDK.pdb
+/Users/test/Documents/Instabug/Xamarin/InstabugAndroidCrashSDK/InstabugAndroidCrashSDK/obj/Debug/InstabugAndroidCrashSDK.csproj.CoreCompileInputs.cache
+/Users/test/Documents/Instabug/Xamarin/InstabugAndroidCrashSDK/InstabugAndroidCrashSDK/obj/Debug/InstabugAndroidCrashSDK.dll
+/Users/test/Documents/Instabug/Xamarin/InstabugAndroidCrashSDK/InstabugAndroidCrashSDK/obj/Debug/InstabugAndroidCrashSDK.pdb

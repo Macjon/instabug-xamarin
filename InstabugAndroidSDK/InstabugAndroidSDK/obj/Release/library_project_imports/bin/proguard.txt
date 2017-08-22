@@ -63,6 +63,7 @@
 -keep public class **IBGInvocationMode {*;}
 -keep public class **IBGInvocationEvent {*;}
 
+-keep public class **.invocation.util.InstabugVideoRecordingButtonCorner {*;}
 -keep public class **.invocation.util.InstabugFloatingButtonEdge {*;}
 -keep public class **IBGFloatingButtonEdge {*;}
 
@@ -88,3 +89,59 @@
 -keep public class **BugCategory {*;}
 -keep public class **ReportCategory {*;}
 
+-keep public class **Plugin {*;}
+-keep public class **SDKCoreEvent {*;}
+-keep public class **SDKCoreEventSubscriber {*;}
+
+-keep public class **CacheManager {*;}
+-keep public class **CacheManager$KeyExtractor {*;}
+-keep public class **OnDiskCache {*;}
+-keep public class **InstabugSDKLogger {*;}
+-keep public class **InstabugDeviceProperties {*;}
+-keep public class **InMemoryCache {*;}
+-keep public class **InstabugInternalTrackingDelegate {*;}
+-keep public class **Request {*;}
+-keep public class **Request$FileToUpload {*;}
+-keep public class **Request$Callbacks {*;}
+-keep public class **Request$Endpoint {*;}
+-keep public class **Request$RequestMethod {*;}
+-keep public class **Request$RequestParameter {*;}
+-keep public class **Cache {*;}
+-keep public class **Cacheable {*;}
+-keep public class **InstabugNetworkBasedBackgroundService {*;}
+-keep public class **NetworkManager {*;}
+-keep public class **NetworkManager$RequestType {*;}
+-keep public class **RequestResponse {*;}
+-keep public class **InstabugState {*;}
+-keep public class **InstabugUserEventLogger {*;}
+-keep public class **StringUtility {*;}
+-keep public class **_InstabugActivity {*;}
+-keep public class **InstabugThemeResolver {*;}
+-keep public class **OrientationUtils {*;}
+-keep public class **AttrResolver {*;}
+-keep public class **InstabugLogoProvider {*;}
+-keep public class **InstabugDateFormatter {*;}
+-keep public class **BaseFragment {*;}
+-keep public class **BasePresenter {*;}
+-keep public class **BaseContract {*;}
+-keep public class **BaseContract*View {*;}
+-keep public class **BaseContract*Presenter {*;}
+-keep public class **InstabugCore {*;}
+-keep public class **.analytics.AnalyticsObserver {*;}
+-keep public class **.analytics.model.Api* {*;}
+-keep public class **.analytics.util.ViewResourcesUtil {*;}
+-keep public class **.view.ViewUtils {*;}
+
+-keep public class **AttachmentManager {*;}
+-keep public class **Attachment {*;}
+-keep public class **Attachment$Type {*;}
+-keep public class **State {*;}
+-keep public class **State$Builder {*;}
+-keep public class **State$StateItem {*;}
+-keep public class **InstabugInternalBuilder {*;}
+-keep public class **Internal {*;}
+
+-keep class .R
+-keep class **.R$* {
+    <fields>;
+}

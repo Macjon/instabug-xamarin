@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:id="@+id/instabug_survey_dialog_container"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_gravity="center"
+              android:background="@color/instabug_dialog_bg_color"
+              android:gravity="center"
+              android:orientation="vertical"
+              android:paddingBottom="@dimen/instabug_dialog_padding_top_bottom"
+              android:paddingLeft="@dimen/instabug_dialog_padding_left_right"
+              android:paddingRight="@dimen/instabug_dialog_padding_left_right"
+              android:paddingTop="@dimen/instabug_dialog_padding_top_bottom">
+
+    <FrameLayout
+        android:id="@+id/instabug_dialog_survey_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.instabug.survey.ui.InstabugScrollView
+                android:id="@+id/ib_dialog_survey_scrollview_container"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="28dp"
+                android:layout_weight="1"
+                android:background="?attr/instabug_background_color"
+                android:clipToPadding="true"
+                android:paddingTop="30dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/instabug_text_view_question"
+                        style="@style/InstabugDialogIQuestion"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:background="?attr/instabug_survey_dialog_header_transition"
+                        android:gravity="start"
+                        android:paddingBottom="20dp"
+                        android:paddingLeft="24dp"
+                        android:paddingRight="24dp"
+                        android:paddingTop="0dp"
+                        android:textAlignment="textStart"/>
+
+                    <LinearLayout
+                        android:id="@+id/instabug_container_edit_text_answer"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:background="?attr/instabug_background_color"
+                        android:paddingBottom="20dp"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp">
+
+                        <EditText
+                            android:id="@+id/instabug_edit_text_answer"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="?attr/instabug_bg_with_bottom_border_for_edit_text"
+                            android:gravity="start"
+                            android:hint="@string/instabug_str_hint_enter_your_answer"
+                            android:inputType="textAutoCorrect|textMultiLine"
+                            android:paddingBottom="4dp"
+                            android:paddingLeft="4dp"
+                            android:paddingRight="4dp"
+                            android:textColor="?attr/instabug_dialog_item_text_color"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </com.instabug.survey.ui.InstabugScrollView>
+
+            <LinearLayout
+                android:id="@+id/instabug_btn_submit_container"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:background="?attr/instabug_background_color"
+                android:gravity="end|center_vertical"
+                android:orientation="vertical">
+
+                <View
+                    android:id="@+id/instabug_survey_bottom_separator"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="1dp"
+                    android:background="#b9b9b9"/>
+
+                <Button
+                    android:id="@+id/instabug_btn_submit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="36dp"
+                    android:layout_gravity="end"
+                    android:layout_margin="8dp"
+                    android:background="@null"
+                    android:gravity="center"
+                    android:minWidth="64dp"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:text="@string/instabug_str_action_submit"
+                    android:textSize="18sp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/instabug_survey_top_separator"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="58dp"
+            android:background="#b9b9b9"
+            android:visibility="invisible"/>
+
+        <com.instabug.library.view.IconView
+            android:id="@+id/instabug_ic_survey_logo"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            app:instabug_icon="survey"/>
+    </FrameLayout>
+    <!-- Instabug poweredby layout footer -->
+    <include layout="@layout/instabug_lyt_pbi"/>
+
+</LinearLayout>

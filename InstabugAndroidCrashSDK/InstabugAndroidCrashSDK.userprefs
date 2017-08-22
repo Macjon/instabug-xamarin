@@ -1,0 +1,22 @@
+﻿<Properties StartupConfiguration="{F867C6AB-8E9F-456E-B916-003D80848B76}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="InstabugAndroidCrashSDK" expanded="True">
+            <Node name="InstabugAndroidCrashSDK" expanded="True">
+              <Node name="Jars" expanded="True" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.InstabugAndroidCrashSDK PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+</Properties>

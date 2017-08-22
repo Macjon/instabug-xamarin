@@ -62,4 +62,7 @@
     <EmbeddedJar Include="Jars\rxjava-1.1.1.jar" />
     <EmbeddedJar Include="Jars\jcodec-0.1.9.jar" />
   </ItemGroup>
+  <ItemGroup>
+    <LibraryProjectZip Include="Jars\instabug-core-release.aar" />
+  </ItemGroup>
 </Project>

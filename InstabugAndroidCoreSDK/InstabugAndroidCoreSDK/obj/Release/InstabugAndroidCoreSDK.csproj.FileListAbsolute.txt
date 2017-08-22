@@ -1,0 +1,7 @@
+/Users/test/Documents/Instabug/Xamarin/InstabugAndroidCoreSDK/InstabugAndroidCoreSDK/bin/Release/InstabugAndroidCoreSDK.dll
+/Users/test/Documents/Instabug/Xamarin/InstabugAndroidCoreSDK/InstabugAndroidCoreSDK/bin/Release/InstabugAndroidCoreSDK.pdb
+/Users/test/Documents/Instabug/Xamarin/InstabugAndroidCoreSDK/InstabugAndroidCoreSDK/bin/Release/Xamarin.Android.Support.v4.dll
+/Users/test/Documents/Instabug/Xamarin/InstabugAndroidCoreSDK/InstabugAndroidCoreSDK/obj/Release/InstabugAndroidCoreSDK.csprojResolveAssemblyReference.cache
+/Users/test/Documents/Instabug/Xamarin/InstabugAndroidCoreSDK/InstabugAndroidCoreSDK/obj/Release/InstabugAndroidCoreSDK.csproj.CoreCompileInputs.cache
+/Users/test/Documents/Instabug/Xamarin/InstabugAndroidCoreSDK/InstabugAndroidCoreSDK/obj/Release/InstabugAndroidCoreSDK.dll
+/Users/test/Documents/Instabug/Xamarin/InstabugAndroidCoreSDK/InstabugAndroidCoreSDK/obj/Release/InstabugAndroidCoreSDK.pdb

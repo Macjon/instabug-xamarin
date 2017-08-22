@@ -1,0 +1,4259 @@
+<api
+  api-source="class-parse">
+  <package
+    name="com.instabug.survey"
+    jni-name="com/instabug/survey">
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="true"
+      name="BuildConfig"
+      jni-signature="Lcom/instabug/survey/BuildConfig;"
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="BuildConfig"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="APPLICATION_ID"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        value="&quot;com.instabug.survey&quot;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="BUILD_TYPE"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        value="&quot;release&quot;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="DEBUG"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="boolean"
+        type-generic-aware="boolean"
+        jni-signature="Z"
+        value="false"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="FLAVOR"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        value="&quot;&quot;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="VERSION_CODE"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="int"
+        type-generic-aware="int"
+        jni-signature="I"
+        value="1"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="VERSION_NAME"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        value="&quot;1.0&quot;"
+        visibility="public"
+        volatile="false" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="InstabugSurvey"
+      jni-signature="Lcom/instabug/survey/InstabugSurvey;"
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="InstabugSurvey"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="hasValidSurveys"
+        native="false"
+        return="boolean"
+        jni-return="Z"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Z">
+        <exception
+          name="java/lang/IllegalStateException"
+          type="java.lang.IllegalStateException"
+          type-generic-aware="java.lang.IllegalStateException" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setAfterShowingSurveyRunnable"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Runnable;)V">
+        <parameter
+          name="afterShowingSurveyRunnable"
+          type="java.lang.Runnable"
+          jni-type="Ljava/lang/Runnable;" />
+        <exception
+          name="java/lang/IllegalStateException"
+          type="java.lang.IllegalStateException"
+          type-generic-aware="java.lang.IllegalStateException" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setPreShowingSurveyRunnable"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Runnable;)V">
+        <parameter
+          name="preShowingSurveyRunnable"
+          type="java.lang.Runnable"
+          jni-type="Ljava/lang/Runnable;" />
+        <exception
+          name="java/lang/IllegalStateException"
+          type="java.lang.IllegalStateException"
+          type-generic-aware="java.lang.IllegalStateException" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setSurveysAutoShowing"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Z)V">
+        <parameter
+          name="isSurveysAutoShowing"
+          type="boolean"
+          jni-type="Z" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="showValidSurvey"
+        native="false"
+        return="boolean"
+        jni-return="Z"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Z">
+        <exception
+          name="java/lang/IllegalStateException"
+          type="java.lang.IllegalStateException"
+          type-generic-aware="java.lang.IllegalStateException" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Lcom/instabug/library/core/plugin/Plugin;"
+      extends="com.instabug.library.core.plugin.Plugin"
+      extends-generic-aware="com.instabug.library.core.plugin.Plugin"
+      final="false"
+      name="SurveyPlugin"
+      jni-signature="Lcom/instabug/survey/SurveyPlugin;"
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="SurveyPlugin"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getLastActivityTime"
+        native="false"
+        return="long"
+        jni-return="J"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()J" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="init"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;)V">
+        <parameter
+          name="context"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="release"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="SurveyPlugin.1"
+      jni-signature="Lcom/instabug/survey/SurveyPlugin$1;"
+      static="false"
+      visibility="">
+      <implements
+        name="rx.functions.Action1"
+        name-generic-aware="rx.functions.Action1&lt;com.instabug.library.core.eventbus.coreeventbus.SDKCoreEvent&gt;"
+        jni-type="Lrx/functions/Action1&lt;Lcom/instabug/library/core/eventbus/coreeventbus/SDKCoreEvent;&gt;;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="call"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/instabug/library/core/eventbus/coreeventbus/SDKCoreEvent;)V">
+        <parameter
+          name="event"
+          type="com.instabug.library.core.eventbus.coreeventbus.SDKCoreEvent"
+          jni-type="Lcom/instabug/library/core/eventbus/coreeventbus/SDKCoreEvent;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="call"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="true"
+        synthetic="true"
+        jni-signature="(Ljava/lang/Object;)V">
+        <parameter
+          name="p0"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="SurveyPlugin.2"
+      jni-signature="Lcom/instabug/survey/SurveyPlugin$2;"
+      static="true"
+      visibility="" />
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="SurveysManager"
+      jni-signature="Lcom/instabug/survey/SurveysManager;"
+      static="false"
+      visibility="public">
+      <implements
+        name="com.instabug.survey.network.SurveysFetcher.Callback"
+        name-generic-aware="com.instabug.survey.network.SurveysFetcher.Callback"
+        jni-type="Lcom/instabug/survey/network/SurveysFetcher$Callback;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getInstance"
+        native="false"
+        return="com.instabug.survey.SurveysManager"
+        jni-return="Lcom/instabug/survey/SurveysManager;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;)Lcom/instabug/survey/SurveysManager;">
+        <parameter
+          name="context"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="hasValidSurveys"
+        native="false"
+        return="boolean"
+        jni-return="Z"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Z" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onFetchingFailed"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Throwable;)V">
+        <parameter
+          name="error"
+          type="java.lang.Throwable"
+          jni-type="Ljava/lang/Throwable;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onFetchingSucceeded"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/util/List;)V">
+        <parameter
+          name="remoteSurveys"
+          type="java.util.List&lt;com.instabug.survey.models.Survey&gt;"
+          jni-type="Ljava/util/List&lt;Lcom/instabug/survey/models/Survey;&gt;;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setSurveyDialogShowing"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Z)V">
+        <parameter
+          name="surveyDialogShowing"
+          type="boolean"
+          jni-type="Z" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="showValidSurvey"
+        native="false"
+        return="boolean"
+        jni-return="Z"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Z" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="startFetching"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+    </class>
+  </package>
+  <package
+    name="com.instabug.survey.analytics"
+    jni-name="com/instabug/survey/analytics">
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="SurveyEventLogger"
+      jni-signature="Lcom/instabug/survey/analytics/SurveyEventLogger;"
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="SurveyEventLogger"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="logSurveyDismissing"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="logSurveyShowing"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="logUIClickingEvent"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;Landroid/view/View;Ljava/lang/String;)V">
+        <parameter
+          name="context"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+        <parameter
+          name="view"
+          type="android.view.View"
+          jni-type="Landroid/view/View;" />
+        <parameter
+          name="parentTag"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+    </class>
+  </package>
+  <package
+    name="com.instabug.survey.cache"
+    jni-name="com/instabug/survey/cache">
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="SurveysCacheManager"
+      jni-signature="Lcom/instabug/survey/cache/SurveysCacheManager;"
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="SurveysCacheManager"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="addSurvey"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/instabug/survey/models/Survey;)V">
+        <parameter
+          name="survey"
+          type="com.instabug.survey.models.Survey"
+          jni-type="Lcom/instabug/survey/models/Survey;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="addSurveys"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/util/List;)V">
+        <parameter
+          name="surveys"
+          type="java.util.List&lt;com.instabug.survey.models.Survey&gt;"
+          jni-type="Ljava/util/List&lt;Lcom/instabug/survey/models/Survey;&gt;;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getAnsweredAndNotSubmittedSurveys"
+        native="false"
+        return="java.util.List&lt;com.instabug.survey.models.Survey&gt;"
+        jni-return="Ljava/util/List&lt;Lcom/instabug/survey/models/Survey;&gt;;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/util/List;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getCache"
+        native="false"
+        return="com.instabug.library.internal.storage.cache.InMemoryCache&lt;java.lang.Long, com.instabug.survey.models.Survey&gt;"
+        jni-return="Lcom/instabug/library/internal/storage/cache/InMemoryCache&lt;Ljava/lang/Long;Lcom/instabug/survey/models/Survey;&gt;;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Lcom/instabug/library/internal/storage/cache/InMemoryCache;">
+        <exception
+          name="java/lang/IllegalArgumentException"
+          type="java.lang.IllegalArgumentException"
+          type-generic-aware="java.lang.IllegalArgumentException" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getNotAnsweredSurveys"
+        native="false"
+        return="java.util.List&lt;com.instabug.survey.models.Survey&gt;"
+        jni-return="Ljava/util/List&lt;Lcom/instabug/survey/models/Survey;&gt;;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/util/List;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getSurveys"
+        native="false"
+        return="java.util.List&lt;com.instabug.survey.models.Survey&gt;"
+        jni-return="Ljava/util/List&lt;Lcom/instabug/survey/models/Survey;&gt;;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/util/List;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="saveCacheToDisk"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="SURVEYS_DISK_CACHE_FILE_NAME"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        value="&quot;/surveys.cache&quot;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="SURVEYS_DISK_CACHE_KEY"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        value="&quot;surveys_disk_cache&quot;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="SURVEYS_MEMORY_CACHE_KEY"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        value="&quot;surveys_memory_cache&quot;"
+        visibility="public"
+        volatile="false" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Lcom/instabug/library/internal/storage/cache/CacheManager$KeyExtractor;"
+      extends="com.instabug.library.internal.storage.cache.CacheManager.KeyExtractor"
+      extends-generic-aware="com.instabug.library.internal.storage.cache.CacheManager.KeyExtractor&lt;java.lang.Long, com.instabug.survey.models.Survey&gt;"
+      final="true"
+      name="SurveysCacheManager.1"
+      jni-signature="Lcom/instabug/survey/cache/SurveysCacheManager$1;"
+      static="true"
+      visibility="">
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="extractKey"
+        native="false"
+        return="java.lang.Long"
+        jni-return="Ljava/lang/Long;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/instabug/survey/models/Survey;)Ljava/lang/Long;">
+        <parameter
+          name="value"
+          type="com.instabug.survey.models.Survey"
+          jni-type="Lcom/instabug/survey/models/Survey;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="extractKey"
+        native="false"
+        return="java.lang.Object"
+        jni-return="Ljava/lang/Object;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="true"
+        synthetic="true"
+        jni-signature="(Ljava/lang/Object;)Ljava/lang/Object;">
+        <parameter
+          name="p0"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Lcom/instabug/library/internal/storage/cache/CacheManager$KeyExtractor;"
+      extends="com.instabug.library.internal.storage.cache.CacheManager.KeyExtractor"
+      extends-generic-aware="com.instabug.library.internal.storage.cache.CacheManager.KeyExtractor&lt;java.lang.String, com.instabug.survey.models.Survey&gt;"
+      final="true"
+      name="SurveysCacheManager.2"
+      jni-signature="Lcom/instabug/survey/cache/SurveysCacheManager$2;"
+      static="true"
+      visibility="">
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="extractKey"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/instabug/survey/models/Survey;)Ljava/lang/String;">
+        <parameter
+          name="value"
+          type="com.instabug.survey.models.Survey"
+          jni-type="Lcom/instabug/survey/models/Survey;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="extractKey"
+        native="false"
+        return="java.lang.Object"
+        jni-return="Ljava/lang/Object;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="true"
+        synthetic="true"
+        jni-signature="(Ljava/lang/Object;)Ljava/lang/Object;">
+        <parameter
+          name="p0"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+    </class>
+  </package>
+  <package
+    name="com.instabug.survey.models"
+    jni-name="com/instabug/survey/models">
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="Condition"
+      jni-signature="Lcom/instabug/survey/models/Condition;"
+      static="false"
+      visibility="public">
+      <implements
+        name="com.instabug.library.internal.storage.cache.Cacheable"
+        name-generic-aware="com.instabug.library.internal.storage.cache.Cacheable"
+        jni-type="Lcom/instabug/library/internal/storage/cache/Cacheable;" />
+      <implements
+        name="java.io.Serializable"
+        name-generic-aware="java.io.Serializable"
+        jni-type="Ljava/io/Serializable;" />
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="Condition"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="fromJson"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)V">
+        <parameter
+          name="modelAsJson"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <exception
+          name="org/json/JSONException"
+          type="org.json.JSONException"
+          type-generic-aware="org.json.JSONException" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="fromJson"
+        native="false"
+        return="java.util.ArrayList&lt;com.instabug.survey.models.Condition&gt;"
+        jni-return="Ljava/util/ArrayList&lt;Lcom/instabug/survey/models/Condition;&gt;;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lorg/json/JSONArray;)Ljava/util/ArrayList;">
+        <parameter
+          name="targetAudiencesJsonArray"
+          type="org.json.JSONArray"
+          jni-type="Lorg/json/JSONArray;" />
+        <exception
+          name="org/json/JSONException"
+          type="org.json.JSONException"
+          type-generic-aware="org.json.JSONException" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getKey"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/String;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getOperator"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/String;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getValue"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/String;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setKey"
+        native="false"
+        return="com.instabug.survey.models.Condition"
+        jni-return="Lcom/instabug/survey/models/Condition;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)Lcom/instabug/survey/models/Condition;">
+        <parameter
+          name="key"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setOperator"
+        native="false"
+        return="com.instabug.survey.models.Condition"
+        jni-return="Lcom/instabug/survey/models/Condition;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)Lcom/instabug/survey/models/Condition;">
+        <parameter
+          name="operator"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setValue"
+        native="false"
+        return="com.instabug.survey.models.Condition"
+        jni-return="Lcom/instabug/survey/models/Condition;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)Lcom/instabug/survey/models/Condition;">
+        <parameter
+          name="value"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="toJson"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/String;">
+        <exception
+          name="org/json/JSONException"
+          type="org.json.JSONException"
+          type-generic-aware="org.json.JSONException" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="toJson"
+        native="false"
+        return="org.json.JSONArray"
+        jni-return="Lorg/json/JSONArray;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/util/ArrayList;)Lorg/json/JSONArray;">
+        <parameter
+          name="conditions"
+          type="java.util.ArrayList&lt;com.instabug.survey.models.Condition&gt;"
+          jni-type="Ljava/util/ArrayList&lt;Lcom/instabug/survey/models/Condition;&gt;;" />
+        <exception
+          name="org/json/JSONException"
+          type="org.json.JSONException"
+          type-generic-aware="org.json.JSONException" />
+      </method>
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="KEY_KEY"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        value="&quot;key&quot;"
+        visibility="public"
+        volatile="false" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="Question"
+      jni-signature="Lcom/instabug/survey/models/Question;"
+      static="false"
+      visibility="public">
+      <implements
+        name="com.instabug.library.internal.storage.cache.Cacheable"
+        name-generic-aware="com.instabug.library.internal.storage.cache.Cacheable"
+        jni-type="Lcom/instabug/library/internal/storage/cache/Cacheable;" />
+      <implements
+        name="java.io.Serializable"
+        name-generic-aware="java.io.Serializable"
+        jni-type="Ljava/io/Serializable;" />
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="Question"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="fromJson"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)V">
+        <parameter
+          name="modelAsJson"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <exception
+          name="org/json/JSONException"
+          type="org.json.JSONException"
+          type-generic-aware="org.json.JSONException" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="fromJson"
+        native="false"
+        return="java.util.ArrayList&lt;com.instabug.survey.models.Question&gt;"
+        jni-return="Ljava/util/ArrayList&lt;Lcom/instabug/survey/models/Question;&gt;;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lorg/json/JSONArray;)Ljava/util/ArrayList;">
+        <parameter
+          name="questionsJsonArray"
+          type="org.json.JSONArray"
+          jni-type="Lorg/json/JSONArray;" />
+        <exception
+          name="org/json/JSONException"
+          type="org.json.JSONException"
+          type-generic-aware="org.json.JSONException" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getAnswer"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/String;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getAnsweredAt"
+        native="false"
+        return="long"
+        jni-return="J"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()J" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getOptionalAnswers"
+        native="false"
+        return="java.util.ArrayList&lt;java.lang.String&gt;"
+        jni-return="Ljava/util/ArrayList&lt;Ljava/lang/String;&gt;;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/util/ArrayList;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getTitle"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/String;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getType"
+        native="false"
+        return="com.instabug.survey.models.Question.Type"
+        jni-return="Lcom/instabug/survey/models/Question$Type;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Lcom/instabug/survey/models/Question$Type;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setAnswer"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)V">
+        <parameter
+          name="answer"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setAnsweredAt"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(J)V">
+        <parameter
+          name="answeredAt"
+          type="long"
+          jni-type="J" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setOptionalAnswers"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/util/ArrayList;)V">
+        <parameter
+          name="optionalAnswers"
+          type="java.util.ArrayList&lt;java.lang.String&gt;"
+          jni-type="Ljava/util/ArrayList&lt;Ljava/lang/String;&gt;;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setTitle"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)V">
+        <parameter
+          name="title"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setType"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/instabug/survey/models/Question$Type;)V">
+        <parameter
+          name="type"
+          type="com.instabug.survey.models.Question.Type"
+          jni-type="Lcom/instabug/survey/models/Question$Type;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="toJson"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/String;">
+        <exception
+          name="org/json/JSONException"
+          type="org.json.JSONException"
+          type-generic-aware="org.json.JSONException" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Enum;"
+      extends="java.lang.Enum"
+      extends-generic-aware="java.lang.Enum&lt;com.instabug.survey.models.Question.Type&gt;"
+      final="true"
+      name="Question.Type"
+      jni-signature="Lcom/instabug/survey/models/Question$Type;"
+      static="true"
+      visibility="public">
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="toInt"
+        native="false"
+        return="int"
+        jni-return="I"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()I" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="valueOf"
+        native="false"
+        return="com.instabug.survey.models.Question.Type"
+        jni-return="Lcom/instabug/survey/models/Question$Type;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)Lcom/instabug/survey/models/Question$Type;">
+        <parameter
+          name="name"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="values"
+        native="false"
+        return="com.instabug.survey.models.Question.Type[]"
+        jni-return="[Lcom/instabug/survey/models/Question$Type;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()[Lcom/instabug/survey/models/Question$Type;" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="MCQ"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="com.instabug.survey.models.Question.Type"
+        type-generic-aware="com.instabug.survey.models.Question.Type"
+        jni-signature="Lcom/instabug/survey/models/Question$Type;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="NOT_AVAILABLE"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="com.instabug.survey.models.Question.Type"
+        type-generic-aware="com.instabug.survey.models.Question.Type"
+        jni-signature="Lcom/instabug/survey/models/Question$Type;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="TEXT"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="com.instabug.survey.models.Question.Type"
+        type-generic-aware="com.instabug.survey.models.Question.Type"
+        jni-signature="Lcom/instabug/survey/models/Question$Type;"
+        visibility="public"
+        volatile="false" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="Survey"
+      jni-signature="Lcom/instabug/survey/models/Survey;"
+      static="false"
+      visibility="public">
+      <implements
+        name="com.instabug.library.internal.storage.cache.Cacheable"
+        name-generic-aware="com.instabug.library.internal.storage.cache.Cacheable"
+        jni-type="Lcom/instabug/library/internal/storage/cache/Cacheable;" />
+      <implements
+        name="java.io.Serializable"
+        name-generic-aware="java.io.Serializable"
+        jni-type="Ljava/io/Serializable;" />
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="Survey"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="equals"
+        native="false"
+        return="boolean"
+        jni-return="Z"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Object;)Z">
+        <parameter
+          name="survey"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="fromJson"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)V">
+        <parameter
+          name="modelAsJson"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <exception
+          name="org/json/JSONException"
+          type="org.json.JSONException"
+          type-generic-aware="org.json.JSONException" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="fromJson"
+        native="false"
+        return="java.util.List&lt;com.instabug.survey.models.Survey&gt;"
+        jni-return="Ljava/util/List&lt;Lcom/instabug/survey/models/Survey;&gt;;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lorg/json/JSONArray;)Ljava/util/List;">
+        <parameter
+          name="surveysJsonArray"
+          type="org.json.JSONArray"
+          jni-type="Lorg/json/JSONArray;" />
+        <exception
+          name="org/json/JSONException"
+          type="org.json.JSONException"
+          type-generic-aware="org.json.JSONException" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getConditionsOperator"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/String;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getCustomAttributes"
+        native="false"
+        return="java.util.ArrayList&lt;com.instabug.survey.models.Condition&gt;"
+        jni-return="Ljava/util/ArrayList&lt;Lcom/instabug/survey/models/Condition;&gt;;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/util/ArrayList;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getId"
+        native="false"
+        return="long"
+        jni-return="J"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()J" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getQuestion"
+        native="false"
+        return="com.instabug.survey.models.Question"
+        jni-return="Lcom/instabug/survey/models/Question;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Lcom/instabug/survey/models/Question;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getTargetAudiences"
+        native="false"
+        return="java.util.ArrayList&lt;com.instabug.survey.models.Condition&gt;"
+        jni-return="Ljava/util/ArrayList&lt;Lcom/instabug/survey/models/Condition;&gt;;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/util/ArrayList;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getTitle"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/String;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getUserEvents"
+        native="false"
+        return="java.util.ArrayList&lt;com.instabug.survey.models.Condition&gt;"
+        jni-return="Ljava/util/ArrayList&lt;Lcom/instabug/survey/models/Condition;&gt;;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/util/ArrayList;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="hashCode"
+        native="false"
+        return="int"
+        jni-return="I"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()I" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="isAnswered"
+        native="false"
+        return="boolean"
+        jni-return="Z"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Z" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="isSubmitted"
+        native="false"
+        return="boolean"
+        jni-return="Z"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Z" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setAnswered"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Z)V">
+        <parameter
+          name="answered"
+          type="boolean"
+          jni-type="Z" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setConditionsOperator"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)V">
+        <parameter
+          name="conditionsOperator"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setCustomAttributes"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/util/ArrayList;)V">
+        <parameter
+          name="customAttributes"
+          type="java.util.ArrayList&lt;com.instabug.survey.models.Condition&gt;"
+          jni-type="Ljava/util/ArrayList&lt;Lcom/instabug/survey/models/Condition;&gt;;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setId"
+        native="false"
+        return="com.instabug.survey.models.Survey"
+        jni-return="Lcom/instabug/survey/models/Survey;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(J)Lcom/instabug/survey/models/Survey;">
+        <parameter
+          name="id"
+          type="long"
+          jni-type="J" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setQuestion"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/instabug/survey/models/Question;)V">
+        <parameter
+          name="question"
+          type="com.instabug.survey.models.Question"
+          jni-type="Lcom/instabug/survey/models/Question;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setSubmitted"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Z)V">
+        <parameter
+          name="submitted"
+          type="boolean"
+          jni-type="Z" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setTargetAudiences"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/util/ArrayList;)V">
+        <parameter
+          name="targetAudiences"
+          type="java.util.ArrayList&lt;com.instabug.survey.models.Condition&gt;"
+          jni-type="Ljava/util/ArrayList&lt;Lcom/instabug/survey/models/Condition;&gt;;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setTitle"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)V">
+        <parameter
+          name="title"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setUserEvents"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/util/ArrayList;)V">
+        <parameter
+          name="userEvents"
+          type="java.util.ArrayList&lt;com.instabug.survey.models.Condition&gt;"
+          jni-type="Ljava/util/ArrayList&lt;Lcom/instabug/survey/models/Condition;&gt;;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="toJson"
+        native="false"
+        return="java.lang.String"
+        jni-return="Ljava/lang/String;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/String;">
+        <exception
+          name="org/json/JSONException"
+          type="org.json.JSONException"
+          type-generic-aware="org.json.JSONException" />
+      </method>
+    </class>
+  </package>
+  <package
+    name="com.instabug.survey.network"
+    jni-name="com/instabug/survey/network">
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="SurveysFetcher"
+      jni-signature="Lcom/instabug/survey/network/SurveysFetcher;"
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="SurveysFetcher"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/instabug/survey/network/SurveysFetcher$Callback;)V">
+        <parameter
+          name="callback"
+          type="com.instabug.survey.network.SurveysFetcher.Callback"
+          jni-type="Lcom/instabug/survey/network/SurveysFetcher$Callback;" />
+      </constructor>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="fetch"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;)V">
+        <parameter
+          name="context"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+        <exception
+          name="java/io/IOException"
+          type="java.io.IOException"
+          type-generic-aware="java.io.IOException" />
+        <exception
+          name="org/json/JSONException"
+          type="org.json.JSONException"
+          type-generic-aware="org.json.JSONException" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="SurveysFetcher.1"
+      jni-signature="Lcom/instabug/survey/network/SurveysFetcher$1;"
+      static="false"
+      visibility="">
+      <implements
+        name="com.instabug.library.network.Request.Callbacks"
+        name-generic-aware="com.instabug.library.network.Request.Callbacks&lt;org.json.JSONArray, java.lang.Throwable&gt;"
+        jni-type="Lcom/instabug/library/network/Request$Callbacks&lt;Lorg/json/JSONArray;Ljava/lang/Throwable;&gt;;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onFailed"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="true"
+        synthetic="true"
+        jni-signature="(Ljava/lang/Object;)V">
+        <parameter
+          name="p0"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onFailed"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Throwable;)V">
+        <parameter
+          name="error"
+          type="java.lang.Throwable"
+          jni-type="Ljava/lang/Throwable;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onSucceeded"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="true"
+        synthetic="true"
+        jni-signature="(Ljava/lang/Object;)V">
+        <parameter
+          name="p0"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onSucceeded"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lorg/json/JSONArray;)V">
+        <parameter
+          name="response"
+          type="org.json.JSONArray"
+          jni-type="Lorg/json/JSONArray;" />
+      </method>
+    </class>
+    <interface
+      abstract="true"
+      deprecated="not deprecated"
+      final="false"
+      name="SurveysFetcher.Callback"
+      jni-signature="Lcom/instabug/survey/network/SurveysFetcher$Callback;"
+      static="true"
+      visibility="public">
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="onFetchingFailed"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Throwable;)V">
+        <parameter
+          name="p0"
+          type="java.lang.Throwable"
+          jni-type="Ljava/lang/Throwable;" />
+      </method>
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="onFetchingSucceeded"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/util/List;)V">
+        <parameter
+          name="p0"
+          type="java.util.List&lt;com.instabug.survey.models.Survey&gt;"
+          jni-type="Ljava/util/List&lt;Lcom/instabug/survey/models/Survey;&gt;;" />
+      </method>
+    </interface>
+  </package>
+  <package
+    name="com.instabug.survey.network.service"
+    jni-name="com/instabug/survey/network/service">
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Lcom/instabug/library/network/InstabugNetworkBasedBackgroundService;"
+      extends="com.instabug.library.network.InstabugNetworkBasedBackgroundService"
+      extends-generic-aware="com.instabug.library.network.InstabugNetworkBasedBackgroundService"
+      final="false"
+      name="InstabugSurveysSubmitterService"
+      jni-signature="Lcom/instabug/survey/network/service/InstabugSurveysSubmitterService;"
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="InstabugSurveysSubmitterService"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="runBackgroundTask"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="protected"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V">
+        <exception
+          name="java/lang/Exception"
+          type="java.lang.Exception"
+          type-generic-aware="java.lang.Exception" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="InstabugSurveysSubmitterService.1"
+      jni-signature="Lcom/instabug/survey/network/service/InstabugSurveysSubmitterService$1;"
+      static="false"
+      visibility="">
+      <implements
+        name="com.instabug.library.network.Request.Callbacks"
+        name-generic-aware="com.instabug.library.network.Request.Callbacks&lt;java.lang.Boolean, java.lang.Throwable&gt;"
+        jni-type="Lcom/instabug/library/network/Request$Callbacks&lt;Ljava/lang/Boolean;Ljava/lang/Throwable;&gt;;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onFailed"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="true"
+        synthetic="true"
+        jni-signature="(Ljava/lang/Object;)V">
+        <parameter
+          name="p0"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onFailed"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Throwable;)V">
+        <parameter
+          name="error"
+          type="java.lang.Throwable"
+          jni-type="Ljava/lang/Throwable;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onSucceeded"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Boolean;)V">
+        <parameter
+          name="response"
+          type="java.lang.Boolean"
+          jni-type="Ljava/lang/Boolean;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onSucceeded"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="true"
+        synthetic="true"
+        jni-signature="(Ljava/lang/Object;)V">
+        <parameter
+          name="p0"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="SurveysService"
+      jni-signature="Lcom/instabug/survey/network/service/SurveysService;"
+      static="false"
+      visibility="public">
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="fetchSurveys"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;Lcom/instabug/library/network/Request$Callbacks;)V">
+        <parameter
+          name="context"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+        <parameter
+          name="fetchingSurveysCallbacks"
+          type="com.instabug.library.network.Request.Callbacks&lt;org.json.JSONArray, java.lang.Throwable&gt;"
+          jni-type="Lcom/instabug/library/network/Request$Callbacks&lt;Lorg/json/JSONArray;Ljava/lang/Throwable;&gt;;" />
+        <exception
+          name="org/json/JSONException"
+          type="org.json.JSONException"
+          type-generic-aware="org.json.JSONException" />
+        <exception
+          name="java/io/IOException"
+          type="java.io.IOException"
+          type-generic-aware="java.io.IOException" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getInstance"
+        native="false"
+        return="com.instabug.survey.network.service.SurveysService"
+        jni-return="Lcom/instabug/survey/network/service/SurveysService;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Lcom/instabug/survey/network/service/SurveysService;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="submittingSurvey"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;Lcom/instabug/survey/models/Survey;Lcom/instabug/library/network/Request$Callbacks;)V">
+        <parameter
+          name="context"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+        <parameter
+          name="survey"
+          type="com.instabug.survey.models.Survey"
+          jni-type="Lcom/instabug/survey/models/Survey;" />
+        <parameter
+          name="submittingSurveyCallbacks"
+          type="com.instabug.library.network.Request.Callbacks&lt;java.lang.Boolean, java.lang.Throwable&gt;"
+          jni-type="Lcom/instabug/library/network/Request$Callbacks&lt;Ljava/lang/Boolean;Ljava/lang/Throwable;&gt;;" />
+        <exception
+          name="org/json/JSONException"
+          type="org.json.JSONException"
+          type-generic-aware="org.json.JSONException" />
+        <exception
+          name="java/io/IOException"
+          type="java.io.IOException"
+          type-generic-aware="java.io.IOException" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Lrx/Subscriber;"
+      extends="rx.Subscriber"
+      extends-generic-aware="rx.Subscriber&lt;com.instabug.library.network.RequestResponse&gt;"
+      final="false"
+      name="SurveysService.1"
+      jni-signature="Lcom/instabug/survey/network/service/SurveysService$1;"
+      static="false"
+      visibility="">
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onCompleted"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onError"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Throwable;)V">
+        <parameter
+          name="throwable"
+          type="java.lang.Throwable"
+          jni-type="Ljava/lang/Throwable;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onNext"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/instabug/library/network/RequestResponse;)V">
+        <parameter
+          name="requestResponse"
+          type="com.instabug.library.network.RequestResponse"
+          jni-type="Lcom/instabug/library/network/RequestResponse;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onNext"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="true"
+        synthetic="true"
+        jni-signature="(Ljava/lang/Object;)V">
+        <parameter
+          name="p0"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onStart"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Lrx/Subscriber;"
+      extends="rx.Subscriber"
+      extends-generic-aware="rx.Subscriber&lt;com.instabug.library.network.RequestResponse&gt;"
+      final="false"
+      name="SurveysService.2"
+      jni-signature="Lcom/instabug/survey/network/service/SurveysService$2;"
+      static="false"
+      visibility="">
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onCompleted"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onError"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Throwable;)V">
+        <parameter
+          name="throwable"
+          type="java.lang.Throwable"
+          jni-type="Ljava/lang/Throwable;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onNext"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/instabug/library/network/RequestResponse;)V">
+        <parameter
+          name="requestResponse"
+          type="com.instabug.library.network.RequestResponse"
+          jni-type="Lcom/instabug/library/network/RequestResponse;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onNext"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="true"
+        synthetic="true"
+        jni-signature="(Ljava/lang/Object;)V">
+        <parameter
+          name="p0"
+          type="java.lang.Object"
+          jni-type="Ljava/lang/Object;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onStart"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+    </class>
+  </package>
+  <package
+    name="com.instabug.survey.network.util"
+    jni-name="com/instabug/survey/network/util">
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="SubmittingSurveysUtil"
+      jni-signature="Lcom/instabug/survey/network/util/SubmittingSurveysUtil;"
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="SubmittingSurveysUtil"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="addParamsToSubmittingSurveyRequest"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/instabug/library/network/Request;Lcom/instabug/survey/models/Survey;)V">
+        <parameter
+          name="request"
+          type="com.instabug.library.network.Request"
+          jni-type="Lcom/instabug/library/network/Request;" />
+        <parameter
+          name="survey"
+          type="com.instabug.survey.models.Survey"
+          jni-type="Lcom/instabug/survey/models/Survey;" />
+        <exception
+          name="org/json/JSONException"
+          type="org.json.JSONException"
+          type-generic-aware="org.json.JSONException" />
+      </method>
+    </class>
+  </package>
+  <package
+    name="com.instabug.survey.settings"
+    jni-name="com/instabug/survey/settings">
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="PerSessionSettings"
+      jni-signature="Lcom/instabug/survey/settings/PerSessionSettings;"
+      static="false"
+      visibility="public">
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getAfterShowingSurveyRunnable"
+        native="false"
+        return="java.lang.Runnable"
+        jni-return="Ljava/lang/Runnable;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/Runnable;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getInstance"
+        native="false"
+        return="com.instabug.survey.settings.PerSessionSettings"
+        jni-return="Lcom/instabug/survey/settings/PerSessionSettings;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Lcom/instabug/survey/settings/PerSessionSettings;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getMethodsLog"
+        native="false"
+        return="java.lang.StringBuilder"
+        jni-return="Ljava/lang/StringBuilder;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/StringBuilder;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getPreShowingSurveyRunnable"
+        native="false"
+        return="java.lang.Runnable"
+        jni-return="Ljava/lang/Runnable;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/Runnable;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="init"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="isSurveysAutoShowing"
+        native="false"
+        return="boolean"
+        jni-return="Z"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Z" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setAfterShowingSurveyRunnable"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Runnable;)V">
+        <parameter
+          name="afterShowingSurveyRunnable"
+          type="java.lang.Runnable"
+          jni-type="Ljava/lang/Runnable;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setPreShowingSurveyRunnable"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Runnable;)V">
+        <parameter
+          name="preShowingSurveyRunnable"
+          type="java.lang.Runnable"
+          jni-type="Ljava/lang/Runnable;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setSurveysAutoShowing"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Z)V">
+        <parameter
+          name="isSurveysAutoShowing"
+          type="boolean"
+          jni-type="Z" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="PersistableSettings"
+      jni-signature="Lcom/instabug/survey/settings/PersistableSettings;"
+      static="false"
+      visibility="public">
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getInstance"
+        native="false"
+        return="com.instabug.survey.settings.PersistableSettings"
+        jni-return="Lcom/instabug/survey/settings/PersistableSettings;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Lcom/instabug/survey/settings/PersistableSettings;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getLastFetchedAt"
+        native="false"
+        return="long"
+        jni-return="J"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()J" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getLastSurveyTime"
+        native="false"
+        return="long"
+        jni-return="J"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()J" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="init"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;)V">
+        <parameter
+          name="context"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setLastFetchedAt"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(J)V">
+        <parameter
+          name="time"
+          type="long"
+          jni-type="J" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setLastSurveyTime"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(J)V">
+        <parameter
+          name="time"
+          type="long"
+          jni-type="J" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="SurveysSettings"
+      jni-signature="Lcom/instabug/survey/settings/SurveysSettings;"
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="SurveysSettings"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getAfterShowingSurveyRunnable"
+        native="false"
+        return="java.lang.Runnable"
+        jni-return="Ljava/lang/Runnable;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/Runnable;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getLastFetchedAt"
+        native="false"
+        return="long"
+        jni-return="J"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()J" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getLastSurveyTime"
+        native="false"
+        return="long"
+        jni-return="J"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()J" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getPreShowingSurveyRunnable"
+        native="false"
+        return="java.lang.Runnable"
+        jni-return="Ljava/lang/Runnable;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/lang/Runnable;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="isSurveysAutoShowing"
+        native="false"
+        return="boolean"
+        jni-return="Z"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Z" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setAfterShowingSurveyRunnable"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Runnable;)V">
+        <parameter
+          name="afterShowingSurveyRunnable"
+          type="java.lang.Runnable"
+          jni-type="Ljava/lang/Runnable;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setLastFetchedAt"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(J)V">
+        <parameter
+          name="time"
+          type="long"
+          jni-type="J" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setLastSurveyTime"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(J)V">
+        <parameter
+          name="time"
+          type="long"
+          jni-type="J" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setPreShowingSurveyRunnable"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/Runnable;)V">
+        <parameter
+          name="preShowingSurveyRunnable"
+          type="java.lang.Runnable"
+          jni-type="Ljava/lang/Runnable;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setSurveysAutoShowing"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Z)V">
+        <parameter
+          name="isSurveysAutoShowing"
+          type="boolean"
+          jni-type="Z" />
+      </method>
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="CURRENT_VERSION"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        value="&quot;2&quot;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="false"
+        name="DELAY_BEFORE_SHOWING"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="long"
+        type-generic-aware="long"
+        jni-signature="J"
+        visibility="public"
+        volatile="false" />
+    </class>
+  </package>
+  <package
+    name="com.instabug.survey.ui"
+    jni-name="com/instabug/survey/ui">
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Landroid/widget/ScrollView;"
+      extends="android.widget.ScrollView"
+      extends-generic-aware="android.widget.ScrollView"
+      final="false"
+      name="InstabugScrollView"
+      jni-signature="Lcom/instabug/survey/ui/InstabugScrollView;"
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="InstabugScrollView"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;)V">
+        <parameter
+          name="context"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+      </constructor>
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="InstabugScrollView"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;Landroid/util/AttributeSet;)V">
+        <parameter
+          name="context"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+        <parameter
+          name="attrs"
+          type="android.util.AttributeSet"
+          jni-type="Landroid/util/AttributeSet;" />
+      </constructor>
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="InstabugScrollView"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/content/Context;Landroid/util/AttributeSet;I)V">
+        <parameter
+          name="context"
+          type="android.content.Context"
+          jni-type="Landroid/content/Context;" />
+        <parameter
+          name="attrs"
+          type="android.util.AttributeSet"
+          jni-type="Landroid/util/AttributeSet;" />
+        <parameter
+          name="defStyle"
+          type="int"
+          jni-type="I" />
+      </constructor>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onScrollChanged"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="protected"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(IIII)V">
+        <parameter
+          name="l"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="t"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="oldl"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="oldt"
+          type="int"
+          jni-type="I" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setOnScrollListener"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/instabug/survey/ui/InstabugScrollView$OnScrollListener;)V">
+        <parameter
+          name="onScrollListener"
+          type="com.instabug.survey.ui.InstabugScrollView.OnScrollListener"
+          jni-type="Lcom/instabug/survey/ui/InstabugScrollView$OnScrollListener;" />
+      </method>
+    </class>
+    <interface
+      abstract="true"
+      deprecated="not deprecated"
+      final="false"
+      name="InstabugScrollView.OnScrollListener"
+      jni-signature="Lcom/instabug/survey/ui/InstabugScrollView$OnScrollListener;"
+      static="true"
+      visibility="public">
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="onBottomReached"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="onScrolling"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="onTopReached"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+    </interface>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Landroid/support/v4/app/FragmentActivity;"
+      extends="android.support.v4.app.FragmentActivity"
+      extends-generic-aware="android.support.v4.app.FragmentActivity"
+      final="false"
+      name="SurveyActivity"
+      jni-signature="Lcom/instabug/survey/ui/SurveyActivity;"
+      static="false"
+      visibility="public">
+      <implements
+        name="com.instabug.library._InstabugActivity"
+        name-generic-aware="com.instabug.library._InstabugActivity"
+        jni-type="Lcom/instabug/library/_InstabugActivity;" />
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="SurveyActivity"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onCreate"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="protected"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/os/Bundle;)V">
+        <parameter
+          name="savedInstanceState"
+          type="android.os.Bundle"
+          jni-type="Landroid/os/Bundle;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onDestroy"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="protected"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onResume"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="protected"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="KEY_SURVEY"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        value="&quot;survey&quot;"
+        visibility="public"
+        volatile="false" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="SurveyActivity.1"
+      jni-signature="Lcom/instabug/survey/ui/SurveyActivity$1;"
+      static="false"
+      visibility="">
+      <implements
+        name="java.lang.Runnable"
+        name-generic-aware="java.lang.Runnable"
+        jni-type="Ljava/lang/Runnable;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="run"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Lcom/instabug/library/core/ui/BaseFragment;"
+      extends="com.instabug.library.core.ui.BaseFragment"
+      extends-generic-aware="com.instabug.library.core.ui.BaseFragment&lt;com.instabug.survey.ui.SurveyFragmentPresenter&gt;"
+      final="false"
+      name="SurveyFragment"
+      jni-signature="Lcom/instabug/survey/ui/SurveyFragment;"
+      static="false"
+      visibility="public">
+      <implements
+        name="com.instabug.survey.ui.SurveyFragmentContract.View"
+        name-generic-aware="com.instabug.survey.ui.SurveyFragmentContract.View"
+        jni-type="Lcom/instabug/survey/ui/SurveyFragmentContract$View;" />
+      <implements
+        name="android.view.View.OnClickListener"
+        name-generic-aware="android.view.View.OnClickListener"
+        jni-type="Landroid/view/View$OnClickListener;" />
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="SurveyFragment"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getLayout"
+        native="false"
+        return="int"
+        jni-return="I"
+        static="false"
+        synchronized="false"
+        visibility="protected"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()I" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="hidePoweredByFooter"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="initViews"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="protected"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/view/View;Landroid/os/Bundle;)V">
+        <parameter
+          name="rootView"
+          type="android.view.View"
+          jni-type="Landroid/view/View;" />
+        <parameter
+          name="savedInstanceState"
+          type="android.os.Bundle"
+          jni-type="Landroid/os/Bundle;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="newInstance"
+        native="false"
+        return="com.instabug.survey.ui.SurveyFragment"
+        jni-return="Lcom/instabug/survey/ui/SurveyFragment;"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Lcom/instabug/survey/models/Survey;)Lcom/instabug/survey/ui/SurveyFragment;">
+        <parameter
+          name="survey"
+          type="com.instabug.survey.models.Survey"
+          jni-type="Lcom/instabug/survey/models/Survey;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onClick"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/view/View;)V">
+        <parameter
+          name="v"
+          type="android.view.View"
+          jni-type="Landroid/view/View;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onCreate"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/os/Bundle;)V">
+        <parameter
+          name="savedInstanceState"
+          type="android.os.Bundle"
+          jni-type="Landroid/os/Bundle;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onViewCreated"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/view/View;Landroid/os/Bundle;)V">
+        <parameter
+          name="view"
+          type="android.view.View"
+          jni-type="Landroid/view/View;" />
+        <parameter
+          name="savedInstanceState"
+          type="android.os.Bundle"
+          jni-type="Landroid/os/Bundle;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="setSeparators"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="showMcqSurvey"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;[Ljava/lang/String;)V">
+        <parameter
+          name="question"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="optionalAnswers"
+          type="java.lang.String[]"
+          jni-type="[Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="showPoweredByFooter"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="showTextSurvey"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)V">
+        <parameter
+          name="question"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="startSurveysSubmitterService"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="KEY_SURVEY_TAG"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        value="&quot;survey_fragment&quot;"
+        visibility="public"
+        volatile="false" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="SurveyFragment.1"
+      jni-signature="Lcom/instabug/survey/ui/SurveyFragment$1;"
+      static="false"
+      visibility="">
+      <implements
+        name="android.view.View.OnKeyListener"
+        name-generic-aware="android.view.View.OnKeyListener"
+        jni-type="Landroid/view/View$OnKeyListener;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onKey"
+        native="false"
+        return="boolean"
+        jni-return="Z"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Landroid/view/View;ILandroid/view/KeyEvent;)Z">
+        <parameter
+          name="v"
+          type="android.view.View"
+          jni-type="Landroid/view/View;" />
+        <parameter
+          name="keyCode"
+          type="int"
+          jni-type="I" />
+        <parameter
+          name="event"
+          type="android.view.KeyEvent"
+          jni-type="Landroid/view/KeyEvent;" />
+      </method>
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="SurveyFragment.2"
+      jni-signature="Lcom/instabug/survey/ui/SurveyFragment$2;"
+      static="false"
+      visibility="">
+      <implements
+        name="android.view.ViewTreeObserver.OnGlobalLayoutListener"
+        name-generic-aware="android.view.ViewTreeObserver.OnGlobalLayoutListener"
+        jni-type="Landroid/view/ViewTreeObserver$OnGlobalLayoutListener;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onGlobalLayout"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="SurveyFragment.3"
+      jni-signature="Lcom/instabug/survey/ui/SurveyFragment$3;"
+      static="false"
+      visibility="">
+      <implements
+        name="android.view.ViewTreeObserver.OnGlobalLayoutListener"
+        name-generic-aware="android.view.ViewTreeObserver.OnGlobalLayoutListener"
+        jni-type="Landroid/view/ViewTreeObserver$OnGlobalLayoutListener;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onGlobalLayout"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="SurveyFragment.3.1"
+      jni-signature="Lcom/instabug/survey/ui/SurveyFragment$3$1;"
+      static="false"
+      visibility="">
+      <implements
+        name="com.instabug.survey.ui.InstabugScrollView.OnScrollListener"
+        name-generic-aware="com.instabug.survey.ui.InstabugScrollView.OnScrollListener"
+        jni-type="Lcom/instabug/survey/ui/InstabugScrollView$OnScrollListener;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onBottomReached"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onScrolling"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="onTopReached"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="SurveyFragmentContract"
+      jni-signature="Lcom/instabug/survey/ui/SurveyFragmentContract;"
+      static="false"
+      visibility="" />
+    <interface
+      abstract="true"
+      deprecated="not deprecated"
+      final="false"
+      name="SurveyFragmentContract.Presenter"
+      jni-signature="Lcom/instabug/survey/ui/SurveyFragmentContract$Presenter;"
+      static="true"
+      visibility="">
+      <implements
+        name="com.instabug.library.core.ui.BaseContract.Presenter"
+        name-generic-aware="com.instabug.library.core.ui.BaseContract.Presenter"
+        jni-type="Lcom/instabug/library/core/ui/BaseContract$Presenter;" />
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="handlePoweredByFooter"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="showSurvey"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="submitSurvey"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+    </interface>
+    <interface
+      abstract="true"
+      deprecated="not deprecated"
+      final="false"
+      name="SurveyFragmentContract.View"
+      jni-signature="Lcom/instabug/survey/ui/SurveyFragmentContract$View;"
+      static="true"
+      visibility="">
+      <implements
+        name="com.instabug.library.core.ui.BaseContract.View"
+        name-generic-aware="com.instabug.library.core.ui.BaseContract.View&lt;android.support.v4.app.Fragment&gt;"
+        jni-type="Lcom/instabug/library/core/ui/BaseContract$View&lt;Landroid/support/v4/app/Fragment;&gt;;" />
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="hidePoweredByFooter"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="setSeparators"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="showMcqSurvey"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;[Ljava/lang/String;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="p1"
+          type="java.lang.String[]"
+          jni-type="[Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="showPoweredByFooter"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="showTextSurvey"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)V">
+        <parameter
+          name="p0"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+      <method
+        abstract="true"
+        deprecated="not deprecated"
+        final="false"
+        name="startSurveysSubmitterService"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+    </interface>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Lcom/instabug/library/core/ui/BasePresenter;"
+      extends="com.instabug.library.core.ui.BasePresenter"
+      extends-generic-aware="com.instabug.library.core.ui.BasePresenter&lt;com.instabug.survey.ui.SurveyFragmentContract.View&gt;"
+      final="false"
+      name="SurveyFragmentPresenter"
+      jni-signature="Lcom/instabug/survey/ui/SurveyFragmentPresenter;"
+      static="false"
+      visibility="">
+      <implements
+        name="com.instabug.survey.ui.SurveyFragmentContract.Presenter"
+        name-generic-aware="com.instabug.survey.ui.SurveyFragmentContract.Presenter"
+        jni-type="Lcom/instabug/survey/ui/SurveyFragmentContract$Presenter;" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="handlePoweredByFooter"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="showSurvey"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="submitSurvey"
+        native="false"
+        return="void"
+        jni-return="V"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;)V">
+        <parameter
+          name="answer"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </method>
+    </class>
+  </package>
+  <package
+    name="com.instabug.survey.utils"
+    jni-name="com/instabug/survey/utils">
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="SurveysUtils"
+      jni-signature="Lcom/instabug/survey/utils/SurveysUtils;"
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="SurveysUtils"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()V" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="isSurveysFeatureAvailable"
+        native="false"
+        return="boolean"
+        jni-return="Z"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Z" />
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="isSurveysFeatureEnabled"
+        native="false"
+        return="boolean"
+        jni-return="Z"
+        static="true"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Z" />
+    </class>
+    <class
+      abstract="false"
+      deprecated="not deprecated"
+      jni-extends="Ljava/lang/Object;"
+      extends="java.lang.Object"
+      extends-generic-aware="java.lang.Object"
+      final="false"
+      name="SurveysValidator"
+      jni-signature="Lcom/instabug/survey/utils/SurveysValidator;"
+      static="false"
+      visibility="public">
+      <constructor
+        deprecated="not deprecated"
+        final="false"
+        name="SurveysValidator"
+        static="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="(Ljava/lang/String;Ljava/lang/String;)V">
+        <parameter
+          name="appVersion"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+        <parameter
+          name="appVersionName"
+          type="java.lang.String"
+          jni-type="Ljava/lang/String;" />
+      </constructor>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getFirstValidSurvey"
+        native="false"
+        return="com.instabug.survey.models.Survey"
+        jni-return="Lcom/instabug/survey/models/Survey;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Lcom/instabug/survey/models/Survey;">
+        <exception
+          name="java/text/ParseException"
+          type="java.text.ParseException"
+          type-generic-aware="java.text.ParseException" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="getValidSurveys"
+        native="false"
+        return="java.util.List&lt;com.instabug.survey.models.Survey&gt;"
+        jni-return="Ljava/util/List&lt;Lcom/instabug/survey/models/Survey;&gt;;"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Ljava/util/List;">
+        <exception
+          name="java/text/ParseException"
+          type="java.text.ParseException"
+          type-generic-aware="java.text.ParseException" />
+      </method>
+      <method
+        abstract="false"
+        deprecated="not deprecated"
+        final="false"
+        name="hasValidSurveys"
+        native="false"
+        return="boolean"
+        jni-return="Z"
+        static="false"
+        synchronized="false"
+        visibility="public"
+        bridge="false"
+        synthetic="false"
+        jni-signature="()Z">
+        <exception
+          name="java/text/ParseException"
+          type="java.text.ParseException"
+          type-generic-aware="java.text.ParseException" />
+      </method>
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="KEY_CONDITION_APP_VERSION"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        value="&quot;app_version&quot;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="KEY_CONDITION_DATE"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        value="&quot;date&quot;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="KEY_CONDITION_FIRST_SEEN"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        value="&quot;first_seen&quot;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="KEY_CONDITION_USER_EMAIL"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        value="&quot;email&quot;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="KEY_OPERATOR_AND"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        value="&quot;and&quot;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="KEY_OPERATOR_CONTAINS"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        value="&quot;contain&quot;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="KEY_OPERATOR_EQUAL"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        value="&quot;equal&quot;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="KEY_OPERATOR_GREATER_THAN"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        value="&quot;greater_than&quot;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="KEY_OPERATOR_LESS_THAN"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        value="&quot;less_than&quot;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="KEY_OPERATOR_NOT_CONTAINS"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        value="&quot;not_contain&quot;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="KEY_OPERATOR_NOT_EQUAL"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        value="&quot;not_equal&quot;"
+        visibility="public"
+        volatile="false" />
+      <field
+        deprecated="not deprecated"
+        final="true"
+        name="KEY_OPERATOR_OR"
+        static="true"
+        synthetic="false"
+        transient="false"
+        type="java.lang.String"
+        type-generic-aware="java.lang.String"
+        jni-signature="Ljava/lang/String;"
+        value="&quot;or&quot;"
+        visibility="public"
+        volatile="false" />
+    </class>
+  </package>
+</api>

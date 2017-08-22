@@ -1,0 +1,6 @@
+/Users/test/Documents/Instabug/Xamarin/InstabugAndroidSurveySDK/InstabugAndroidSurveySDK/bin/Debug/InstabugAndroidSurveySDK.dll
+/Users/test/Documents/Instabug/Xamarin/InstabugAndroidSurveySDK/InstabugAndroidSurveySDK/bin/Debug/InstabugAndroidSurveySDK.pdb
+/Users/test/Documents/Instabug/Xamarin/InstabugAndroidSurveySDK/InstabugAndroidSurveySDK/bin/Debug/Xamarin.Android.Support.v4.dll
+/Users/test/Documents/Instabug/Xamarin/InstabugAndroidSurveySDK/InstabugAndroidSurveySDK/obj/Debug/InstabugAndroidSurveySDK.csproj.CoreCompileInputs.cache
+/Users/test/Documents/Instabug/Xamarin/InstabugAndroidSurveySDK/InstabugAndroidSurveySDK/obj/Debug/InstabugAndroidSurveySDK.dll
+/Users/test/Documents/Instabug/Xamarin/InstabugAndroidSurveySDK/InstabugAndroidSurveySDK/obj/Debug/InstabugAndroidSurveySDK.pdb

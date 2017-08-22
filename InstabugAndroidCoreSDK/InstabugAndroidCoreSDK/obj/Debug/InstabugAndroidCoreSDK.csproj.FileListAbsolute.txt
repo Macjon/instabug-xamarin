@@ -1,0 +1,5 @@
+/Users/test/Documents/Instabug/Xamarin/InstabugAndroidCoreSDK/InstabugAndroidCoreSDK/bin/Debug/InstabugAndroidCoreSDK.dll
+/Users/test/Documents/Instabug/Xamarin/InstabugAndroidCoreSDK/InstabugAndroidCoreSDK/bin/Debug/InstabugAndroidCoreSDK.pdb
+/Users/test/Documents/Instabug/Xamarin/InstabugAndroidCoreSDK/InstabugAndroidCoreSDK/obj/Debug/InstabugAndroidCoreSDK.csproj.CoreCompileInputs.cache
+/Users/test/Documents/Instabug/Xamarin/InstabugAndroidCoreSDK/InstabugAndroidCoreSDK/obj/Debug/InstabugAndroidCoreSDK.dll
+/Users/test/Documents/Instabug/Xamarin/InstabugAndroidCoreSDK/InstabugAndroidCoreSDK/obj/Debug/InstabugAndroidCoreSDK.pdb
