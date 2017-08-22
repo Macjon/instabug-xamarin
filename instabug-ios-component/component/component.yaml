@@ -5,7 +5,7 @@ libraries:
 icons: 
   - instabug-for-ios_128x128.png
   - instabug-for-ios_512x512.png
-version: 7.2.9
+version: 7.3.0
 details: Details.md
 getting-started: GettingStarted.md
 samples: 
