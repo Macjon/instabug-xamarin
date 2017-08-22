@@ -1,0 +1,3 @@
+/Users/test/Documents/Instabug/Xamarin/instabug-xamarin/InstabugSDK/InstabugSDK/bin/Release/InstabugSDK.dll
+/Users/test/Documents/Instabug/Xamarin/instabug-xamarin/InstabugSDK/InstabugSDK/obj/Release/InstabugSDK.csproj.CoreCompileInputs.cache
+/Users/test/Documents/Instabug/Xamarin/instabug-xamarin/InstabugSDK/InstabugSDK/obj/Release/InstabugSDK.dll

@@ -1,0 +1,5 @@
+[assembly:global::Android.Runtime.NamespaceMapping (Java = "com.instabug.crash", Managed="Com.Instabug.Crash")]
+[assembly:global::Android.Runtime.NamespaceMapping (Java = "com.instabug.crash.cache", Managed="Com.Instabug.Crash.Cache")]
+[assembly:global::Android.Runtime.NamespaceMapping (Java = "com.instabug.crash.network", Managed="Com.Instabug.Crash.Network")]
+[assembly:global::Android.Runtime.NamespaceMapping (Java = "com.instabug.crash.settings", Managed="Com.Instabug.Crash.Settings")]
+[assembly:global::Android.Runtime.NamespaceMapping (Java = "com.instabug.crash.utils", Managed="Com.Instabug.Crash.Utils")]
