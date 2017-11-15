@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<attr path="/api/package[@name='com.instabug.library']" name="managedName">InstabugSDK.Library</attr>
+	<attr path="/api/package[@name='com.instabug.library.invocation']" name="managedName">InstabugSDK.Library.Invocation</attr>
+	<attr path="/api/package[@name='com.instabug.library.analytics']" name="managedName">InstabugSDK.Library.Analytics</attr>
+	<attr path="/api/package[@name='com.instabug.library.analytics.model']" name="managedName">InstabugSDK.Library.Analytics.Model</attr>
+	<attr path="/api/package[@name='com.instabug.library.analytics.util']" name="managedName">InstabugSDK.Library.Analytics.Util</attr>
+	<attr path="/api/package[@name='com.instabug.library.bugreporting']" name="managedName">InstabugSDK.Library.Bugreporting</attr>
+	<attr path="/api/package[@name='com.instabug.library.bugreporting.model']" name="managedName">InstabugSDK.Library.Bugreporting.Model</attr>
+	<attr path="/api/package[@name='com.instabug.library.core']" name="managedName">InstabugSDK.Library.Core</attr>
+	<attr path="/api/package[@name='com.instabug.library.core.eventbus.coreeventbus']" name="managedName">InstabugSDK.Library.Core.Eventbus.Coreeventbus</attr>
+	<attr path="/api/package[@name='com.instabug.library.core.plugin']" name="managedName">InstabugSDK.Library.Core.Plugin</attr>
+	<attr path="/api/package[@name='com.instabug.library.core.ui']" name="managedName">InstabugSDK.Library.Core.UI</attr>
+	<attr path="/api/package[@name='com.instabug.library.instabugdisclaimer']" name="managedName">InstabugSDK.Library.Instabugdisclaimer</attr>
+	<attr path="/api/package[@name='com.instabug.library.internal.device']" name="managedName">InstabugSDK.Library.Internal.Device</attr>
+	<attr path="/api/package[@name='com.instabug.library.internal.layer']" name="managedName">InstabugSDK.Library.Internal.Layer</attr>
+	<attr path="/api/package[@name='com.instabug.library.internal.module']" name="managedName">InstabugSDK.Library.Internal.Module</attr>
+	<attr path="/api/package[@name='com.instabug.library.internal.storage']" name="managedName">InstabugSDK.Library.Internal.Storage</attr>
+	<attr path="/api/package[@name='com.instabug.library.internal.view']" name="managedName">InstabugSDK.Library.Internal.View</attr>
+	<attr path="/api/package[@name='com.instabug.library.invocation.util']" name="managedName">InstabugSDK.Library.Invocation.Util</attr>
+	<attr path="/api/package[@name='com.instabug.library.logging']" name="managedName">InstabugSDK.Library.Logging</attr>
+	<attr path="/api/package[@name='com.instabug.library.messaging.cache']" name="managedName">InstabugSDK.Library.Messaging.Cache</attr>
+	<attr path="/api/package[@name='com.instabug.library.messaging.model']" name="managedName">InstabugSDK.Library.Messaging.Model</attr>
+	<attr path="/api/package[@name='com.instabug.library.migration']" name="managedName">InstabugSDK.Library.Migration</attr>
+	<attr path="/api/package[@name='com.instabug.library.model']" name="managedName">InstabugSDK.Library.Model</attr>
+	<attr path="/api/package[@name='com.instabug.library.network']" name="managedName">InstabugSDK.Library.Network</attr>
+	<attr path="/api/package[@name='com.instabug.library.tracking']" name="managedName">InstabugSDK.Library.Tracking</attr>
+	<attr path="/api/package[@name='com.instabug.library.user']" name="managedName">InstabugSDK.Library.User</attr>
+	<attr path="/api/package[@name='com.instabug.library.util']" name="managedName">InstabugSDK.Library.Util</attr>
+	<attr path="/api/package[@name='com.instabug.library.view']" name="managedName">InstabugSDK.Library.View</attr>
+	<attr path="/api/package[@name='com.instabug.library.view.annotation']" name="managedName">InstabugSDK.Library.View.Annotation</attr>
+	<remove-node path="/api/package[@name='com.instabug.library.internal.storage.cache']" />
+	<attr path="/api/package[@name='com.instabug.library.logging']/class[@name='InstabugNetworkLog']/method[@name='log' and count(parameter)=3 and parameter[1][@type='java.net.HttpURLConnection'] and parameter[2][@type='java.lang.String'] and parameter[3][@type='java.lang.String']]" name="managedName">INLLog</attr>
+</metadata>

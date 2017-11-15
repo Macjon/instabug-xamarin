@@ -1,0 +1,41 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstabugSdk.Android", "InstabugSdk.Android\InstabugSdk.Android.csproj", "{B4B5D18D-B1D6-4FD9-9D69-80AE1BEC3A9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RxAndroid", "RxAndroid\RxAndroid.csproj", "{44FDA889-7049-47DF-8483-08305D0D6F86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstabugSdk.Android.Core", "InstabugSdk.Android.Core\InstabugSdk.Android.Core.csproj", "{8340C7BE-E30E-4775-BE1E-DF35000B6EA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstabugSdk.Android.Crash", "InstabugSdk.Android.Crash\InstabugSdk.Android.Crash.csproj", "{B9BC3975-F4C8-440C-9776-3BD63ED5275D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstabugSdk.Android.Survey", "InstabugSdk.Android.Survey\InstabugSdk.Android.Survey.csproj", "{A96CCFC4-15A4-4F44-B1EA-96499A78EF4C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4B5D18D-B1D6-4FD9-9D69-80AE1BEC3A9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4B5D18D-B1D6-4FD9-9D69-80AE1BEC3A9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4B5D18D-B1D6-4FD9-9D69-80AE1BEC3A9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4B5D18D-B1D6-4FD9-9D69-80AE1BEC3A9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44FDA889-7049-47DF-8483-08305D0D6F86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44FDA889-7049-47DF-8483-08305D0D6F86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44FDA889-7049-47DF-8483-08305D0D6F86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44FDA889-7049-47DF-8483-08305D0D6F86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8340C7BE-E30E-4775-BE1E-DF35000B6EA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8340C7BE-E30E-4775-BE1E-DF35000B6EA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8340C7BE-E30E-4775-BE1E-DF35000B6EA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8340C7BE-E30E-4775-BE1E-DF35000B6EA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9BC3975-F4C8-440C-9776-3BD63ED5275D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9BC3975-F4C8-440C-9776-3BD63ED5275D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9BC3975-F4C8-440C-9776-3BD63ED5275D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9BC3975-F4C8-440C-9776-3BD63ED5275D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A96CCFC4-15A4-4F44-B1EA-96499A78EF4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A96CCFC4-15A4-4F44-B1EA-96499A78EF4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A96CCFC4-15A4-4F44-B1EA-96499A78EF4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A96CCFC4-15A4-4F44-B1EA-96499A78EF4C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

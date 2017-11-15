@@ -1,6 +1,0 @@
-/Users/moustafa/Instabug/instabug-xamarin/InstabugAndroidSDK/InstabugAndroidSDK/bin/Debug/InstabugAndroidSDK.dll
-/Users/moustafa/Instabug/instabug-xamarin/InstabugAndroidSDK/InstabugAndroidSDK/bin/Debug/InstabugAndroidSDK.pdb
-/Users/moustafa/Instabug/instabug-xamarin/InstabugAndroidSDK/InstabugAndroidSDK/bin/Debug/Xamarin.Android.Support.v4.dll
-/Users/moustafa/Instabug/instabug-xamarin/InstabugAndroidSDK/InstabugAndroidSDK/obj/Debug/InstabugAndroidSDK.csproj.CoreCompileInputs.cache
-/Users/moustafa/Instabug/instabug-xamarin/InstabugAndroidSDK/InstabugAndroidSDK/obj/Debug/InstabugAndroidSDK.dll
-/Users/moustafa/Instabug/instabug-xamarin/InstabugAndroidSDK/InstabugAndroidSDK/obj/Debug/InstabugAndroidSDK.pdb
